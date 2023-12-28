@@ -2,13 +2,17 @@ const fs = require('fs');
 const { execSync } = require('child_process');
 
 const skipErrors = true;
-let count = 0;
-let logNumber = 20; // console.log the datName for every '20' files.
+
+// console.log regularly for images saved, assuming the given image count is correct
+let prevCount = 0;
+let newCount;
+let logNumber = 80;
 
 // Read CSV file
-const objectData = JSON.parse(fs.readFileSync('objectData.csv', 'utf-8'));
+const objectData = JSON.parse(fs.readFileSync('objectData.json', 'utf-8'));
 
 const datErrorFiles =  [
+  '4x4',
   'ARRSW2',     'ARRX',     'BLACKCAB', 'CRNVBFLY',
   'CRNVFROG',   'CRNVLZRD', 'CSTBOAT',  'CTCAR',
   'FLYGBOAT',   'GOLTR',    'GTC',      'HELICAR',
@@ -75,12 +79,15 @@ objectData.forEach(obj => {
         }
         
     }
+    newCount += obj.ImageCount;
+    if ((newCount % logNumber === 0)) {
+      console.log(`${datName}: ${obj.String}, Type: ${obj.Type}`);
+    } else if ((newCount-prevCount) > logNumber){
+      console.log(`${datName}: ${obj.String}, Type: ${obj.Type}`);
+    }
+    prevCount = newCount;
   } else {
     console.log(`Skip ${datName}`)
-  }
-  count++;
-  if (!(count % logNumber)) {
-    console.log(datName);
   }
 });
 
