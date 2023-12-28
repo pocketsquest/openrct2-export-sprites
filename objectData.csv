@@ -1,0 +1,1991 @@
+ObjectName,Source,Type,String,ImageCount,Size
+BN1,RCT2,Banners,Sign,8,3297
+BN2,RCT2,Banners,Jungle Style Sign,8,4391
+BN3,RCT2,Banners,Classical Style Sign,8,4666
+BN4,RCT2,Banners,Egyptian Style Sign,8,5264
+BN5,RCT2,Banners,Wooden Sign,8,4750
+BN6,RCT2,Banners,Jurassic Style Sign,8,4381
+BN7,RCT2,Banners,Pagoda Style Sign,8,4401
+BN8,RCT2,Banners,Snow Covered Sign,8,4208
+BN9,RCT2,Banners,Space Style Sign,8,4698
+BADRACK,RCT2,Large Scenery,Badminton Racket,12,8520
+GENSTORE,RCT2,Large Scenery,General Store,20,52439
+GLTHENT,RCT2,Large Scenery,Goliath' Sign,32,131107
+MDSAENT,RCT2,Large Scenery,Medusa' Sign,12,10657
+NITROENT,RCT2,Large Scenery,Nitro' Sign,12,13860
+PRSHIP,RCT2,Large Scenery,Pirate Ship,36,71116
+SAH,RCT2,Large Scenery,House,20,56035
+SAH2,RCT2,Large Scenery,House,20,57185
+SAH3,RCT2,Large Scenery,Tenement,8,52245
+SALOON,RCT2,Large Scenery,Saloon,20,73113
+SCLN,RCT2,Large Scenery,Colonnade,20,51444
+SCOL,RCT2,Large Scenery,Roman Colosseum,52,124768
+SCT,RCT2,Large Scenery,Tent,8,13208
+SDN1,RCT2,Large Scenery,Dinosaur,12,58644
+SDN2,RCT2,Large Scenery,Dinosaur,12,60803
+SDN3,RCT2,Large Scenery,Dinosaur,12,80260
+SGP,RCT2,Large Scenery,Giant Pumpkin,20,38443
+SHS1,RCT2,Large Scenery,Terraced House,28,74754
+SHS2,RCT2,Large Scenery,House,36,71672
+SIP,RCT2,Large Scenery,Ice Palace,20,60874
+SMB,RCT2,Large Scenery,Martian Building,20,72304
+SMH1,RCT2,Large Scenery,Mine Hut,20,40852
+SMH2,RCT2,Large Scenery,Mine Hut,20,33024
+SMN1,RCT2,Large Scenery,Mine Shaft,28,61790
+SOB,RCT2,Large Scenery,Office Block,20,116171
+SOH1,RCT2,Large Scenery,House,8,37055
+SOH2,RCT2,Large Scenery,House,8,26136
+SOH3,RCT2,Large Scenery,House,8,29019
+SPG,RCT2,Large Scenery,Pagoda,20,70524
+SPS,RCT2,Large Scenery,Petrol station,20,46758
+SPYR,RCT2,Large Scenery,Pyramid,148,297413
+SSH,RCT2,Large Scenery,Space Capsule,8,24536
+SSIG1,RCT2,Large Scenery,Scrolling Sign,12,9340
+SSIG2,RCT2,Large Scenery,3D Sign,368,48616
+SSIG3,RCT2,Large Scenery,Vertical 3D Sign,186,36334
+SSIG4,RCT2,Large Scenery,3D Sign,368,54457
+SSK1,RCT2,Large Scenery,Skeleton,12,63167
+SSPX,RCT2,Large Scenery,Sphinx,36,76839
+SSR,RCT2,Large Scenery,Space Rocket,20,68907
+SST,RCT2,Large Scenery,Satellite,20,25936
+STB1,RCT2,Large Scenery,Castle Tower,8,41975
+STB2,RCT2,Large Scenery,Castle Tower,8,55093
+STG1,RCT2,Large Scenery,Castle Tower,8,41979
+STG2,RCT2,Large Scenery,Castle Tower,8,55086
+STH,RCT2,Large Scenery,Town Hall,20,62195
+SVLC,RCT2,Large Scenery,Volcano,52,109785
+TAVERN,RCT2,Large Scenery,Tavern,20,49480
+WWBANK,RCT2,Large Scenery,Bank,20,50945
+PKEMM,RCT2,Park Entrance,Park Entrance Gates,12,21126
+PKENT1,RCT2,Park Entrance,Traditional Park Entrance,12,45018
+PKESFH,RCT2,Park Entrance,Park Entrance Building,12,35054
+BENCH1,RCT2,Path Items,Bench,9,2231
+BENCHLOG,RCT2,Path Items,Bench,9,2215
+BENCHPL,RCT2,Path Items,Seats,9,1895
+BENCHSPC,RCT2,Path Items,Bench,9,1864
+BENCHSTN,RCT2,Path Items,Stone Bench,9,2166
+JUMPFNT1,RCT2,Path Items,Jumping Fountains,5,952
+JUMPSNW1,RCT2,Path Items,Jumping Snowballs,5,1002
+LAMP1,RCT2,Path Items,Lamp,9,2436
+LAMP2,RCT2,Path Items,Lamp,9,3122
+LAMP3,RCT2,Path Items,Lamp,9,5267
+LAMP4,RCT2,Path Items,Lamp,9,3197
+LAMPDSY,RCT2,Path Items,Daisy Lamp,9,4032
+LAMPPIR,RCT2,Path Items,Lamp,9,3313
+LITTER1,RCT2,Path Items,Litter Bin,13,1993
+LITTERMN,RCT2,Path Items,Litter Bin,13,2272
+LITTERSP,RCT2,Path Items,Litter Bin,13,2201
+LITTERWW,RCT2,Path Items,Litter Bin,13,2281
+QTV1,RCT2,Path Items,Queue Line TV,5,1915
+4X4,RCT2,Ride/Shop,Monster Trucks,427,225061
+AML1,RCT2,Ride/Shop,American Style Steam Trains,1155,797555
+AMT1,RCT2,Ride/Shop,Mine Train Coaster,2223,848500
+ARRSW1,RCT2,Ride/Shop,Suspended Swinging Cars,4623,2167520
+ARRSW2,RCT2,Ride/Shop,Suspended Swinging Aeroplane Cars,4623,2197439
+ARRT1,RCT2,Ride/Shop,Corkscrew Roller Coaster,4471,1451940
+ARRT2,RCT2,Ride/Shop,Hypercoaster,3555,1192857
+ARRX,RCT2,Ride/Shop,Multi-Dimension Coaster Train,28227,5606405
+ATM1,RCT2,Ride/Shop,Cash Machine,7,26335
+BALLN,RCT2,Ride/Shop,Balloon Stall,7,25802
+BATFL,RCT2,Ride/Shop,Swinging Cars,1283,409200
+BBOAT,RCT2,Ride/Shop,Bumper Boats,67,33680
+BMAIR,RCT2,Ride/Shop,Flying Roller Coaster,4563,1364380
+BMFL,RCT2,Ride/Shop,Floorless Roller Coaster,2523,763520
+BMRB,RCT2,Ride/Shop,Hyper-Twister Trains (wide cars),2871,968317
+BMSD,RCT2,Ride/Shop,Twister Roller Coaster,3351,1092374
+BMSU,RCT2,Ride/Shop,Stand-up Twister Coaster,3351,1196143
+BMVD,RCT2,Ride/Shop,Vertical Drop Roller Coaster,2883,905260
+BNOODLES,RCT2,Ride/Shop,Beef Noodles Stall,7,26592
+BOB1,RCT2,Ride/Shop,Bobsleigh Coaster,2707,777458
+BURGB,RCT2,Ride/Shop,Burger Bar,7,21593
+C3D,RCT2,Ride/Shop,3D Cinema,7,90420
+CBOAT,RCT2,Ride/Shop,Canoes,115,54041
+CHBUILD,RCT2,Ride/Shop,Crooked House,7,40310
+CHCKS,RCT2,Ride/Shop,Fried Chicken Stall,7,26082
+CHKNUG,RCT2,Ride/Shop,Chicken Nuggets Stall,7,25941
+CHPSH,RCT2,Ride/Shop,Chip Shop,7,27205
+CHPSH2,RCT2,Ride/Shop,Fries Stall,7,25146
+CINDR,RCT2,Ride/Shop,Sujongkwa Stall,7,26087
+CIRCUS1,RCT2,Ride/Shop,Circus,7,59388
+CLIFT1,RCT2,Ride/Shop,Chairlift Cars,91,42319
+CLIFT2,RCT2,Ride/Shop,Ski-lift Chairs,91,38048
+CNDYF,RCT2,Ride/Shop,Candyfloss Stall,7,24403
+COFFS,RCT2,Ride/Shop,Coffee Shop,7,24700
+COOKST,RCT2,Ride/Shop,Cookie Shop,7,25224
+CSTBOAT,RCT2,Ride/Shop,Coaster Boats,1763,573215
+CTCAR,RCT2,Ride/Shop,Cheshire Cats,243,79715
+DING1,RCT2,Ride/Shop,Dinghy Slide,2579,662238
+DODG1,RCT2,Ride/Shop,Dodgems,131,50886
+DOUGH,RCT2,Ride/Shop,Doughnut Shop,7,25363
+DRNKS,RCT2,Ride/Shop,Drinks Stall,7,26320
+ENTERP,RCT2,Ride/Shop,Enterprise,247,1899469
+FAID1,RCT2,Ride/Shop,First Aid Room,9,26723
+FRNOOD,RCT2,Ride/Shop,Fried Rice Noodles Stall,7,26271
+FSAUC,RCT2,Ride/Shop,Flying Saucers,67,28342
+FUNCAKE,RCT2,Ride/Shop,Funnel Cake Shop,7,24294
+FWH1,RCT2,Ride/Shop,Ferris Wheel,547,577154
+GDROP1,RCT2,Ride/Shop,Roto-Drop,151,55265
+GOLF1,RCT2,Ride/Shop,Mini Golf,152,44979
+GOLTR,RCT2,Ride/Shop,Hyper-Twister Trains,3591,1278199
+GTC,RCT2,Ride/Shop,Ghost Train,243,88103
+HATST,RCT2,Ride/Shop,Hat Stall,7,24027
+HCHOC,RCT2,Ride/Shop,Hot Chocolate Stall,7,23661
+HELICAR,RCT2,Ride/Shop,Mini Helicopters,867,314821
+HHBUILD,RCT2,Ride/Shop,Haunted House,79,574158
+HMAZE,RCT2,Ride/Shop,Maze,3,14919
+HMCAR,RCT2,Ride/Shop,Haunted Mansion Ride,243,71567
+HOTDS,RCT2,Ride/Shop,Hot Dog Stall,7,25573
+HSKELT,RCT2,Ride/Shop,Spiral Slide,3,14657
+ICECR1,RCT2,Ride/Shop,Fruity Ices Stall,7,24222
+ICECR2,RCT2,Ride/Shop,Ice Cream Cone Stall,7,30278
+ICETST,RCT2,Ride/Shop,Iced Tea Stall,7,25455
+INFOK,RCT2,Ride/Shop,Information Kiosk,7,22628
+INTBOB,RCT2,Ride/Shop,Flying Turns,5411,1594824
+INTINV,RCT2,Ride/Shop,Inverted Impulse Coaster,939,351504
+INTST,RCT2,Ride/Shop,Giga Coaster,3627,1339730
+IVMC1,RCT2,Ride/Shop,Inverted Hairpin Coaster,591,189683
+JSKI,RCT2,Ride/Shop,Jet Skis,67,29218
+JSTAR1,RCT2,Ride/Shop,Toboggan Cars,1779,737203
+KART1,RCT2,Ride/Shop,Go Karts,211,57033
+LEMST,RCT2,Ride/Shop,Lemonade Stall,7,25439
+LFB1,RCT2,Ride/Shop,Log Flume,627,211601
+LIFT1,RCT2,Ride/Shop,Elevator,147,87154
+MBSOUP,RCT2,Ride/Shop,Meatball Soup Stall,7,25409
+MCARPET1,RCT2,Ride/Shop,Magic Carpet,31,26114
+MFT,RCT2,Ride/Shop,Articulated Roller Coaster Trains,2883,1073727
+MGR1,RCT2,Ride/Shop,Merry-Go-Round,103,337284
+MONBK,RCT2,Ride/Shop,Monorail Cycles,259,59743
+MONO1,RCT2,Ride/Shop,Streamlined Monorail Trains,423,633292
+MONO2,RCT2,Ride/Shop,Small Monorail Cars,423,176902
+MONO3,RCT2,Ride/Shop,Retro-style Monorail Trains,1155,534277
+NEMT,RCT2,Ride/Shop,Inverted Roller Coaster,2523,752596
+NRL,RCT2,Ride/Shop,Steam Trains,1155,743525
+NRL2,RCT2,Ride/Shop,Steam Trains with Covered Cars,1155,742256
+OBS1,RCT2,Ride/Shop,Observation Tower,39,76163
+OBS2,RCT2,Ride/Shop,Double-deck Observation Tower,39,114396
+PIZZS,RCT2,Ride/Shop,Pizza Stall,7,24590
+PMT1,RCT2,Ride/Shop,Mine Ride,1823,672918
+POPCS,RCT2,Ride/Shop,Popcorn Stall,7,27445
+PREMT1,RCT2,Ride/Shop,LIM Launched Roller Coaster,5043,1966529
+PRETST,RCT2,Ride/Shop,Pretzel Stall,7,23647
+PTCT1,RCT2,Ride/Shop,Wooden Roller Coaster Trains,2163,798640
+PTCT2,RCT2,Ride/Shop,Wooden Roller Coaster Trains (6 seater),2883,1028109
+PTCT2R,RCT2,Ride/Shop,"Wooden Roller Coaster Trains (6 seater, Reversed)",2883,1028702
+RAPBOAT,RCT2,Ride/Shop,River Rapids,363,148843
+RBOAT,RCT2,Ride/Shop,Rowing Boats,131,60615
+RCKC,RCT2,Ride/Shop,Rocket Cars,1779,723887
+RCR,RCT2,Ride/Shop,Racing Cars,243,65273
+REVCAR,RCT2,Ride/Shop,Reverser Roller Coaster,939,318525
+REVF1,RCT2,Ride/Shop,Reverse Freefall Car,1563,629344
+RFTBOAT,RCT2,Ride/Shop,River Rafts,99,64727
+RSAUS,RCT2,Ride/Shop,Roast Sausage Stall,7,26115
+SBOX,RCT2,Ride/Shop,Soap Box Derby Racers,387,146139
+SCHT1,RCT2,Ride/Shop,Roller Coaster Trains,4323,1542692
+SFRIC1,RCT2,Ride/Shop,Wooden Side-Friction Cars,627,223604
+SIMPOD,RCT2,Ride/Shop,Motion Simulator,143,355613
+SKYTR,RCT2,Ride/Shop,Mini Suspended Flying Coaster,1403,260958
+SLCFO,RCT2,Ride/Shop,Inverted Shuttle Coaster,2043,659036
+SLCT,RCT2,Ride/Shop,Compact Inverted Coaster,1363,444867
+SMC1,RCT2,Ride/Shop,Mouse Cars,623,204792
+SMC2,RCT2,Ride/Shop,Mine Cars,587,225541
+SMONO,RCT2,Ride/Shop,Suspended Monorail Trains,703,297422
+SOUVS,RCT2,Ride/Shop,Souvenir Stall,7,24086
+SOYBEAN,RCT2,Ride/Shop,Soybean Milk Stall,7,26175
+SPBOAT,RCT2,Ride/Shop,Splash Boats,1691,455772
+SPCAR,RCT2,Ride/Shop,Sportscars,243,81565
+SPDRCR,RCT2,Ride/Shop,Spiral Roller Coaster,2499,917843
+SQDST,RCT2,Ride/Shop,Sea Food Stall,7,25795
+SRINGS,RCT2,Ride/Shop,Space Rings,707,418140
+SSC1,RCT2,Ride/Shop,Launched Freefall,24,38943
+STARFRDR,RCT2,Ride/Shop,Star Fruit Drink Stall,7,26705
+STEEP1,RCT2,Ride/Shop,Steeplechase,259,114487
+STEEP2,RCT2,Ride/Shop,Motorbike Races,259,106162
+SUBMAR,RCT2,Ride/Shop,Submarine Ride,91,65178
+SUBSTL,RCT2,Ride/Shop,Sub Sandwich Stall,7,24573
+SUNGST,RCT2,Ride/Shop,Sunglasses Stall,7,24230
+SWANS,RCT2,Ride/Shop,Swans,67,38596
+SWSH1,RCT2,Ride/Shop,Pirate Ship,345,276335
+SWSH2,RCT2,Ride/Shop,Swinging Inverter Ship,177,705215
+THCAR,RCT2,Ride/Shop,Air Powered Vertical Coaster,1167,390197
+TLT1,RCT2,Ride/Shop,Toilets,9,25688
+TLT2,RCT2,Ride/Shop,Toilets,9,27944
+TOFFS,RCT2,Ride/Shop,Toffee Apple Stall,7,22933
+TOGST,RCT2,Ride/Shop,Stand-up Roller Coaster,4471,1528360
+TOPSP1,RCT2,Ride/Shop,Top Spin,579,439929
+TRAM1,RCT2,Ride/Shop,Trams,803,302072
+TRIKE,RCT2,Ride/Shop,Water Tricycles,67,44341
+TRUCK1,RCT2,Ride/Shop,Pickup Trucks,267,84842
+TSHRT,RCT2,Ride/Shop,T-Shirt Stall,7,25125
+TWIST1,RCT2,Ride/Shop,Twist,243,156274
+TWIST2,RCT2,Ride/Shop,Snow Cups,243,246126
+UTCAR,RCT2,Ride/Shop,Twister Cars,2595,1176179
+UTCARR,RCT2,Ride/Shop,Twister Cars (starting reversed),2595,1176409
+VCR,RCT2,Ride/Shop,Vintage Cars,243,93144
+VEKDV,RCT2,Ride/Shop,Inverted Vertical Shuttle,2043,753959
+VEKST,RCT2,Ride/Shop,Lay-down Roller Coaster,4083,1217663
+VEKVAMP,RCT2,Ride/Shop,Swinging Floorless Cars,3083,997647
+VREEL,RCT2,Ride/Shop,Virginia Reel,363,102199
+WCATC,RCT2,Ride/Shop,Automobile Cars,1815,650378
+WMMINE,RCT2,Ride/Shop,Wooden Wild Mine Ride,1139,402495
+WMOUSE,RCT2,Ride/Shop,Wooden Wild Mouse,1139,340314
+WMSPIN,RCT2,Ride/Shop,Spinning Wild Mouse,4611,1627268
+WONTON,RCT2,Ride/Shop,Wonton Soup Stall,7,25942
+ZLDB,RCT2,Ride/Shop,Ladybird Trains,1491,496392
+ZLOG,RCT2,Ride/Shop,Log Trains,1491,490341
+ALLSORT1,RCT2,Small Scenery,Candy,4,7032
+ALLSORT2,RCT2,Small Scenery,Candy,4,7046
+BADSHUT,RCT2,Small Scenery,Shuttlecock,4,2654
+BADSHUT2,RCT2,Small Scenery,Shuttlecock,4,2678
+BALL1,RCT2,Small Scenery,American Football,4,5356
+BALL2,RCT2,Small Scenery,American Football,4,5082
+BALL3,RCT2,Small Scenery,Football,4,7308
+BALL4,RCT2,Small Scenery,Tennis Ball,4,2239
+BEANST1,RCT2,Small Scenery,Giant Beanstalk,4,4679
+BEANST2,RCT2,Small Scenery,Giant Beanstalk,4,6414
+BRBASE,RCT2,Small Scenery,Base Block,4,7050
+BRBASE2,RCT2,Small Scenery,Base Block,4,7050
+BRBASE3,RCT2,Small Scenery,Base Block,4,7050
+BRCRRF1,RCT2,Small Scenery,Curved Roof,4,5433
+BRCRRF2,RCT2,Small Scenery,Curved Roof,4,5434
+BUTTFLY,RCT2,Small Scenery,Butterfly,36,19600
+CARROT,RCT2,Small Scenery,Giant Carrot,4,11452
+CHBBASE,RCT2,Small Scenery,Checkerboard Block,4,7128
+CHEST1,RCT2,Small Scenery,Treasure Chest,4,1914
+CHEST2,RCT2,Small Scenery,Treasure Chest,4,2216
+CHOCROOF,RCT2,Small Scenery,Chocolate Bar,4,6296
+CNBALLS,RCT2,Small Scenery,Cannon Balls,4,2387
+CNDYRK1,RCT2,Small Scenery,Candy Stick,4,2929
+COG1,RCT2,Small Scenery,Cogwheel,68,85022
+COG1R,RCT2,Small Scenery,Cogwheel,68,85006
+COG1U,RCT2,Small Scenery,Cogwheel,68,95198
+COG1UR,RCT2,Small Scenery,Cogwheel,68,95208
+COG2,RCT2,Small Scenery,Small Cogwheel,20,9335
+COG2R,RCT2,Small Scenery,Small Cogwheel,20,9323
+COG2U,RCT2,Small Scenery,Small Cogwheel,20,9006
+COG2UR,RCT2,Small Scenery,Small Cogwheel,20,8999
+COLAGUM,RCT2,Small Scenery,Cola Candy,4,4604
+CORROOF,RCT2,Small Scenery,Corrugated Steel Roof,4,7732
+CORROOF2,RCT2,Small Scenery,Corrugated Steel Base,4,7244
+CWBCRV32,RCT2,Small Scenery,Curved Wall,4,7037
+CWBCRV33,RCT2,Small Scenery,Curved Block,4,5836
+CWFCRV32,RCT2,Small Scenery,Curved Wall,4,7037
+CWFCRV33,RCT2,Small Scenery,Curved Block,4,5831
+FERN1,RCT2,Small Scenery,Giant Fern,4,5271
+FIRE1,RCT2,Small Scenery,Flames,132,200581
+GEOROOF1,RCT2,Small Scenery,Glass Roof,8,8589
+GEOROOF2,RCT2,Small Scenery,Glass Roof,8,7029
+GGRS1,RCT2,Small Scenery,Giant Grass,4,11159
+HANG1,RCT2,Small Scenery,Gallows,4,7712
+HELMET1,RCT2,Small Scenery,American Football Helmet,4,5717
+ICECUBE,RCT2,Small Scenery,Ice Cube,4,15042
+IGROOF,RCT2,Small Scenery,Igloo Roof,4,6988
+JBEAN1,RCT2,Small Scenery,Jellybean,4,2176
+JELBAB1,RCT2,Small Scenery,Jelly Baby,4,3317
+JELDROP1,RCT2,Small Scenery,Fruit Drop,4,2604
+JELDROP2,RCT2,Small Scenery,Fruit Drop,4,2329
+JNGROOF1,RCT2,Small Scenery,Roof,4,5054
+LOLLY1,RCT2,Small Scenery,Lollypop,4,2899
+MALLOW1,RCT2,Small Scenery,Marshmallow,4,2708
+MALLOW2,RCT2,Small Scenery,Marshmallow,4,11582
+MINROOF1,RCT2,Small Scenery,Roof,4,5558
+MINT1,RCT2,Small Scenery,Mint,4,1749
+MMENT1,RCT2,Small Scenery,Ornamental Structure,4,6883
+MMENT2,RCT2,Small Scenery,Ornamental Structure,4,10161
+MMENT3,RCT2,Small Scenery,Ornamental Structure,4,10470
+PAGROOF1,RCT2,Small Scenery,Roof,4,5640
+PIPE32,RCT2,Small Scenery,Pipe Section,4,4626
+PIPE32J,RCT2,Small Scenery,Pipe Section,4,4958
+PIPE8,RCT2,Small Scenery,Pipe Section,4,2146
+PIRFLAG,RCT2,Small Scenery,Pirate Flag,4,2612
+PIRROOF1,RCT2,Small Scenery,Roof,4,6960
+PIRROOF2,RCT2,Small Scenery,Roof,4,9583
+PRCAN,RCT2,Small Scenery,Cannon,4,1861
+ROMROOF1,RCT2,Small Scenery,Roof,4,5958
+ROMROOF2,RCT2,Small Scenery,Plinth,4,6483
+ROOF1,RCT2,Small Scenery,Roof,4,7076
+ROOF10,RCT2,Small Scenery,Roof,4,7076
+ROOF11,RCT2,Small Scenery,Roof,4,5276
+ROOF12,RCT2,Small Scenery,Roof,4,5276
+ROOF13,RCT2,Small Scenery,Roof,4,4869
+ROOF14,RCT2,Small Scenery,Roof,4,4869
+ROOF2,RCT2,Small Scenery,Roof,4,7076
+ROOF3,RCT2,Small Scenery,Roof,4,5276
+ROOF4,RCT2,Small Scenery,Roof,4,5276
+ROOF5,RCT2,Small Scenery,Roof,4,7076
+ROOF6,RCT2,Small Scenery,Roof,4,7076
+ROOF7,RCT2,Small Scenery,Roof,4,5276
+ROOF8,RCT2,Small Scenery,Roof,4,5276
+ROOF9,RCT2,Small Scenery,Roof,4,7076
+SKTBASE,RCT2,Small Scenery,Block,4,7282
+SKTBASET,RCT2,Small Scenery,Block,4,4366
+SKTDW,RCT2,Small Scenery,Wall,4,4464
+SKTDW2,RCT2,Small Scenery,Wall,4,3064
+SMSKULL,RCT2,Small Scenery,Skull,4,9928
+SNAIL,RCT2,Small Scenery,Snail,36,30183
+SPCROOF1,RCT2,Small Scenery,Roof,4,5426
+SPIDER1,RCT2,Small Scenery,Spider,100,80647
+STBASE,RCT2,Small Scenery,Steel Block,4,7070
+STLBASET,RCT2,Small Scenery,Steel Block,4,4453
+STLDW,RCT2,Small Scenery,Steel Wall,4,5679
+STLDW2,RCT2,Small Scenery,Steel Wall,4,3157
+SUMRF,RCT2,Small Scenery,Roof,4,7588
+SUPPLEG1,RCT2,Small Scenery,Pole,4,2487
+SUPPLEG2,RCT2,Small Scenery,Pole,4,1738
+SUPPW1,RCT2,Small Scenery,Support Structure,4,16453
+SUPPW2,RCT2,Small Scenery,Support Structure,4,9130
+SUPPW3,RCT2,Small Scenery,Support Structure,4,4422
+TAC,RCT2,Small Scenery,Arizona Cypress Tree,4,11409
+TAL,RCT2,Small Scenery,Alligator Shaped Tree,4,3520
+TAP,RCT2,Small Scenery,Aleppo Pine Tree,4,10714
+TAS,RCT2,Small Scenery,Aspen Tree,4,7854
+TAS1,RCT2,Small Scenery,Candy Tree,4,12862
+TAS2,RCT2,Small Scenery,Candy Tree,4,8997
+TAS3,RCT2,Small Scenery,Candy Tree,4,8748
+TAS4,RCT2,Small Scenery,Candy,4,3957
+TB1,RCT2,Small Scenery,White Bishop,4,2402
+TB2,RCT2,Small Scenery,Black Bishop,4,2458
+TBC,RCT2,Small Scenery,Cactus,4,5268
+TBN,RCT2,Small Scenery,Bone,4,1585
+TBN1,RCT2,Small Scenery,Bones,4,4097
+TBP,RCT2,Small Scenery,Black Poplar Tree,4,15175
+TBR,RCT2,Small Scenery,Bullrushes,4,1211
+TBR1,RCT2,Small Scenery,Barrel,4,1388
+TBR2,RCT2,Small Scenery,Barrel,4,1355
+TBR3,RCT2,Small Scenery,Barrel,4,1385
+TBR4,RCT2,Small Scenery,Barrel,4,1460
+TBW,RCT2,Small Scenery,Broken Wheel,4,2510
+TCB,RCT2,Small Scenery,Club Shaped Tree,4,2771
+TCC,RCT2,Small Scenery,Chinese Cedar Tree,4,17640
+TCD,RCT2,Small Scenery,Cauldron,4,2255
+TCE,RCT2,Small Scenery,Camperdown Elm Tree,4,8216
+TCF,RCT2,Small Scenery,Caucasian Fir Tree,4,16177
+TCFS,RCT2,Small Scenery,Snow-covered Caucasian Fir Tree,4,16344
+TCJ,RCT2,Small Scenery,Common Juniper Tree,4,6152
+TCK,RCT2,Small Scenery,Clock,0,12946
+TCL,RCT2,Small Scenery,Cedar of Lebanon Tree,4,29844
+TCN,RCT2,Small Scenery,Cannon,4,1464
+TCO,RCT2,Small Scenery,Common Oak Tree,4,23616
+TCRP,RCT2,Small Scenery,Corsican Pine Tree,4,14631
+TCT,RCT2,Small Scenery,Cabbage Tree,4,10758
+TCT1,RCT2,Small Scenery,Castle Tower,4,22612
+TCT2,RCT2,Small Scenery,Castle Tower,4,22612
+TCY,RCT2,Small Scenery,Common Yew Tree,4,13419
+TDF,RCT2,Small Scenery,Dolphin Fountain,20,17966
+TDM,RCT2,Small Scenery,Diamond Shaped Tree,4,2185
+TDN4,RCT2,Small Scenery,Dinosaur,4,6356
+TDN5,RCT2,Small Scenery,Dinosaur,4,6827
+TDT1,RCT2,Small Scenery,Dead Tree,4,4904
+TDT2,RCT2,Small Scenery,Dead Tree,4,4727
+TDT3,RCT2,Small Scenery,Dead Tree,4,3600
+TEEPEE1,RCT2,Small Scenery,Tepee,4,7561
+TEF,RCT2,Small Scenery,Elephant Fountain,20,19765
+TEL,RCT2,Small Scenery,European Larch Tree,4,19225
+TEN,RCT2,Small Scenery,Cleopatra's Needle,4,3080
+TEP,RCT2,Small Scenery,Egyptian Column,4,3622
+TERB,RCT2,Small Scenery,Stone Block,4,2246
+TERS,RCT2,Small Scenery,Ruined Statue,4,2186
+TES1,RCT2,Small Scenery,Egyptian Statue,4,5727
+TF1,RCT2,Small Scenery,Fruit Tree,4,8222
+TF2,RCT2,Small Scenery,Fruit Tree,4,8374
+TG1,RCT2,Small Scenery,Gardens,12,18556
+TG10,RCT2,Small Scenery,Gardens,12,18762
+TG11,RCT2,Small Scenery,Gardens,12,21310
+TG12,RCT2,Small Scenery,Gardens,12,21378
+TG13,RCT2,Small Scenery,Gardens,12,21202
+TG14,RCT2,Small Scenery,Gardens,12,21286
+TG15,RCT2,Small Scenery,Gardens,12,6906
+TG16,RCT2,Small Scenery,Gardens,12,6914
+TG17,RCT2,Small Scenery,Gardens,12,6990
+TG18,RCT2,Small Scenery,Gardens,12,6910
+TG19,RCT2,Small Scenery,Gardens,12,6206
+TG2,RCT2,Small Scenery,Gardens,12,18394
+TG20,RCT2,Small Scenery,Gardens,12,6246
+TG21,RCT2,Small Scenery,Gardens,12,6274
+TG3,RCT2,Small Scenery,Gardens,12,18178
+TG4,RCT2,Small Scenery,Gardens,12,20930
+TG5,RCT2,Small Scenery,Gardens,12,19770
+TG6,RCT2,Small Scenery,Gardens,12,20542
+TG7,RCT2,Small Scenery,Gardens,12,18734
+TG8,RCT2,Small Scenery,Gardens,12,18730
+TG9,RCT2,Small Scenery,Gardens,12,18782
+TGC1,RCT2,Small Scenery,Sculpture,4,5794
+TGC2,RCT2,Small Scenery,Sculpture,4,2663
+TGE1,RCT2,Small Scenery,Geometric Sculpture,8,12540
+TGE2,RCT2,Small Scenery,Geometric Sculpture,8,9500
+TGE3,RCT2,Small Scenery,Geometric Sculpture,8,19160
+TGE4,RCT2,Small Scenery,Geometric Sculpture,8,18020
+TGE5,RCT2,Small Scenery,Geometric Sculpture,8,16678
+TGG,RCT2,Small Scenery,Gong,4,2538
+TGH1,RCT2,Small Scenery,Statue,24,23196
+TGH2,RCT2,Small Scenery,Statue,24,26274
+TGHC,RCT2,Small Scenery,Golden Hinoki Cypress Tree,4,17796
+TGHC2,RCT2,Small Scenery,Hiba Tree,4,10528
+TGS,RCT2,Small Scenery,Giraffe Statue,4,8153
+TGS1,RCT2,Small Scenery,Grave Stone,4,750
+TGS2,RCT2,Small Scenery,Grave Stone,4,854
+TGS3,RCT2,Small Scenery,Grave Stone,4,652
+TGS4,RCT2,Small Scenery,Grave Stone,4,692
+TH1,RCT2,Small Scenery,Canary Palm Tree,4,10097
+TH2,RCT2,Small Scenery,Palm Tree,4,16968
+THL,RCT2,Small Scenery,Honey Locust Tree,4,22178
+THRS,RCT2,Small Scenery,Horseman Statue,4,7197
+THT,RCT2,Small Scenery,Heart Shaped Tree,4,2258
+TIC,RCT2,Small Scenery,Incense Cedar Tree,4,15386
+TIG,RCT2,Small Scenery,Igloo,4,4737
+TITC,RCT2,Small Scenery,Italian Cypress Tree,4,13421
+TJB1,RCT2,Small Scenery,Bush,4,3330
+TJB2,RCT2,Small Scenery,Bush,4,3130
+TJB3,RCT2,Small Scenery,Bush,4,4807
+TJB4,RCT2,Small Scenery,Bush,4,4168
+TJF,RCT2,Small Scenery,Flower,4,3892
+TJP1,RCT2,Small Scenery,Plant,4,8577
+TJP2,RCT2,Small Scenery,Plant,4,4465
+TJT1,RCT2,Small Scenery,Tree,4,16906
+TJT2,RCT2,Small Scenery,Tree,4,21680
+TJT3,RCT2,Small Scenery,Tree,4,11236
+TJT4,RCT2,Small Scenery,Tree,4,9827
+TJT5,RCT2,Small Scenery,Tree,4,8472
+TJT6,RCT2,Small Scenery,Tree,4,7036
+TK1,RCT2,Small Scenery,White Knight,4,2588
+TK2,RCT2,Small Scenery,Black Knight,4,2609
+TK3,RCT2,Small Scenery,White King,4,2759
+TK4,RCT2,Small Scenery,Black King,4,2777
+TL0,RCT2,Small Scenery,Tree,4,18654
+TL1,RCT2,Small Scenery,Tree,4,22468
+TL2,RCT2,Small Scenery,Tree,4,18773
+TL3,RCT2,Small Scenery,Tree,4,21618
+TLC,RCT2,Small Scenery,Lawson Cypress Tree,4,11390
+TLP,RCT2,Small Scenery,Lombardy Poplar Tree,4,10181
+TLY,RCT2,Small Scenery,Lily,4,1402
+TM0,RCT2,Small Scenery,Tree,4,11995
+TM1,RCT2,Small Scenery,Tree,4,13441
+TM2,RCT2,Small Scenery,Tree,4,15194
+TM3,RCT2,Small Scenery,Tree,4,11995
+TMBJ,RCT2,Small Scenery,Meyer's Blue Juniper Tree,4,7579
+TMC,RCT2,Small Scenery,Monterey Cypress Tree,4,19438
+TMG,RCT2,Small Scenery,Magnolia Tree,4,7844
+TMJ,RCT2,Small Scenery,Junk,4,5172
+TML,RCT2,Small Scenery,Logs,4,1500
+TMM1,RCT2,Small Scenery,Graveyard Monument,4,7757
+TMM2,RCT2,Small Scenery,Graveyard Monument,4,3591
+TMM3,RCT2,Small Scenery,Graveyard Monument,4,2394
+TMO1,RCT2,Small Scenery,Martian Object,4,3100
+TMO2,RCT2,Small Scenery,Martian Object,4,5569
+TMO3,RCT2,Small Scenery,Martian Object,4,4037
+TMO4,RCT2,Small Scenery,Martian Object,4,19804
+TMO5,RCT2,Small Scenery,Martian Object,4,4972
+TMP,RCT2,Small Scenery,Monkey-Puzzle Tree,4,17962
+TMS1,RCT2,Small Scenery,Toadstool,4,5158
+TMW,RCT2,Small Scenery,Wheels,4,3744
+TMZP,RCT2,Small Scenery,Montezuma Pine Tree,4,16842
+TNS,RCT2,Small Scenery,Norway Spruce Tree,4,17260
+TNSS,RCT2,Small Scenery,Snow-covered Norway Spruce Tree,4,17424
+TNTROOF1,RCT2,Small Scenery,Canvas Roof,4,5697
+TOH1,RCT2,Small Scenery,House,4,7745
+TOH2,RCT2,Small Scenery,House,4,27671
+TOH3,RCT2,Small Scenery,Building,4,12314
+TORN1,RCT2,Small Scenery,Ornamental Tree,4,3338
+TORN2,RCT2,Small Scenery,Ornamental Tree,4,4438
+TOS,RCT2,Small Scenery,Statue,4,1860
+TOT1,RCT2,Small Scenery,Tree,4,11293
+TOT2,RCT2,Small Scenery,Tree,4,6835
+TOT3,RCT2,Small Scenery,Tree,4,2635
+TOT4,RCT2,Small Scenery,Tree,4,4656
+TOTEM1,RCT2,Small Scenery,Totem Pole,4,6660
+TP1,RCT2,Small Scenery,White Pawn,4,1732
+TP2,RCT2,Small Scenery,Black Pawn,4,1758
+TPM,RCT2,Small Scenery,Palm Tree,4,7805
+TQ1,RCT2,Small Scenery,White Queen,4,3557
+TQ2,RCT2,Small Scenery,Black Queen,4,3618
+TQF,RCT2,Small Scenery,Cupid Fountains,0,20218
+TR1,RCT2,Small Scenery,White Rook,4,2277
+TR2,RCT2,Small Scenery,Black Rook,4,2278
+TRC,RCT2,Small Scenery,Roman Column,4,3328
+TRF,RCT2,Small Scenery,Red Fir Tree,4,14309
+TRF2,RCT2,Small Scenery,Red Fir Tree,4,10389
+TRF3,RCT2,Small Scenery,Snow-covered Red Fir Tree,4,10559
+TRFS,RCT2,Small Scenery,Snow-covered Red Fir Tree,4,14480
+TRMS,RCT2,Small Scenery,Roman Statue,4,8123
+TROPT1,RCT2,Small Scenery,Tree,4,4590
+TRWS,RCT2,Small Scenery,Roman Statue,4,7366
+TS0,RCT2,Small Scenery,Tree,4,4903
+TS1,RCT2,Small Scenery,Tree,4,3169
+TS2,RCT2,Small Scenery,Tree,4,4202
+TS3,RCT2,Small Scenery,Tree,4,2666
+TS4,RCT2,Small Scenery,Ornamental Tree,4,2380
+TS5,RCT2,Small Scenery,Ornamental Tree,4,2372
+TS6,RCT2,Small Scenery,Ornamental Tree,4,3424
+TSB,RCT2,Small Scenery,Silver Birch Tree,4,22750
+TSC,RCT2,Small Scenery,Cactus,4,2418
+TSC2,RCT2,Small Scenery,Building,4,8393
+TSCP,RCT2,Small Scenery,Space Capsule,4,8328
+TSD,RCT2,Small Scenery,Spade Shaped Tree,4,2555
+TSF1,RCT2,Small Scenery,Giant Snowflake,4,3592
+TSF2,RCT2,Small Scenery,Giant Snowflake,4,3666
+TSF3,RCT2,Small Scenery,Giant Snowflake,4,4148
+TSG,RCT2,Small Scenery,Swamp Goo,0,18861
+TSH,RCT2,Small Scenery,Horse Statue,4,6629
+TSH0,RCT2,Small Scenery,Bush,4,2306
+TSH1,RCT2,Small Scenery,Shrub,4,2789
+TSH2,RCT2,Small Scenery,Bush,4,1791
+TSH3,RCT2,Small Scenery,Bush,4,2834
+TSH4,RCT2,Small Scenery,Shrub,4,2691
+TSH5,RCT2,Small Scenery,Bush,4,1666
+TSK,RCT2,Small Scenery,Skull,20,35988
+TSM,RCT2,Small Scenery,Snowman,4,7429
+TSMP,RCT2,Small Scenery,Pumpkin,64,132460
+TSNB,RCT2,Small Scenery,Snowball,4,8369
+TSNC,RCT2,Small Scenery,Log Cabin,4,10727
+TSP,RCT2,Small Scenery,Scots Pine Tree,4,17490
+TSP1,RCT2,Small Scenery,Tree,4,8068
+TSP2,RCT2,Small Scenery,Tree,4,11316
+TSPH,RCT2,Small Scenery,House,4,9621
+TSQ,RCT2,Small Scenery,Squirrel Shaped Tree,4,4210
+TST1,RCT2,Small Scenery,Toadstool,4,8866
+TST2,RCT2,Small Scenery,Toadstool,4,5665
+TST3,RCT2,Small Scenery,Toadstool,4,2780
+TST4,RCT2,Small Scenery,Toadstool,4,1765
+TST5,RCT2,Small Scenery,Toadstool,4,1880
+TSTD,RCT2,Small Scenery,Dolphins Statue,4,7744
+TT1,RCT2,Small Scenery,Roman Temple,4,13605
+TTF,RCT2,Small Scenery,Fountain,0,26392
+TTG,RCT2,Small Scenery,Target,4,1763
+TUS,RCT2,Small Scenery,Unicorn Statue,4,7116
+TVL,RCT2,Small Scenery,Voss's Laburnam Tree,4,12182
+TWF,RCT2,Small Scenery,Geometric Fountain,0,16140
+TWH1,RCT2,Small Scenery,House,4,10999
+TWH2,RCT2,Small Scenery,Pumpkin House,4,11157
+TWN,RCT2,Small Scenery,Walnut Tree,4,14626
+TWP,RCT2,Small Scenery,White Poplar Tree,4,12106
+TWW,RCT2,Small Scenery,Weeping Willow Tree,4,16134
+WAG1,RCT2,Small Scenery,Wagon,4,6844
+WAG2,RCT2,Small Scenery,Wagon,4,7491
+WASP,RCT2,Small Scenery,Wasp,16,11937
+WDBASE,RCT2,Small Scenery,Wooden Block,4,7065
+WDIAG,RCT2,Small Scenery,Fountain,36,21323
+WHORIZ,RCT2,Small Scenery,Water Jet,36,9754
+WSPOUT,RCT2,Small Scenery,Water Spout,68,265702
+WALLBADM,RCT2,Walls,Badminton Racket,2,2506
+WALLBB16,RCT2,Walls,Wall,2,1522
+WALLBB32,RCT2,Walls,Wall,2,2706
+WALLBB33,RCT2,Walls,Wall,2,2698
+WALLBB34,RCT2,Walls,Stone Wall,2,2814
+WALLBB8,RCT2,Walls,Wall,2,930
+WALLBR16,RCT2,Walls,Wall,2,1522
+WALLBR32,RCT2,Walls,Wall,2,2706
+WALLBR8,RCT2,Walls,Wall,2,930
+WALLBRDR,RCT2,Walls,Doorway,36,24523
+WALLBRWN,RCT2,Walls,Window,2,2686
+WALLCB16,RCT2,Walls,Wall,2,1522
+WALLCB32,RCT2,Walls,Wall,2,2706
+WALLCB8,RCT2,Walls,Wall,2,930
+WALLCBDR,RCT2,Walls,Doorway,36,24523
+WALLCBPC,RCT2,Walls,Portcullis Door,36,23494
+WALLCBWN,RCT2,Walls,Window,2,2686
+WALLCF16,RCT2,Walls,Wall,2,1522
+WALLCF32,RCT2,Walls,Wall,2,2706
+WALLCF8,RCT2,Walls,Wall,2,930
+WALLCFAR,RCT2,Walls,Wall Arch,2,2037
+WALLCFDR,RCT2,Walls,Doorway,36,24523
+WALLCFPC,RCT2,Walls,Portcullis Door,36,23494
+WALLCFWN,RCT2,Walls,Window,2,2686
+WALLCO16,RCT2,Walls,Corrugated Steel Wall,8,3001
+WALLCW32,RCT2,Walls,Wall,2,2620
+WALLCX32,RCT2,Walls,Wall,2,2706
+WALLCY32,RCT2,Walls,Wall,2,2706
+WALLCZ32,RCT2,Walls,Wall,2,2621
+WALLGL16,RCT2,Walls,Glass Wall,12,5391
+WALLGL32,RCT2,Walls,Glass Wall,12,9519
+WALLGL8,RCT2,Walls,Glass Wall,12,3327
+WALLIG16,RCT2,Walls,Igloo Wall,2,1585
+WALLIG24,RCT2,Walls,Igloo Wall,2,1965
+WALLJB16,RCT2,Walls,Jellybean Wall,6,4557
+WALLJN32,RCT2,Walls,Wall,2,2064
+WALLLT32,RCT2,Walls,Steel Latticework,2,1952
+WALLMM16,RCT2,Walls,Railings,2,2049
+WALLMM17,RCT2,Walls,Railings,2,2163
+WALLMN32,RCT2,Walls,Wall,2,2188
+WALLNT32,RCT2,Walls,Tennis Net Wall,2,1854
+WALLNT33,RCT2,Walls,Tennis Net Wall,2,2167
+WALLPG32,RCT2,Walls,Wall,2,2622
+WALLPOST,RCT2,Walls,Post,8,1338
+WALLPR32,RCT2,Walls,Rigging,2,3114
+WALLPR33,RCT2,Walls,Wall,2,2918
+WALLPR34,RCT2,Walls,Wall,2,2918
+WALLPR35,RCT2,Walls,Wall,2,1706
+WALLRH32,RCT2,Walls,Wall,2,1915
+WALLRK32,RCT2,Walls,Rock Wall,2,2774
+WALLRS16,RCT2,Walls,Wall,2,1522
+WALLRS32,RCT2,Walls,Wall,2,2706
+WALLRS8,RCT2,Walls,Wall,2,930
+WALLSC16,RCT2,Walls,Railings,6,4828
+WALLSIGN,RCT2,Walls,Scrolling Sign,8,2343
+WALLSK16,RCT2,Walls,Wall,2,1505
+WALLSK32,RCT2,Walls,Wall,2,2360
+WALLSP32,RCT2,Walls,Wall,2,2655
+WALLST16,RCT2,Walls,Steel Wall,2,1577
+WALLST32,RCT2,Walls,Steel Wall,2,2761
+WALLST8,RCT2,Walls,Steel Wall,2,1015
+WALLSTFN,RCT2,Walls,Steel Fence,6,1702
+WALLSTWN,RCT2,Walls,Steel Wall,2,1501
+WALLTN32,RCT2,Walls,Poles,2,1222
+WALLTXGT,RCT2,Walls,Texas Giant' Sign,8,3843
+WALLU132,RCT2,Walls,Wall,2,2706
+WALLU232,RCT2,Walls,Wall,2,2706
+WALLWD16,RCT2,Walls,Wooden Wall,2,1618
+WALLWD32,RCT2,Walls,Wooden Wall,2,2802
+WALLWD33,RCT2,Walls,Wooden Wall,2,2794
+WALLWD8,RCT2,Walls,Wooden Wall,2,1026
+WALLWDPS,RCT2,Walls,Wooden Post Fence,6,2282
+WALLWF32,RCT2,Walls,Waterfall,16,20070
+WBR1,RCT2,Walls,Brick Wall,6,5482
+WBR1A,RCT2,Walls,Brick Wall,2,2290
+WBR2,RCT2,Walls,Stone Wall,6,4319
+WBR2A,RCT2,Walls,Stone Wall,2,1635
+WBR3,RCT2,Walls,Stone Wall,6,1646
+WBRG,RCT2,Walls,Brick Wall,6,2154
+WBW,RCT2,Walls,Bone Fence,6,6347
+WC1,RCT2,Walls,Castle Wall,6,5411
+WC10,RCT2,Walls,Castle Wall,6,16276
+WC11,RCT2,Walls,Castle Wall,6,16310
+WC12,RCT2,Walls,Castle Wall,6,16020
+WC13,RCT2,Walls,Castle Wall,6,9000
+WC14,RCT2,Walls,Wall,6,5613
+WC15,RCT2,Walls,Wall,6,2212
+WC16,RCT2,Walls,Fence,6,5647
+WC17,RCT2,Walls,Wooden Fence,6,4746
+WC18,RCT2,Walls,Wooden Post Wall,6,5102
+WC2,RCT2,Walls,Castle Wall,6,5411
+WC3,RCT2,Walls,Roman Column Wall,12,19507
+WC4,RCT2,Walls,Castle Wall,6,16275
+WC5,RCT2,Walls,Castle Wall,6,16276
+WC6,RCT2,Walls,Castle Wall,6,16310
+WC7,RCT2,Walls,Castle Wall,6,16020
+WC8,RCT2,Walls,Castle Wall,6,8995
+WC9,RCT2,Walls,Castle Wall,6,16275
+WCH,RCT2,Walls,Conifer Hedge,6,5713
+WCHG,RCT2,Walls,Conifer Hedge,6,1757
+WCW1,RCT2,Walls,Playing Card Wall,6,8095
+WCW2,RCT2,Walls,Playing Card Wall,6,8120
+WEW,RCT2,Walls,Egyptian Wall,6,5331
+WFW1,RCT2,Walls,Wooden Fence,6,4482
+WFWG,RCT2,Walls,Wooden Fence,6,1668
+WGW2,RCT2,Walls,Glass Wall,12,11231
+WHG,RCT2,Walls,Hedge,6,4393
+WHGG,RCT2,Walls,Hedge,6,1472
+WJF,RCT2,Walls,Jungle Fence,6,4305
+WMF,RCT2,Walls,Mesh Fence,6,6461
+WMFG,RCT2,Walls,Mesh Fence,6,2372
+WMW,RCT2,Walls,Martian Wall,6,9235
+WMWW,RCT2,Walls,Wooden Fence,6,6455
+WPF,RCT2,Walls,Fence,6,5581
+WPFG,RCT2,Walls,Fence,6,2021
+WPW1,RCT2,Walls,Wooden Post Wall,6,5805
+WPW2,RCT2,Walls,Wooden Post Wall,6,5825
+WPW3,RCT2,Walls,Wooden Fence,6,6404
+WRW,RCT2,Walls,Roman Wall,6,5138
+WRWA,RCT2,Walls,Roman Wall,2,2397
+WSW,RCT2,Walls,Railings,6,6866
+WSW1,RCT2,Walls,Railings,6,6602
+WSW2,RCT2,Walls,Railings,6,2382
+WSWG,RCT2,Walls,Railings,6,2448
+WWTW,RCT2,Walls,Tall Wooden Fence,6,9847
+WWTWA,RCT2,Walls,Wooden Fence Wall,2,2965
+1950SCAR,TT,Large Scenery,1950s Car,12,19607
+4X4DINER,TT,Large Scenery,Period Diner,68,54083
+4X4GMANT,TT,Large Scenery,Giant Mangrove Tree,68,114508
+4X4STNHN,TT,Large Scenery,Stone Age Temple,68,82831
+4X4TRPIT,TT,Large Scenery,Bubbling Tarpit,68,93985
+4X4VOLCA,TT,Large Scenery,Volcano with small trees,68,97934
+ALENCRSH,TT,Large Scenery,UFO Crash Site,68,90567
+ALNSTR08,TT,Large Scenery,Alien Structure Large,20,70601
+ALNSTR09,TT,Large Scenery,Alien Structure Large,40,86682
+ALNSTR10,TT,Large Scenery,Alien Structure Large,40,71532
+ALNSTR11,TT,Large Scenery,Alien Skylight Large,68,72395
+ARTDEC25,TT,Large Scenery,Art Deco Corner with Windows,20,20521
+ARTDEC26,TT,Large Scenery,Art Deco Corner with Railings,20,25343
+ARTDEC27,TT,Large Scenery,Art Deco Top Corner Section,20,31498
+ASHNYMPH,TT,Large Scenery,Ash Tree with Nymphs,68,136663
+BANDBUSX,TT,Large Scenery,Rock Band Tour Bus,40,54458
+BIGDRUMS,TT,Large Scenery,Giant Drum Kit,40,91062
+CAVENTRA,TT,Large Scenery,Cave Entrance,12,40191
+CORNS2X2,TT,Large Scenery,Roman Palace Corner Piece,20,49082
+CORVS2X2,TT,Large Scenery,Roman Palace Corner Piece,20,55302
+CRATR2X2,TT,Large Scenery,Small Meteor Crater,20,30634
+CRATR4X4,TT,Large Scenery,Large Meteor Crater,68,82489
+CRSSS2X2,TT,Large Scenery,Roman Palace Cross Section,20,61198
+CRSVS2X2,TT,Large Scenery,Roman Palace Cross Section,20,67665
+CYCLOPSS,TT,Large Scenery,Cyclops Statue,20,50661
+FEASTABL,TT,Large Scenery,Feast Table,20,15126
+FOOTPRNT,TT,Large Scenery,Giant Dinosaur Footprint,20,23630
+FORBIDFT,TT,Large Scenery,Forbidden Fruit Tree,20,66516
+FUTSKY20,TT,Large Scenery,Sandstone Skyscraper Bottom Inverted Corner,20,38403
+FUTSKY22,TT,Large Scenery,Sandstone Skyscraper Bottom Inverted Corner,20,39054
+FUTSKY24,TT,Large Scenery,Sandstone Skyscraper Bottom Inverted Corner,20,17992
+FUTSKY25,TT,Large Scenery,Sandstone Skyscraper Bottom Inverted Corner,20,46272
+FUTSKY26,TT,Large Scenery,Sandstone Skyscraper Bottom Inverted Corner,20,43852
+FUTSKY28,TT,Large Scenery,Sandstone Walkway T-Junction,40,50116
+FUTSKY30,TT,Large Scenery,Sandstone Walkway Corner,40,46958
+FUTSKY31,TT,Large Scenery,Sandstone Walkway Cross Section,40,50825
+FUTSKY32,TT,Large Scenery,Sandstone Walkway End Section,40,42792
+GBEETLEX,TT,Large Scenery,1950s Car,12,19925
+GHOTROD1,TT,Large Scenery,Hot Rod Car,12,18459
+GHOTROD2,TT,Large Scenery,Hot Rod Car,12,23710
+GSCHLBUS,TT,Large Scenery,School Bus,12,26687
+HADESXXX,TT,Large Scenery,Hades Statue,20,48389
+HISTFIX1,TT,Large Scenery,Alien Historical Structures,68,87990
+HISTFIX2,TT,Large Scenery,Alien Historical Structures,20,65855
+HODSHUT1,TT,Large Scenery,Robin Hood's Hut,20,43456
+HODSHUT2,TT,Large Scenery,Robin Hood's Hut,20,46930
+HRBWAL07,TT,Large Scenery,Harbour Wall Corner Piece,20,48530
+HRBWAL08,TT,Large Scenery,Harbour Wall Corner Piece,20,48755
+HRBWAL09,TT,Large Scenery,Harbour Wall with Dock,20,49613
+HRBWAL11,TT,Large Scenery,Harbour Dock,20,40965
+JAILXX17,TT,Large Scenery,Prison Door,12,39873
+JAILXX18,TT,Large Scenery,Prison Water Tower,20,68479
+JETPLAN1,TT,Large Scenery,Jet Aeroplane,40,72153
+JETPLAN2,TT,Large Scenery,Jet Aeroplane,40,55626
+JETPLAN3,TT,Large Scenery,Jet Aeroplane,40,71520
+MAJOROAK,TT,Large Scenery,Large Oak,40,75896
+MCASTL01,TT,Large Scenery,Castle Inverted Corner,20,58008
+MCASTL11,TT,Large Scenery,Castle Portcullis,20,82472
+MCASTL12,TT,Large Scenery,Castle Entrance,12,63653
+MCASTL13,TT,Large Scenery,Castle Tower Corner Piece,40,138637
+MCASTL14,TT,Large Scenery,Castle Tower Corner Piece,40,142097
+MCASTL15,TT,Large Scenery,Castle Tower Cross Piece,40,145812
+MCASTL16,TT,Large Scenery,Castle Tower Straight Piece,40,141133
+MCASTL17,TT,Large Scenery,Castle Tower T Piece,40,142724
+MCASTL18,TT,Large Scenery,Castle Tower T Piece,40,143347
+MELMTREE,TT,Large Scenery,Large Elm Tree,20,55722
+METOAN01,TT,Large Scenery,Meteor Crater Corner,12,36424
+METOAN02,TT,Large Scenery,Meteor Crater Inverted Corner,12,36793
+OLDNYK20,TT,Large Scenery,New York Roof Piece,12,18668
+OLDNYK21,TT,Large Scenery,New York Wall Piece,12,50151
+OLDNYK22,TT,Large Scenery,New York Wall Piece,12,51146
+OLDNYK23,TT,Large Scenery,New York Wall Piece,12,48794
+OLDNYK24,TT,Large Scenery,New York Inverted Corner Roof,20,22205
+OLDNYK25,TT,Large Scenery,New York Roof Piece,20,34620
+OLDNYK26,TT,Large Scenery,New York Entrance,20,48902
+OLDNYK27,TT,Large Scenery,New York Wall Piece,40,89198
+OLDNYK28,TT,Large Scenery,New York Wall Piece,40,89524
+OLDNYK29,TT,Large Scenery,New York Wall Piece,40,109011
+OLDNYK30,TT,Large Scenery,New York Wall Piece,40,69425
+OLDNYK32,TT,Large Scenery,New York Roof Piece,20,70922
+PEASTHUT,TT,Large Scenery,Peasant Hut,20,32436
+PERAMOB1,TT,Large Scenery,Period Automobile,12,15184
+PERAMOB2,TT,Large Scenery,Period Automobile,12,16453
+PERDTK01,TT,Large Scenery,Period Truck,12,24953
+PERDTK02,TT,Large Scenery,Period Truck,12,14221
+PLOUGHXX,TT,Large Scenery,Plough,20,9299
+PRDYACHT,TT,Large Scenery,Period Sailing Yacht,12,26959
+PSNTWL26,TT,Large Scenery,Dark Age Village Roof Piece,12,27037
+PSNTWL27,TT,Large Scenery,Dark Age Village Corner Roof Piece,20,26182
+PSNTWL28,TT,Large Scenery,Dark Age Village Inverted Roof Piece,20,47449
+RDMET2X2,TT,Large Scenery,Small Red Meteor Crater,20,30692
+RDMET4X4,TT,Large Scenery,Large Red Meteor Crater,68,82546
+RDMETO01,TT,Large Scenery,Red Meteor Crater Corner,12,36481
+RDMETO02,TT,Large Scenery,Red Meteor Crater Corner,12,36764
+ROBNCAMP,TT,Large Scenery,Robin Hood's Camp,68,91178
+ROMNC2X2,TT,Large Scenery,Roman Palace Corner Piece,20,77670
+ROMNE2X1,TT,Large Scenery,Roman Palace End Piece,12,50197
+ROMNM2X2,TT,Large Scenery,Roman Palace Cross Section,20,81227
+ROMNS2X2,TT,Large Scenery,Roman Palace Straight Piece,20,77838
+ROMVC2X2,TT,Large Scenery,Roman Palace Corner Piece,20,87482
+ROMVE2X1,TT,Large Scenery,Roman Palace End Piece,12,55707
+ROMVM2X2,TT,Large Scenery,Roman Palace Cross Section,20,87986
+ROMVS2X2,TT,Large Scenery,Roman Palace Straight Piece,20,86381
+SCHNPIT2,TT,Large Scenery,Seaplane Pits,68,84607
+SCHNPITS,TT,Large Scenery,Seaplane Pits,68,85504
+SCHNTENT,TT,Large Scenery,Marquee,68,61104
+SHIPB4X4,TT,Large Scenery,Luxury Liner Bow,68,72521
+SHIPM4X4,TT,Large Scenery,Luxury Liner Mid Section,68,98665
+SHIPS4X4,TT,Large Scenery,Luxury Liner Stern,68,68978
+STRGS2X2,TT,Large Scenery,Roman Palace Straight Piece,20,52420
+STRVS2X2,TT,Large Scenery,Roman Palace Straight Piece,20,58232
+TAVERNXX,TT,Large Scenery,Dark Ages Tavern,68,131382
+TRAVLR01,TT,Large Scenery,Traveller Van,12,39589
+TRAVLR02,TT,Large Scenery,Microbus,12,24786
+1920SENT,TT,Park Entrance,Roaring Twenties Park Entrance,12,45342
+FUTURENT,TT,Park Entrance,Futuristic Park Entrance,12,53057
+GLDYRENT,TT,Park Entrance,Rock 'n' Roll Park Entrance,12,40203
+JURASENT,TT,Park Entrance,Prehistoric Entrance,12,37655
+MEDIENTR,TT,Park Entrance,Dark Age Entrance,12,43215
+MYTHENTR,TT,Park Entrance,Mythological Entrance,12,43356
+FIRHYDRT,TT,Path Items,Fire Hydrant,9,1664
+MEDBENCH,TT,Path Items,Benches,9,2053
+1920RACR,TT,Ride/Shop,1920's Racing Cars,211,64801
+1920SAND,TT,Ride/Shop,Art Deco Food Stall,7,24661
+1960TSRT,TT,Ride/Shop,Flower Power T-Shirts,7,25128
+BARNSTRM,TT,Ride/Shop,BarnStorming Coaster,939,623008
+BATTRRAM,TT,Ride/Shop,Battering Ram Coaster,2499,706396
+BLCKDETH,TT,Ride/Shop,Black Death Ride,2707,914084
+BMVOCTPS,TT,Ride/Shop,Blob from Outer Space Ride,39,75858
+CAVMNCAR,TT,Ride/Shop,Caveman Cars,211,62635
+CERBERUS,TT,Ride/Shop,Cerberus Coaster,2871,1077190
+CYCLOPSX,TT,Ride/Shop,Cyclops Ride,67,31759
+DINOEGGS,TT,Ride/Shop,Dinosaur Egg Ride,243,166777
+DRAGNFLY,TT,Ride/Shop,Dragonfly Coaster,1283,661324
+FIGTKNIT,TT,Ride/Shop,Fighting Knights Dodgem Cars,131,68205
+FLALMACE,TT,Ride/Shop,Mace Ride,707,278027
+FLWRPOWR,TT,Ride/Shop,Flower Power Ride,67,28017
+FLYGBOAT,TT,Ride/Shop,Flying Boat Ride,1763,579799
+FUNHOUSE,TT,Ride/Shop,Fun House,7,54019
+GANSTRCR,TT,Ride/Shop,Gangster Car Coaster,5043,2265125
+GINTSPDR,TT,Ride/Shop,B-Movie Giant Spider Ride,243,248180
+HALOFMRS,TT,Ride/Shop,Hall of Mirrors,7,63592
+HARPIESX,TT,Ride/Shop,Harpies Coaster,4083,1340943
+HOTRODXX,TT,Ride/Shop,Hot Rod Coaster,1167,510590
+HOVERBKE,TT,Ride/Shop,Hover Bike Ride,259,100300
+HOVERCAR,TT,Ride/Shop,Hover Car Ride,267,104197
+HOVRBORD,TT,Ride/Shop,Hoverboard Coaster,1283,661248
+JETPACKX,TT,Ride/Shop,Jet Pack Booster,1563,721192
+JETPLANE,TT,Ride/Shop,Jet Plane Coaster,1815,781770
+JOUSTING,TT,Ride/Shop,Jousting Knights Coaster,387,158525
+MEDISOUP,TT,Ride/Shop,Witches Brew Soup,7,23384
+MGR2,TT,Ride/Shop,Double Deck Carousel,103,428670
+MICROBUS,TT,Ride/Shop,MicroBus Ride,143,387461
+MKTSTAL1,TT,Ride/Shop,Toffee Apple Market Stall,7,22925
+MKTSTAL2,TT,Ride/Shop,Lemonade Market Stall,7,22929
+MOONJUCE,TT,Ride/Shop,Moon Juice,7,22002
+MYTHOSEA,TT,Ride/Shop,Neptune's Seafood Stall,7,23393
+NEPTUNEX,TT,Ride/Shop,Neptune Ride,243,219471
+OAKBAREL,TT,Ride/Shop,Oak Barrel Ride,363,136065
+PEGASUSX,TT,Ride/Shop,Pegasus Ride,867,302953
+POLCHASE,TT,Ride/Shop,Police Chase Coaster,4323,1133749
+POLICECR,TT,Ride/Shop,Police Car Coaster,939,285323
+PTERODAC,TT,Ride/Shop,Pterodactyl Coaster,4563,1332507
+RAPTORXX,TT,Ride/Shop,Raptor Racers Coaster,259,102976
+RIVRSTYX,TT,Ride/Shop,River Styx,99,52894
+SCHOOLBS,TT,Ride/Shop,School Bus Ride,803,250427
+SEAPLANE,TT,Ride/Shop,Seaplane Ride,4623,2447719
+SOFTOYST,TT,Ride/Shop,Soft Toy Stall,7,22036
+SPOKPRSN,TT,Ride/Shop,Haunted Jail House,7,67858
+STAMPHRD,TT,Ride/Shop,Stampeding Herd Coaster,4471,1633669
+TELEPTER,TT,Ride/Shop,Teleporter,147,65633
+TIMEMACH,TT,Ride/Shop,Time Machine,707,292033
+TOMMYGUN,TT,Ride/Shop,Tommy Gun Ride,243,192757
+TREBUCHT,TT,Ride/Shop,Trebuchet Ride,579,491094
+TRICATOP,TT,Ride/Shop,Triceratops Dodgem Cars,131,49618
+TRILOBTE,TT,Ride/Shop,Trilobite Boats,1763,679443
+VALKYRIE,TT,Ride/Shop,Valkyries Coaster,2883,874148
+ZEPLELIN,TT,Ride/Shop,Airship Themed Monorail Trains,703,268092
+1920SLMP,TT,Small Scenery,Period Street Lamps,4,4109
+ALENPLT1,TT,Small Scenery,Alien Plant,68,54010
+ALENPLT2,TT,Small Scenery,Alien Plant,68,80734
+ALENTRE1,TT,Small Scenery,Alien Tree,4,7382
+ALENTRE2,TT,Small Scenery,Alien Tree,4,6282
+ALLSEEYE,TT,Small Scenery,Animatronic All Seeing Eye,68,223192
+ALNSTR01,TT,Small Scenery,Alien Structure Small,68,159610
+ALNSTR02,TT,Small Scenery,Alien Structure Small,68,92848
+ALNSTR03,TT,Small Scenery,Alien Structure Small,68,246851
+ALNSTR04,TT,Small Scenery,Alien Skylight Small,68,77009
+ALNSTR05,TT,Small Scenery,Alien Tower Bottom,68,167804
+ALNSTR06,TT,Small Scenery,Alien Tower Middle,68,125934
+ALNSTR07,TT,Small Scenery,Alien Tower Top,68,86201
+ARGONAU1,TT,Small Scenery,Animatronic Argonaut,68,67922
+ARGONAU2,TT,Small Scenery,Animatronic Argonaut,68,62712
+ARGONAU3,TT,Small Scenery,Animatronic Argonaut,68,64921
+ARMRBODY,TT,Small Scenery,Magical Armour,4,7411
+ARMRHELM,TT,Small Scenery,Magical Helmet,4,7160
+ARMRSHLD,TT,Small Scenery,Magical Shield,4,8153
+ARMRSWRD,TT,Small Scenery,Magical Sword,4,6556
+ARTDEC01,TT,Small Scenery,Art Deco Wall Section,4,6433
+ARTDEC02,TT,Small Scenery,Art Deco Inverted Corner Section,4,2023
+ARTDEC03,TT,Small Scenery,Art Deco Wall with Door,4,6386
+ARTDEC04,TT,Small Scenery,Art Deco Wall with Windows,4,6470
+ARTDEC05,TT,Small Scenery,Art Deco Wall with Windows,4,7235
+ARTDEC06,TT,Small Scenery,Art Deco Top Section,4,7263
+ARTDEC07,TT,Small Scenery,Art Deco Corner Section,4,9534
+ARTDEC08,TT,Small Scenery,Art Deco Top Corner Section,4,10446
+ARTDEC09,TT,Small Scenery,Art Deco Wall Section,4,6585
+ARTDEC10,TT,Small Scenery,Art Deco Wall Section,4,6487
+ARTDEC11,TT,Small Scenery,Art Deco Corner with Windows,4,8316
+ARTDEC12,TT,Small Scenery,Art Deco Corner with Railings,4,9254
+ARTDEC13,TT,Small Scenery,Art Deco Top Corner Section,4,9632
+ARTDEC14,TT,Small Scenery,Art Deco Corner with Windows,4,9492
+ARTDEC15,TT,Small Scenery,Art Deco Wall Section,4,6642
+ARTDEC16,TT,Small Scenery,Art Deco Wall Section,4,6883
+ARTDEC17,TT,Small Scenery,Art Deco Wall Section,4,6663
+ARTDEC18,TT,Small Scenery,Art Deco Top Section,4,9727
+ARTDEC19,TT,Small Scenery,Art Deco Wall Section,4,11678
+ARTDEC20,TT,Small Scenery,Art Deco Wall Section,4,11678
+ARTDEC21,TT,Small Scenery,Art Deco Wall with Railings,4,12217
+ARTDEC22,TT,Small Scenery,Art Deco Wall with Railings,4,12137
+ARTDEC23,TT,Small Scenery,Art Deco Wall with Railings,4,12238
+ARTDEC24,TT,Small Scenery,Art Deco Wall with Railings,4,12523
+ARTDEC28,TT,Small Scenery,Art Deco Roof Section,4,7133
+ARTDEC29,TT,Small Scenery,Art Deco Inverted Corner Section,4,2202
+ASTRONGT,TT,Small Scenery,Animatronic Astronaut,68,93310
+BIGBASSX,TT,Small Scenery,Giant Bass Guitar,4,22972
+BIGGUTAR,TT,Small Scenery,Giant Guitar,4,22388
+BKRGANG1,TT,Small Scenery,Biker,68,102241
+BOLPOT01,TT,Small Scenery,Boiling Pot,68,53280
+CAGDSTAT,TT,Small Scenery,Animatronic Eagle on Cage,68,164262
+CAVEMENX,TT,Small Scenery,Animatronic Caveman lighting Fire,68,130830
+CHANMAID,TT,Small Scenery,Animatronic Chained Maiden,68,267697
+CHPRBKE1,TT,Small Scenery,Motorcycle,4,3315
+CHPRBKE2,TT,Small Scenery,Motorcycle,4,3368
+CLNSMEN1,TT,Small Scenery,Animatronic Clansman,68,61295
+COMPEYEX,TT,Small Scenery,Super Computer Monitor,68,45149
+COOKSPIT,TT,Small Scenery,Animal cooking on Spit,68,48857
+DINSIGN1,TT,Small Scenery,Neon Diner Sign,68,137377
+DINSIGN2,TT,Small Scenery,Neon Diner Sign,68,137308
+DINSIGN3,TT,Small Scenery,Neon Diner Sign,68,146554
+DINSIGN4,TT,Small Scenery,Neon Diner Sign,68,173855
+DKFIGHT1,TT,Small Scenery,Animatronic Knight,68,71919
+DKFIGHT2,TT,Small Scenery,Animatronic Knight,68,83088
+DRGNATTK,TT,Small Scenery,Dragon Attacking,68,56974
+ELECFEN1,TT,Small Scenery,Electric Fence Corner Piece,68,205527
+ELECFEN2,TT,Small Scenery,Electric Fence,68,126623
+ELECFEN3,TT,Small Scenery,Electric Fence with Light,68,154493
+ELECFEN4,TT,Small Scenery,Electric Fence Broken,68,113744
+ELECFEN5,TT,Small Scenery,Electric Fence Inverted Corner Piece,4,5098
+EVALIEN1,TT,Small Scenery,Animatronic Evil Alien,68,174451
+EVALIEN2,TT,Small Scenery,Animatronic Evil Alien,68,87254
+EVALIEN3,TT,Small Scenery,Animatronic Evil Alien,68,107432
+FIRCANON,TT,Small Scenery,Animatronic Firing Cannon,68,46936
+FIREMANX,TT,Small Scenery,Animatronic Fireman,4,12805
+FLTSIGN1,TT,Small Scenery,Anti-Gravity LCD Billboard,68,149040
+FLTSIGN2,TT,Small Scenery,Anti-Gravity LCD Billboard,68,212959
+FRBEACON,TT,Small Scenery,Fiery Beacon,68,100658
+FUROBOT1,TT,Small Scenery,Robot,68,117838
+FUROBOT2,TT,Small Scenery,Robot,68,64126
+FUTSKY01,TT,Small Scenery,Sandstone Skyscraper Walkway,68,105820
+FUTSKY02,TT,Small Scenery,Sandstone Skyscraper Filler,68,30845
+FUTSKY03,TT,Small Scenery,Sandstone Skyscraper Bottom Corner,68,125287
+FUTSKY04,TT,Small Scenery,Sandstone Skyscraper Curved Slope Top,68,166061
+FUTSKY05,TT,Small Scenery,Sandstone Skyscraper Corner Top,68,110552
+FUTSKY06,TT,Small Scenery,Sandstone Skyscraper Mid Curved Slope,68,170036
+FUTSKY07,TT,Small Scenery,Sandstone Skyscraper Mid Wall Section,68,104333
+FUTSKY08,TT,Small Scenery,Sandstone Skyscraper Mid Wall Section,68,104112
+FUTSKY09,TT,Small Scenery,Sandstone Skyscraper Mid Wall Section,68,104367
+FUTSKY10,TT,Small Scenery,Sandstone Skyscraper Bottom Slope Base,68,153079
+FUTSKY11,TT,Small Scenery,Sandstone Skyscraper Mid Corner,68,112479
+FUTSKY12,TT,Small Scenery,Sandstone Skyscraper Mid Wall Section,68,104809
+FUTSKY13,TT,Small Scenery,Sandstone Skyscraper Roof Spire,68,145605
+FUTSKY14,TT,Small Scenery,Sandstone Skyscraper Roof Spire,68,135772
+FUTSKY15,TT,Small Scenery,Sandstone Skyscraper Docking Bay,68,108816
+FUTSKY16,TT,Small Scenery,Sandstone Skyscraper Mid Slope Corner,4,7092
+FUTSKY17,TT,Small Scenery,Sandstone Skyscraper Filler,4,2222
+FUTSKY18,TT,Small Scenery,Sandstone Skyscraper Doorway,4,10601
+FUTSKY19,TT,Small Scenery,Sandstone Skyscraper Bottom Corner,4,11628
+FUTSKY21,TT,Small Scenery,Sandstone Skyscraper Mid Wall Section,4,6640
+FUTSKY23,TT,Small Scenery,Sandstone Skyscraper Inverted Corner Top,4,7109
+FUTSKY29,TT,Small Scenery,Sandstone Skyscraper Bottom Curved Slope,4,9699
+FUTSKY33,TT,Small Scenery,Sandstone Skyscraper Walkway,68,153763
+FUTSKY34,TT,Small Scenery,Sandstone Skyscraper Roof,4,7050
+FUTSKY35,TT,Small Scenery,Sandstone Skyscraper Mid Curved Slope,4,10505
+FUTSKY36,TT,Small Scenery,Obsidian SkyScraper Door Piece,68,147011
+FUTSKY37,TT,Small Scenery,Obsidian SkyScraper Shallow Slope Corner,68,122847
+FUTSKY38,TT,Small Scenery,Obsidian SkyScraper Shallow Sloped Wall,68,158912
+FUTSKY39,TT,Small Scenery,Obsidian SkyScraper Shallow Slope Corner,68,115477
+FUTSKY40,TT,Small Scenery,Obsidian SkyScraper Steep Sloped Wall,68,256616
+FUTSKY41,TT,Small Scenery,Obsidian SkyScraper Steep Sloped Wall,68,257055
+FUTSKY42,TT,Small Scenery,Sandstone Skyscraper Curved Slope Top,4,10355
+FUTSKY44,TT,Small Scenery,Obsidian SkyScraper Steep Sloped Wall,68,267560
+FUTSKY46,TT,Small Scenery,Obsidian SkyScraper Steep Slope Corner,68,192594
+FUTSKY47,TT,Small Scenery,Obsidian SkyScraper Wall,68,219959
+FUTSKY48,TT,Small Scenery,Obsidian SkyScraper Wall with Window,68,152938
+FUTSKY52,TT,Small Scenery,Sandstone Skyscraper Bottom Inverted Corner,4,7861
+FUTSKY53,TT,Small Scenery,Sandstone Skyscraper Mid Corner,4,7000
+FUTSKY54,TT,Small Scenery,Obsidian SkyScraper Roof Piece,4,7143
+FWRPRDC1,TT,Small Scenery,Groovy Dancer,68,92676
+GANGSTER,TT,Small Scenery,Animatronic Gangster,68,149783
+GDALIEN1,TT,Small Scenery,Animatronic Good Alien,68,88707
+GDALIEN2,TT,Small Scenery,Animatronic Good Alien,68,136393
+GDALIEN3,TT,Small Scenery,Animatronic Good Alien,68,60995
+GEYSERXX,TT,Small Scenery,Geysers,68,168136
+GGNTOCTO,TT,Small Scenery,B-Movie Giant Octopus,68,240960
+GGNTSPID,TT,Small Scenery,B-Movie Giant Spider,68,70731
+GLDCHEST,TT,Small Scenery,Treasure Chest,4,2558
+GOLDFLEC,TT,Small Scenery,Golden Fleece,4,6543
+GSCORPO2,TT,Small Scenery,Animatronic attacking Scorpion,68,67175
+GSCORPON,TT,Small Scenery,Animatronic attacking Scorpion,68,76257
+GUYQWIFX,TT,Small Scenery,Singer with Quiff,68,105112
+HAYBAILS,TT,Small Scenery,Hay Bale,4,6289
+HEVBTH01,TT,Small Scenery,Heavenly Bath Pool,68,110179
+HEVBTH02,TT,Small Scenery,Heavenly Bath Pool Corner,68,136816
+HEVBTH03,TT,Small Scenery,Heavenly Baths Fountain,68,123168
+HEVBTH04,TT,Small Scenery,Heavenly Baths Fountain,68,131483
+HEVBTH05,TT,Small Scenery,Heavenly Baths Arch,4,5971
+HEVBTH06,TT,Small Scenery,Heavenly Baths Arch,4,6502
+HEVBTH07,TT,Small Scenery,Heavenly Baths Arch,4,6503
+HEVBTH08,TT,Small Scenery,Heavenly Baths Stairway,4,14571
+HEVBTH09,TT,Small Scenery,Heavenly Baths Stairway,4,14616
+HEVBTH10,TT,Small Scenery,Heavenly Baths Architecture,4,15932
+HEVBTH11,TT,Small Scenery,Heavenly Baths Architecture,4,15615
+HEVBTH12,TT,Small Scenery,Heavenly Baths Architecture,4,14783
+HEVBTH13,TT,Small Scenery,Heavenly Baths Architecture,4,15846
+HEVBTH14,TT,Small Scenery,Heavenly Bath Window,4,5778
+HEVBTH15,TT,Small Scenery,Heavenly Bath Floor,4,6933
+HEVBTH16,TT,Small Scenery,Heavenly Bath Pool Steps,68,126781
+HEVBTH17,TT,Small Scenery,Heavenly Bath Pool Edge,68,123758
+HEVROF01,TT,Small Scenery,Heavenly Bath Roof,4,5296
+HEVROF02,TT,Small Scenery,Heavenly Bath Roof,4,6962
+HEVROF03,TT,Small Scenery,Heavenly Bath Roof,4,5655
+HEVROF04,TT,Small Scenery,Heavenly Bath Roof,4,6329
+HORSECRT,TT,Small Scenery,Horse,68,102452
+HOVRCAR1,TT,Small Scenery,Hovercar on Stand,68,174495
+HOVRCAR2,TT,Small Scenery,Hovercar on Stand,68,187651
+HOVRCAR3,TT,Small Scenery,Hovercar Flying,68,56041
+HOVRCAR4,TT,Small Scenery,Hovercar Flying,68,50211
+HRBWAL01,TT,Small Scenery,Harbour Wall,4,13813
+HRBWAL02,TT,Small Scenery,Harbour Wall with Fishing Gear,4,15145
+HRBWAL03,TT,Small Scenery,Harbour Wall with Moor,4,14072
+HRBWAL04,TT,Small Scenery,Harbour Wall with Moor,4,14198
+HRBWAL05,TT,Small Scenery,Harbour Wall with Moor,4,14191
+HRBWAL06,TT,Small Scenery,Harbour Wall with Moor,4,14011
+HURCLULS,TT,Small Scenery,Hercules,4,10942
+HVRBIKE1,TT,Small Scenery,Hoverbike on Stand,68,129264
+HVRBIKE2,TT,Small Scenery,Hoverbike on Stand,68,130164
+HVRBIKE3,TT,Small Scenery,Hoverbike Flying,68,18811
+HVRBIKE4,TT,Small Scenery,Hoverbike Flying,68,19807
+INDWAL01,TT,Small Scenery,Industrial Wall Set,4,6021
+INDWAL02,TT,Small Scenery,Industrial Wall Set,4,6022
+INDWAL03,TT,Small Scenery,Industrial Wall Set,4,6021
+INDWAL04,TT,Small Scenery,Industrial Wall Set,4,6022
+INDWAL05,TT,Small Scenery,Industrial Roof Corner Piece,4,13384
+INDWAL06,TT,Small Scenery,Industrial Roof Corner Piece,4,13296
+INDWAL07,TT,Small Scenery,Industrial Wall with Doorway,4,6050
+INDWAL08,TT,Small Scenery,Industrial Wall with Doorway,4,5993
+INDWAL09,TT,Small Scenery,Industrial Wall with Doorway,4,6001
+INDWAL10,TT,Small Scenery,Industrial Wall with Doorway,4,6041
+INDWAL11,TT,Small Scenery,Industrial Wall with Doorway,4,6041
+INDWAL12,TT,Small Scenery,Industrial Wall with Doorway,4,6039
+INDWAL13,TT,Small Scenery,Industrial Wall with Doorway,4,6039
+INDWAL14,TT,Small Scenery,Industrial Wall Corner Piece,4,9412
+INDWAL15,TT,Small Scenery,Industrial Wall Corner Piece,4,9459
+INDWAL16,TT,Small Scenery,Industrial Wall with Window,4,6180
+INDWAL17,TT,Small Scenery,Industrial Wall with Window,4,6161
+INDWAL18,TT,Small Scenery,Industrial Wall with Window,4,6160
+INDWAL19,TT,Small Scenery,Industrial Wall with Window,4,6158
+INDWAL20,TT,Small Scenery,Industrial Roof Piece,4,11020
+INDWAL21,TT,Small Scenery,Industrial Roof Piece,4,10751
+INDWAL22,TT,Small Scenery,Industrial Roof Piece,4,10863
+INDWAL23,TT,Small Scenery,Industrial Roof Piece,4,7595
+INDWAL24,TT,Small Scenery,Industrial Roof Piece,4,7595
+INDWAL25,TT,Small Scenery,Industrial Roof Piece,4,7700
+INDWAL26,TT,Small Scenery,Industrial Roof Piece,4,5912
+INDWAL27,TT,Small Scenery,Industrial Roof Piece,4,6036
+INDWAL28,TT,Small Scenery,Industrial Roof Piece,4,6036
+INDWAL29,TT,Small Scenery,Industrial Roof Piece,4,6037
+INDWAL30,TT,Small Scenery,Industrial Wall with Window,4,11266
+INDWAL31,TT,Small Scenery,Industrial Wall with Window,4,11286
+INDWAL32,TT,Small Scenery,Industrial Wall with Window,4,11279
+JAILXX01,TT,Small Scenery,Prison Wall Piece,4,6399
+JAILXX02,TT,Small Scenery,Prison Wall Piece,4,6589
+JAILXX03,TT,Small Scenery,Prison Wall Piece,4,6542
+JAILXX04,TT,Small Scenery,Prison Wall Piece,4,6578
+JAILXX05,TT,Small Scenery,Prison Wall Piece,4,6641
+JAILXX06,TT,Small Scenery,Prison Wall Piece,4,6670
+JAILXX07,TT,Small Scenery,Prison Wall Roof,4,6276
+JAILXX08,TT,Small Scenery,Prison Inverted Piece,4,9536
+JAILXX09,TT,Small Scenery,Prison Inverted Piece,4,9702
+JAILXX10,TT,Small Scenery,Prison Inverted Piece,4,9729
+JAILXX11,TT,Small Scenery,Prison Inverted Piece,4,9760
+JAILXX12,TT,Small Scenery,Prison Inverted Piece,4,9716
+JAILXX13,TT,Small Scenery,Prison Inverted Piece,4,9862
+JAILXX14,TT,Small Scenery,Prison Watch Tower Stairs,4,5609
+JAILXX15,TT,Small Scenery,Prison Watch Tower Stairs,4,5675
+JAILXX16,TT,Small Scenery,Prison Watch Tower,4,8850
+JAILXX20,TT,Small Scenery,Prison Wall Corner,4,2079
+JAILXX21,TT,Small Scenery,Prison Wall Corner,4,2305
+JAZZMBR1,TT,Small Scenery,Jazz Band Member,4,11845
+JAZZMBR2,TT,Small Scenery,Jazz Band Member,4,9246
+JAZZMBR3,TT,Small Scenery,Jazz Band Member,4,9576
+JAZZMBR4,TT,Small Scenery,Jazz Band Member,4,10186
+KILLRVIN,TT,Small Scenery,Climbing Vine Tree,68,145679
+KNFIGHT1,TT,Small Scenery,Animatronic Dark Knight,68,73568
+KNFIGHT2,TT,Small Scenery,Animatronic Dark Knight,68,77892
+LARGECPU,TT,Small Scenery,Super Computer Large CPU,68,497587
+LASERX01,TT,Small Scenery,Laser Fence,68,48783
+LASERX02,TT,Small Scenery,Laser Fence Corner,68,49213
+MAMTHW01,TT,Small Scenery,Large Mammoth Fence,4,5339
+MAMTHW02,TT,Small Scenery,Large Mammoth Fence,4,5485
+MAMTHW03,TT,Small Scenery,Large Angled Mammoth Fence,4,5760
+MAMTHW04,TT,Small Scenery,Large Angled Mammoth Fence,4,5237
+MAMTHW05,TT,Small Scenery,Small Angled Mammoth Fence,4,4752
+MAMTHW06,TT,Small Scenery,Small Angled Mammoth Fence,4,4105
+MCASTL02,TT,Small Scenery,Castle Wall,4,23984
+MCASTL03,TT,Small Scenery,Castle Wall,4,23974
+MCASTL04,TT,Small Scenery,Castle Wall,4,24009
+MCASTL05,TT,Small Scenery,Castle Ramparts Corner,4,27452
+MCASTL06,TT,Small Scenery,Castle Ramparts,4,26172
+MCASTL07,TT,Small Scenery,Castle Ramparts Corner,4,27567
+MCASTL08,TT,Small Scenery,Castle Ramparts Inverted Corner,4,29596
+MCASTL09,TT,Small Scenery,Castle Corner Piece,4,31738
+MCASTL10,TT,Small Scenery,Castle Ramparts Corner,4,17423
+MCASTL19,TT,Small Scenery,Castle Corner Piece,4,11076
+MDBUCKET,TT,Small Scenery,Bucket,4,684
+MDUSASTA,TT,Small Scenery,Animatronic Medusa,68,105621
+MEDSTOOL,TT,Small Scenery,Stool,4,539
+MEDTOOLS,TT,Small Scenery,Farm Tools,4,2738
+MEDTRGET,TT,Small Scenery,Archery Target,4,1715
+METEORCR,TT,Small Scenery,Meteor Crater Corner,4,14926
+METEORST,TT,Small Scenery,Meteor Crater Wall,4,14697
+METRCRS1,TT,Small Scenery,Meteor Crater Wall with Crystals,4,8048
+METRCRS2,TT,Small Scenery,Meteor Crater Wall with Crystals,4,7842
+MINOTAUR,TT,Small Scenery,Minotaur Statue,4,8939
+OLDNYK01,TT,Small Scenery,New York Wall Piece,4,6409
+OLDNYK02,TT,Small Scenery,New York Wall Piece,4,6402
+OLDNYK03,TT,Small Scenery,New York Wall Piece,4,6381
+OLDNYK04,TT,Small Scenery,New York Wall Piece,4,6408
+OLDNYK05,TT,Small Scenery,New York Roof Piece,4,7123
+OLDNYK06,TT,Small Scenery,New York Corner Filler,4,4524
+OLDNYK07,TT,Small Scenery,New York Inverted Corner Piece,4,16990
+OLDNYK08,TT,Small Scenery,New York Inverted Corner Piece,4,23865
+OLDNYK09,TT,Small Scenery,New York Inverted Corner Piece,4,23852
+OLDNYK10,TT,Small Scenery,New York Inverted Corner Piece,4,23873
+OLDNYK11,TT,Small Scenery,New York Wall with Line,4,17641
+OLDNYK12,TT,Small Scenery,New York Washing Line,4,4513
+OLDNYK13,TT,Small Scenery,New York Wall with Line,4,3645
+OLDNYK14,TT,Small Scenery,New York Washing Line,4,3250
+OLDNYK15,TT,Small Scenery,New York Wall Piece,4,16959
+OLDNYK16,TT,Small Scenery,New York Wall Piece,4,16882
+OLDNYK17,TT,Small Scenery,New York Wall Piece,4,16947
+OLDNYK18,TT,Small Scenery,New York Wall Piece,4,17556
+OLDNYK19,TT,Small Scenery,New York Wall Piece,4,17779
+OLDNYK31,TT,Small Scenery,New York Wall Piece,4,2401
+OLDNYK33,TT,Small Scenery,New York Wall Piece,4,12279
+OLDNYK34,TT,Small Scenery,New York Wall Piece,4,3048
+OLDNYK35,TT,Small Scenery,New York Roof Piece,4,2915
+PDFLAG02,TT,Small Scenery,Period Flag,68,87911
+PDFLAG03,TT,Small Scenery,Period Flag,68,87911
+PDFLAG04,TT,Small Scenery,Period Flag,68,87911
+PDFLAG05,TT,Small Scenery,Period Flag,68,87911
+PDFLAG06,TT,Small Scenery,Period Flag,68,87911
+PDFLAG08,TT,Small Scenery,Period Flag,68,60523
+PDFLAG13,TT,Small Scenery,Period Flag,68,100598
+PDFLAG14,TT,Small Scenery,Period Flag,68,100598
+PDFLAG15,TT,Small Scenery,Period Flag,68,100598
+PDFLAG16,TT,Small Scenery,Period Flag,68,87846
+POLWTBTN,TT,Small Scenery,Animatronic Police Officer,68,144481
+PRIMHEAD,TT,Small Scenery,Wood Fence with Man Eating Plant,68,86169
+PRIMHEAR,TT,Small Scenery,Wood Fence with Man Eating Plant,68,86737
+PRIMROOR,TT,Small Scenery,Wood Fence with Climbing Vines,68,60816
+PRIMROOT,TT,Small Scenery,Wood Fence with Climbing Vines,68,60463
+PRIMSCRN,TT,Small Scenery,Wood Fence with Man Eating Plant,68,102980
+PRIMST01,TT,Small Scenery,Wood Fence with Man Eating Plant,68,91696
+PRIMST02,TT,Small Scenery,Wood Fence with Man Eating Plant,68,91800
+PRIMST03,TT,Small Scenery,Wood Fence with Man Eating Plant,68,88229
+PRIMTALL,TT,Small Scenery,Wood Fence with Man Eating Plant,68,177140
+PRIMWAL1,TT,Small Scenery,Wood Fence with Dead Vines,4,5116
+PRIMWAL2,TT,Small Scenery,Wood Fence with Dead Vines,4,6461
+PRIMWAL3,TT,Small Scenery,Wood Fence with Dead Vines,4,6286
+PSNTWL01,TT,Small Scenery,Dark Age Village Roof with Chimney,68,236141
+PSNTWL02,TT,Small Scenery,Dark Age Village Lower Wall Piece,4,6192
+PSNTWL03,TT,Small Scenery,Dark Age Village Lower Wall Piece,4,6196
+PSNTWL04,TT,Small Scenery,Dark Age Village Lower Wall Piece,4,6126
+PSNTWL05,TT,Small Scenery,Dark Age Village Lower Wall Piece,4,5900
+PSNTWL06,TT,Small Scenery,Dark Age Village Lower Wall Piece,4,6140
+PSNTWL07,TT,Small Scenery,Dark Age Village Lower Wall Piece,4,5904
+PSNTWL08,TT,Small Scenery,Dark Age Village Lower Corner Piece,4,9354
+PSNTWL09,TT,Small Scenery,Dark Age Village Upper Wall Piece,4,6330
+PSNTWL10,TT,Small Scenery,Dark Age Village Upper Wall Piece,4,6330
+PSNTWL11,TT,Small Scenery,Dark Age Village Upper Wall Piece,4,6330
+PSNTWL12,TT,Small Scenery,Dark Age Village Upper Wall Piece,4,6159
+PSNTWL13,TT,Small Scenery,Dark Age Village Upper Wall Piece,4,6310
+PSNTWL14,TT,Small Scenery,Dark Age Village Roof Piece,4,10658
+PSNTWL15,TT,Small Scenery,Dark Age Village Inverted Roof Piece,4,12510
+PSNTWL16,TT,Small Scenery,Dark Age Village Roof Piece,4,6104
+PSNTWL17,TT,Small Scenery,Dark Age Village Roof Piece,4,5547
+PSNTWL20,TT,Small Scenery,Dark Age Village Window Box Roof,4,7376
+PSNTWL21,TT,Small Scenery,Dark Age Village Window Box Roof,4,7374
+PSNTWL23,TT,Small Scenery,Dark Age Village Upper Corner Piece,4,9638
+PSNTWL24,TT,Small Scenery,Dark Age Village Window Box,4,8622
+PSNTWL25,TT,Small Scenery,Dark Age Village Window Box,4,8761
+PSNTWL29,TT,Small Scenery,Dark Age Village Window Box Roof,4,4934
+PSNTWL30,TT,Small Scenery,Dark Age Village Window Box Roof,4,6683
+PSNTWL31,TT,Small Scenery,Dark Age Village Corner Roof Piece,4,8200
+RCKNROLR,TT,Small Scenery,Cool Dude,68,110329
+RDMETO03,TT,Small Scenery,Red Meteor Crater Wall,4,14752
+RDMETO04,TT,Small Scenery,Red Meteor Crater Inverted Corner,4,15072
+ROBNHOOD,TT,Small Scenery,Animatronic Robin Hood,68,59398
+RSWATRES,TT,Small Scenery,Rollerskating Waitress,68,106418
+RUNWAY01,TT,Small Scenery,Runway Piece,4,6261
+RUNWAY02,TT,Small Scenery,Runway Piece,4,6261
+RUNWAY03,TT,Small Scenery,Runway Corner Piece,4,6336
+RUNWAY04,TT,Small Scenery,Runway Edge Piece,4,6335
+RUNWAY05,TT,Small Scenery,Runway Piece,4,6261
+RUNWAY06,TT,Small Scenery,Runway Inverted Corner Piece,4,6423
+SCHNBOST,TT,Small Scenery,Buoy,68,58451
+SCHNBOUY,TT,Small Scenery,Buoy,68,56311
+SCHNCRSH,TT,Small Scenery,Wrecked Seaplane,4,6139
+SCHNDRUM,TT,Small Scenery,Oil Barrel,4,941
+SCHNPL01,TT,Small Scenery,Sea Plane,68,84089
+SCHNPL02,TT,Small Scenery,Sea Plane,68,130986
+SCHNPL03,TT,Small Scenery,Sea Plane,68,113890
+SCHNPL04,TT,Small Scenery,Sea Plane,68,101477
+SCHNPL05,TT,Small Scenery,Sea Plane,4,5164
+SCHNPL06,TT,Small Scenery,Sea Plane,4,6087
+SCHNTNNY,TT,Small Scenery,Racing Tannoy,4,4030
+SDRAGFLY,TT,Small Scenery,Animatronic Dragonflies,68,71641
+SHWDFRST,TT,Small Scenery,Forest Trees,4,13848
+SKELETO1,TT,Small Scenery,Animatronic Skeletal Army,68,72814
+SKELETO2,TT,Small Scenery,Animatronic Skeletal Army,68,62277
+SKELETO3,TT,Small Scenery,Animatronic Skeletal Army,68,67298
+SMALLCPU,TT,Small Scenery,Super Computer Small CPU,68,219237
+SMOKSK01,TT,Small Scenery,Large Smoking Chimney,68,110404
+SMOKSK02,TT,Small Scenery,Smoke Stack Mid,4,5529
+SMOKSK03,TT,Small Scenery,Smoke Stack Base,4,6904
+SOUPCRN2,TT,Small Scenery,Primordial Soup,68,87241
+SOUPCRNR,TT,Small Scenery,Primordial Soup,68,76628
+SOUPED01,TT,Small Scenery,Primordial Soup,68,71921
+SOUPED02,TT,Small Scenery,Primordial Soup,68,85656
+SOUPTL01,TT,Small Scenery,Primordial Soup,68,84392
+SOUPTL02,TT,Small Scenery,Primordial Soup,68,82325
+SPACRANG,TT,Small Scenery,Animatronic Space Ranger,68,84333
+SPCSHP01,TT,Small Scenery,Space Ship Cargo Section,68,186433
+SPCSHP02,TT,Small Scenery,Space Ship Comms Section,68,158750
+SPCSHP03,TT,Small Scenery,Space Ship Solar Section,68,165833
+SPCSHP04,TT,Small Scenery,Space Ship Solar Panels,68,46143
+SPCSHP05,TT,Small Scenery,Space Ship Gravity Section,68,190209
+SPCSHP06,TT,Small Scenery,Space Ship Cross Section,4,11851
+SPCSHP07,TT,Small Scenery,Space Ship Control Deck,68,124295
+SPCSHP08,TT,Small Scenery,Space Ship Fuel Section,68,154585
+SPCSHP09,TT,Small Scenery,Space Ship Docking Section,4,8229
+SPCSHP10,TT,Small Scenery,Space Ship Engine Section,4,8263
+SPCSHP11,TT,Small Scenery,Space Ship Living Section,4,10120
+SPCSHP12,TT,Small Scenery,Space Ship Science Section,68,191488
+SPEAKR01,TT,Small Scenery,Small Speaker,68,130956
+SPEAKR02,TT,Small Scenery,Large Speaker,68,228319
+SPIKTAIL,TT,Small Scenery,Animatronic Stegosaurus,68,106494
+SPTERDAC,TT,Small Scenery,Animatronic flapping Pterodactyl,68,166056
+STGBAND1,TT,Small Scenery,Band Member,68,143639
+STGBAND2,TT,Small Scenery,Band Member,68,120585
+STGBAND3,TT,Small Scenery,Band Member,68,106320
+STGBAND4,TT,Small Scenery,Band Member,68,96373
+STMDRAN1,TT,Small Scenery,Steaming Drains,68,31153
+STNESTA1,TT,Small Scenery,Men Turned to Stone,4,3896
+STNESTA2,TT,Small Scenery,Men Turned to Stone,4,4046
+STNESTA3,TT,Small Scenery,Men Turned to Stone,4,4087
+STNESTA4,TT,Small Scenery,Men Turned to Stone,4,4214
+STOOLSET,TT,Small Scenery,Stools,4,2502
+STRICTOP,TT,Small Scenery,Animatronic Triceratops,68,86718
+SWAMPLT1,TT,Small Scenery,Swamp Plant,4,14121
+SWAMPLT2,TT,Small Scenery,Swamp Fern,4,6147
+SWAMPLT3,TT,Small Scenery,Swamp Fern,4,8120
+SWAMPLT4,TT,Small Scenery,Swamp Plant,4,7606
+SWAMPLT5,TT,Small Scenery,Swamp Plant,4,9575
+SWAMPLT6,TT,Small Scenery,Swamp Fern,4,4566
+SWAMPLT7,TT,Small Scenery,Swamp Fern,4,6236
+SWAMPLT8,TT,Small Scenery,Swamp Fern,4,6546
+SWAMPLT9,TT,Small Scenery,Swamp Fern,4,8174
+SWRDSTNE,TT,Small Scenery,Sword in the Stone,4,6280
+TARPIT01,TT,Small Scenery,Bubbling Tarpit,68,140836
+TARPIT02,TT,Small Scenery,Bubbling Tarpit,68,83050
+TARPIT03,TT,Small Scenery,Bubbling Tarpit,68,81775
+TARPIT04,TT,Small Scenery,Bubbling Tarpit,4,6132
+TARPIT05,TT,Small Scenery,Bubbling Tarpit,4,5521
+TARPIT06,TT,Small Scenery,Bubbling Tarpit,4,5619
+TARPIT07,TT,Small Scenery,Bubbling Tarpit,4,5180
+TARPIT08,TT,Small Scenery,Bubbling Tarpit,4,5139
+TARPIT09,TT,Small Scenery,Bubbling Tarpit,4,5955
+TARPIT10,TT,Small Scenery,Bubbling Tarpit,4,7146
+TARPIT11,TT,Small Scenery,Bubbling Tarpit,4,6872
+TARPIT12,TT,Small Scenery,Bubbling Tarpit,4,5343
+TARPIT13,TT,Small Scenery,Bubbling Tarpit,4,5364
+TARPIT14,TT,Small Scenery,Bubbling Tarpit,4,6755
+TITANSTA,TT,Small Scenery,Atlas Statue,68,209605
+TYRANREX,TT,Small Scenery,Animatronic T-Rex,68,103329
+VALKRI01,TT,Small Scenery,Valkyrie,4,9573
+VALKRI02,TT,Small Scenery,Valkyrie,4,7632
+VOLCVENT,TT,Small Scenery,Active Volcanic Vent,68,177545
+WAVEKING,TT,Small Scenery,Animatronic Waving King,68,63409
+WDNCART2,TT,Small Scenery,Wooden Cart,4,5247
+WEPNRACK,TT,Small Scenery,Weapon Set,4,4429
+WHCCOLDS,TT,Small Scenery,Witches around Cauldron,68,158657
+WISKYBL1,TT,Small Scenery,Whisky Barrel,4,1111
+WISKYBL2,TT,Small Scenery,Whisky Barrels,4,3331
+YEWTREEX,TT,Small Scenery,Yew Tree,4,11793
+ZEUSSTAT,TT,Small Scenery,Zeus Statue,4,9435
+JAILXX19,TT,Walls,Prison Fence,6,16397
+MSPKWA01,TT,Walls,Spiked Fence,6,8475
+1X2ABR01,WW,Large Scenery,Aboriginal Plain Tile,12,26359
+1X2ABR02,WW,Large Scenery,Aboriginal Snake Artwork,12,26630
+1X2ABR03,WW,Large Scenery,Aboriginal Spirit Artwork,12,26402
+1X2AZT01,WW,Large Scenery,Temple Wall Piece with Head,12,26907
+1X2AZT02,WW,Large Scenery,Temple Broken Wall Piece with Head,12,26811
+1X2GLAMA,WW,Large Scenery,Gold Llama,12,29032
+1X2LGCHM,WW,Large Scenery,Log Cabin Side Chimney,12,24817
+AFRCLION,WW,Large Scenery,Lion,12,23393
+AFRRHINO,WW,Large Scenery,Rhino,12,21821
+ATRACTOR,WW,Large Scenery,Tractor,12,19471
+AFRZEBRA,WW,Large Scenery,Zebra,12,22613
+1X4BRG01,WW,Large Scenery,Suspension Bridge Start side 1,20,35047
+1X4BRG02,WW,Large Scenery,Suspension Bridge Start side 2,20,35223
+1X4BRG03,WW,Large Scenery,Suspension Bridge Tower side 1,20,69948
+1X4BRG04,WW,Large Scenery,Suspension Bridge Tower side 2,20,69667
+1X4BRG05,WW,Large Scenery,Suspension Bridge Cable Section,20,53940
+3X3ALTRE,WW,Large Scenery,Jungle Tree with Leopards,40,57077
+3X3ATRE1,WW,Large Scenery,Jungle Tree 2,20,43075
+3X3ATRE2,WW,Large Scenery,Jungle Tree 1,40,67314
+3X3ATRE3,WW,Large Scenery,Jungle Tree with Vines,40,79877
+3X3EUCAL,WW,Large Scenery,Eucalyptus Tree,40,53424
+3X3HMSEN,WW,Large Scenery,HMS Endeavour,40,57359
+3X3MANTR,WW,Large Scenery,Mangrove Tree,40,72270
+50ROCKET,WW,Large Scenery,1950's Rocket,20,42978
+ADULTELE,WW,Large Scenery,Adult Indian Elephant,20,34471
+ATOMIUM,WW,Large Scenery,Atomium,68,73924
+BamboRf1,WW,Large Scenery,Bamboo Roof,20,20640
+BAMBORF2,WW,Large Scenery,Bamboo Roof,12,20488
+BamboRf3,WW,Large Scenery,Bamboo Roof,20,40341
+BIGBEN,WW,Large Scenery,Big Ben and the Houses of Parliament,40,85172
+BIGDISH,WW,Large Scenery,Satellite Dish,40,63074
+BIGGEOSP,WW,Large Scenery,Big Geosphere,20,60538
+CDRAGON,WW,Large Scenery,Chinese Dragon,68,66212
+CIRCUS,WW,Large Scenery,Circus,20,32820
+COWBOY01,WW,Large Scenery,Cowboy 1,20,33700
+COWBOY02,WW,Large Scenery,Cowboy 2,20,32056
+DAMTOWER,WW,Large Scenery,Dam Tower,20,50474
+EASERLND,WW,Large Scenery,Easter Island Statue,20,46701
+EIFFEL,WW,Large Scenery,Eiffel Tower,20,53043
+EVILSAM,WW,Large Scenery,Evil Samurai,40,50464
+FATBUDDA,WW,Large Scenery,Fat Buddha,20,44857
+GDSTAUE1,WW,Large Scenery,Gold Statue 1,20,54924
+GDSTAUE2,WW,Large Scenery,Gold Statue 2,20,67745
+GEISHA,WW,Large Scenery,Geisha,40,45444
+GIRAFFE1,WW,Large Scenery,Giraffe 1,20,27990
+GIRAFFE2,WW,Large Scenery,Giraffe 2,20,21337
+GOLDBUDA,WW,Large Scenery,Golden Buddha,20,54600
+GOODSAM,WW,Large Scenery,Good Samurai,40,49618
+GWOCTUR1,WW,Large Scenery,Great Wall Of China Turret Straight,40,179563
+GWOCTUR2,WW,Large Scenery,Great Wall Of China Turret Corner,40,157876
+HELIPAD,WW,Large Scenery,Helipad,40,67289
+HIPPO01,WW,Large Scenery,Hippo 1,12,14339
+HIPPO02,WW,Large Scenery,Hippo 2,12,12832
+ICEFOR01,WW,Large Scenery,Ice Formation,68,81196
+ICEFOR02,WW,Large Scenery,Ice Formation,68,91125
+INDIANST,WW,Large Scenery,Native American,20,38316
+LARGEJU1,WW,Large Scenery,Large Rainforest Tree,20,77206
+LINCOLNS,WW,Large Scenery,Washington Statue,20,53670
+MBSKYR01,WW,Large Scenery,Sky Scraper Roof Piece,40,57529
+MBSKYR02,WW,Large Scenery,Sky Scraper Tip,40,77107
+OVRGRWNT,WW,Large Scenery,Old Overgrown Tree,40,121845
+POGODAL,WW,Large Scenery,Pagoda,40,60770
+PAGODAM,WW,Large Scenery,Pagoda,40,43402
+PAGODAS,WW,Large Scenery,Pagoda,40,33874
+PAGODATW,WW,Large Scenery,Pagoda Tower,40,87971
+RADAR,WW,Large Scenery,Radar Dish,68,116231
+RDRAB01,WW,Large Scenery,Drab Large Tower Mid-Section,20,39209
+RDRAB02,WW,Large Scenery,Drab Large Tower Base,20,36764
+RDRAB03,WW,Large Scenery,Drab Large Tower Top,20,33358
+RDRAB04,WW,Large Scenery,Drab Large Tower Broken Base,20,40057
+REDWOOD,WW,Large Scenery,Redwood Tree,20,69263
+RKREML08,WW,Large Scenery,Kremlin Large Tower Base,20,37027
+RKREML09,WW,Large Scenery,Kremlin Large Tower Top,20,35496
+RKREML10,WW,Large Scenery,Kremlin Large Tower Mid-Section,20,38960
+RTUDOR05,WW,Large Scenery,Tudor Roof Piece 3,12,27660
+RTUDOR06,WW,Large Scenery,Tudor Roof Piece 4,12,26655
+SHIVA,WW,Large Scenery,Shiva,20,45470
+SOFLIBRT,WW,Large Scenery,Statue of Liberty,20,64747
+SPACEORB,WW,Large Scenery,Space Orbs,40,47879
+SPUTNIK,WW,Large Scenery,Sputnik,20,25232
+SUNKEN,WW,Large Scenery,Sunken Ship,68,75709
+TAJMCBSE,WW,Large Scenery,Maharaja Palace Tower Base,20,49627
+TAJMCOLM,WW,Large Scenery,Maharaja Palace Tower Column,20,29728
+TAJMCTOP,WW,Large Scenery,Maharaja Palace Tower Top,20,39929
+TAJMDOME,WW,Large Scenery,Maharaja Palace Dome,68,136900
+WINDMILL,WW,Large Scenery,Windmill,40,69468
+AFRICENT,WW,Park Entrance,Africa Park Entrance,12,31037
+EUROENT,WW,Park Entrance,European Park Entrance,12,47512
+ICEENT,WW,Park Entrance,Ice Park Entrance,12,46080
+JAPENT,WW,Park Entrance,Japanese Park Entrance,12,36382
+NAENT,WW,Park Entrance,North America Park Entrance,12,38745
+OZENTRAN,WW,Park Entrance,Australasian Park Entrance,12,25515
+SAMERENT,WW,Park Entrance,South American Park Entrance,12,49286
+ANACONDA,WW,Ride/Shop,Anaconda Ride,3999,1396721
+BLACKCAB,WW,Ride/Shop,London Taxi Black Cab Ride,243,95764
+BOMERANG,WW,Ride/Shop,Boomerang Coaster,1167,370180
+BULLET,WW,Ride/Shop,Bullet Coaster,4471,1981162
+CADDILAC,WW,Ride/Shop,Limousine Rollercoaster,4471,1874889
+COFFEECU,WW,Ride/Shop,Coffee Cup Ride,243,191139
+CONDORRD,WW,Ride/Shop,Condor Ride,4563,1413137
+CONGAEEL,WW,Ride/Shop,Conga Eel Coaster,4471,1700528
+CRNVBFLY,WW,Ride/Shop,Carnival Float Ride - Butterfly Cars,243,110595
+CRNVFROG,WW,Ride/Shop,Carnival Float Ride - Frog Cars,243,91842
+CRNVLZRD,WW,Ride/Shop,Carnival Float Ride - Lizard Cars,243,94345
+CROCFLUM,WW,Ride/Shop,Crocodile Ride,627,181554
+DHOWWATR,WW,Ride/Shop,Dhow water ride,115,50497
+DIAMONDR,WW,Ride/Shop,Diamond Ride,243,300885
+DOLPHINR,WW,Ride/Shop,Dolphin Ride,67,28823
+DRAGDODG,WW,Ride/Shop,Chinese Dragonhead Ride,67,34239
+DRAGON,WW,Ride/Shop,Dragon Coaster,4471,1902395
+FABERGE,WW,Ride/Shop,Faberge Egg Ride,243,151364
+FIGHTKIT,WW,Ride/Shop,Fighting Kite Ride,243,181932
+FIRECRAK,WW,Ride/Shop,Fire Cracker Ride,247,2363513
+FOOTBALL,WW,Ride/Shop,Football Ride,4623,2816738
+GORILLA,WW,Ride/Shop,Gorilla Ride,4623,2180380
+GRATWHTE,WW,Ride/Shop,Great White Shark Ride,4471,2005029
+HIPPORID,WW,Ride/Shop,Hippo Ride,91,60825
+HUSKIE,WW,Ride/Shop,Huskie Car,867,374679
+ITALYPOR,WW,Ride/Shop,Italian Police Ride,243,208418
+JAGUARRD,WW,Ride/Shop,Jaguar Ride,1815,837438
+JUNKSWNG,WW,Ride/Shop,Chinese Junk Swing Ride,177,2237205
+KILLWHAL,WW,Ride/Shop,Killer Whale,91,52183
+KOLARIDE,WW,Ride/Shop,Koala Ride,1563,630926
+LIONRIDE,WW,Ride/Shop,Lion Ride,1815,893067
+LONDONBS,WW,Ride/Shop,London Bus Tram,803,314034
+MANDARIN,WW,Ride/Shop,Mandarin Duck Water Ride,67,35157
+MANTARAY,WW,Ride/Shop,Manta Ray Ride,1763,739688
+MINECART,WW,Ride/Shop,Mine Cart Ride,2163,951781
+MINELIFT,WW,Ride/Shop,Mine Lift,147,90174
+OSTRICH,WW,Ride/Shop,Ostrich Ride,4471,1665236
+OUTRIGGR,WW,Ride/Shop,Outrigger Ride,115,53780
+PENGUINB,WW,Ride/Shop,Penguin Bobsleigh,2707,595410
+POLARBER,WW,Ride/Shop,Polar Bear Rollercoaster,2043,791820
+RHINORID,WW,Ride/Shop,Rhino Ride,2499,909848
+ROCKET,WW,Ride/Shop,1950's Rocket Ride,4623,2594331
+RSSNCRRD,WW,Ride/Shop,Russian Cars,1815,584196
+SANFTRAM,WW,Ride/Shop,San Francisco Tram,803,245392
+SEALS,WW,Ride/Shop,Seals Rollercoaster,4471,1926528
+SKIDOO,WW,Ride/Shop,Skidoo Dodgems,67,28912
+SLOTH,WW,Ride/Shop,Sloth Ride,4623,2240157
+SPUTNIKR,WW,Ride/Shop,Sputnik Suspended Flying Coaster,1283,509179
+STEAMTRN,WW,Ride/Shop,Maharaja Steam Train,1155,843320
+STGCCSTR,WW,Ride/Shop,Stage Coach Rollercoaster,2163,894285
+SURFBRDC,WW,Ride/Shop,Surfing Coaster,3351,1043098
+TAXICSTR,WW,Ride/Shop,Yellow Taxi Coaster,4471,1988701
+TGVTRAIN,WW,Ride/Shop,TGV Train Roller Coaster,5883,2562624
+TIGRTWST,WW,Ride/Shop,Bengal Tiger Rollercoaster,2595,1257717
+TUTLBOAT,WW,Ride/Shop,Turtle Water Ride,67,40282
+WHICGRUB,WW,Ride/Shop,Witchity Grub Ride,1491,483137
+1X1ATRE2,WW,Small Scenery,Vine Tree,4,32324
+1X1ATREE,WW,Small Scenery,Low Bush,4,6687
+1X1BRANG,WW,Small Scenery,Boomerang,4,6819
+1X1DIDGE,WW,Small Scenery,Digeridoo,4,11002
+1X1EMUXX,WW,Small Scenery,Emu,4,8440
+1X1JUGT2,WW,Small Scenery,Small Rainforest Tree 1,4,17795
+1X1JUGT3,WW,Small Scenery,Small Rainforest Tree 2,4,13243
+1X1KANGA,WW,Small Scenery,Kangaroo,4,7991
+1X1TERMM,WW,Small Scenery,Termite Mound,4,13243
+ADPANDA,WW,Small Scenery,Adult Panda,4,4955
+ANTILOPF,WW,Small Scenery,Antelope Female,4,2404
+ANTILOPM,WW,Small Scenery,Antelope Male,4,3287
+ANTILOPP,WW,Small Scenery,Antelope Pair,4,4618
+BABPANDA,WW,Small Scenery,Baby Panda,4,3216
+BABYELE,WW,Small Scenery,Baby Indian Elephant,4,3760
+BALLLAN2,WW,Small Scenery,Ball Lantern,4,2631
+BALLLANT,WW,Small Scenery,Ball Lantern,4,3093
+BambooBs,WW,Small Scenery,Bamboo Bush,4,16418
+BAMBOOPL,WW,Small Scenery,Bamboo Plinth,4,4859
+BSTATUE1,WW,Small Scenery,Broken Statue,4,6594
+CAMPFANI,WW,Small Scenery,Animated Camp Fire,68,43310
+CONVEYR1,WW,Small Scenery,Conveyer Belt Corner,68,55783
+CONVEYR2,WW,Small Scenery,Conveyer Belt Rise,68,65680
+CONVEYR3,WW,Small Scenery,Conveyer Belt End,68,109230
+CONVEYR4,WW,Small Scenery,Conveyer Belt Straight,68,69955
+CONVEYR5,WW,Small Scenery,Conveyer Belt Corner Reverse,68,55857
+FISHHOLE,WW,Small Scenery,Fish Hole,68,69626
+FLAMNGO1,WW,Small Scenery,Flamingo Feeding,68,29770
+FLAMNGO2,WW,Small Scenery,Flamingo Looking,68,29697
+FLAMNGO3,WW,Small Scenery,Flamingo Preening,68,26350
+FOUNTARC,WW,Small Scenery,Australian Fountain Set 2,68,128834
+FOUNTROW,WW,Small Scenery,Australian Fountain Set 2,68,64233
+FSTATUE1,WW,Small Scenery,Fixed Statue,4,8147
+G1DANCER,WW,Small Scenery,Mardi Gras Dancer,68,124226
+G2DANCER,WW,Small Scenery,Mardi Gras Dancer,68,113535
+INUIT,WW,Small Scenery,Inuit,68,102949
+INUIT2,WW,Small Scenery,Inuit,68,83052
+INFLAG01,WW,Small Scenery,Indian Silk Flag,68,123979
+INFLAG02,WW,Small Scenery,Indian Silk Flag,68,121098
+INFLAG03,WW,Small Scenery,Indian Silk Flag,68,121098
+INFLAG04,WW,Small Scenery,Indian Silk Flag,68,121098
+INFLAG05,WW,Small Scenery,Indian Silk Flag,68,121098
+JACHTREE,WW,Small Scenery,Japanese Cherry Tree,4,8259
+JAPCHBLO,WW,Small Scenery,Japanese Cherry Blossom Tree,4,11751
+JAPPINTR,WW,Small Scenery,Japanese Pine Tree,4,12329
+JAPSNOTR,WW,Small Scenery,Japanese Snowball Tree,4,8433
+JPFLAG01,WW,Small Scenery,Japanese Silk Flag,68,229533
+JPFLAG02,WW,Small Scenery,Japanese Silk Flag,68,91585
+JPFLAG03,WW,Small Scenery,Japanese Silk Flag,68,125717
+JPFLAG04,WW,Small Scenery,Japanese Silk Flag,68,125042
+JPFLAG05,WW,Small Scenery,Japanese Silk Flag,68,223608
+JPFLAG06,WW,Small Scenery,Japanese Silk Flag,68,124169
+OILPUMP,WW,Small Scenery,Oil Pump,68,153920
+ORIEGONG,WW,Small Scenery,Asian Gong,4,3766
+PCG,WW,Small Scenery,Pipe,4,4372
+PCO,WW,Small Scenery,Pipe,4,6354
+POSTBOX,WW,Small Scenery,British Post Box,4,6294
+PST,WW,Small Scenery,Pipe,4,7070
+PTJ,WW,Small Scenery,Pipe,4,8452
+PTK,WW,Small Scenery,Pipe,4,8156
+PVA,WW,Small Scenery,Pipe,4,8294
+RBRICK01,WW,Small Scenery,Red Brick Inverted Roof Piece,4,12126
+RBRICK02,WW,Small Scenery,Red Brick Corner Roof Piece,4,8237
+RBRICK03,WW,Small Scenery,Red Brick Flat Roof Edge Piece,4,5852
+RBRICK04,WW,Small Scenery,Red Brick Flat Roof Corner,4,6434
+RBRICK05,WW,Small Scenery,Red Brick Roof Piece 2,4,5043
+RBRICK07,WW,Small Scenery,Red Brick Roof Piece 3,4,12470
+RBRICK08,WW,Small Scenery,Red Brick Roof Piece 1,4,10050
+RCORR01,WW,Small Scenery,Corrugated Roof Piece,4,4945
+RCORR02,WW,Small Scenery,Corrugated Roof Piece,4,5034
+RCORR03,WW,Small Scenery,Corrugated Roof Piece,4,4941
+RCORR04,WW,Small Scenery,Corrugated Roof Piece,4,4964
+RCORR05,WW,Small Scenery,Corrugated Roof Piece,4,7262
+RCORR07,WW,Small Scenery,Corrugated Roof Piece,4,7951
+RCORR08,WW,Small Scenery,Corrugated Roof Piece,4,9300
+RCORR09,WW,Small Scenery,Corrugated Roof Piece,4,9445
+RCORR10,WW,Small Scenery,Corrugated Roof Piece,4,9343
+RCORR11,WW,Small Scenery,Corrugated Roof Piece,4,4927
+RDRAB05,WW,Small Scenery,Drab Small Tower Minaret Base,4,13447
+RDRAB06,WW,Small Scenery,Drab Small Tower Top or Mid-Section,4,13633
+RDRAB07,WW,Small Scenery,Drab Small Tower Base,4,14458
+RDRAB08,WW,Small Scenery,Drab Minaret Piece 1,4,4841
+RDRAB09,WW,Small Scenery,Drab Minaret Piece 2,4,5134
+RDRAB10,WW,Small Scenery,Drab Minaret Piece 3,4,5521
+RDRAB11,WW,Small Scenery,Drab Roof Piece 1,4,4957
+RDRAB12,WW,Small Scenery,Drab Roof Piece 2,4,5062
+RDRAB13,WW,Small Scenery,Drab Roof Piece 3,4,2557
+RDRAB14,WW,Small Scenery,Drab Roof Piece 4,4,2722
+RGEORG01,WW,Small Scenery,Georgian Roof End Piece 1,4,11716
+RGEORG02,WW,Small Scenery,Georgian Roof End Piece 2,4,11563
+RGEORG03,WW,Small Scenery,Georgian Roof Piece 1,4,11088
+RGEORG04,WW,Small Scenery,Georgian Roof Piece 2,4,11506
+RGEORG05,WW,Small Scenery,Georgian Roof Piece 3,4,11942
+RGEORG06,WW,Small Scenery,Georgian Roof Piece 4,4,10746
+RGEORG07,WW,Small Scenery,Georgian Roof Piece 5,4,5064
+RGEORG08,WW,Small Scenery,Georgian Ground Floor Wall Piece 7,4,5762
+RGEORG09,WW,Small Scenery,Georgian Flat Roof Edge 1,4,6126
+RGEORG10,WW,Small Scenery,Georgian Flat Roof Edge 2,4,6144
+RGEORG11,WW,Small Scenery,Georgian Flat Roof Corner,4,6811
+RGEORG12,WW,Small Scenery,Georgian Roof Piece 7,4,5094
+ROOFICE1,WW,Small Scenery,Ice Roof,4,6712
+ROOFICE2,WW,Small Scenery,Ice Roof,4,9162
+ROOFICE3,WW,Small Scenery,Ice Roof,4,9065
+ROOFICE4,WW,Small Scenery,Ice Roof,4,8990
+ROOFICE5,WW,Small Scenery,Ice Roof,4,5595
+ROOFICE6,WW,Small Scenery,Ice Roof,4,7422
+RKREML01,WW,Small Scenery,Kremlin Minaret Piece 1,4,5110
+RKREML02,WW,Small Scenery,Kremlin Minaret Piece 2,4,2902
+RKREML03,WW,Small Scenery,Kremlin Minaret Piece 3,4,6238
+RKREML04,WW,Small Scenery,Kremlin Roof Piece 1,4,6941
+RKREML05,WW,Small Scenery,Kremlin Roof Piece 2,4,6224
+RKREML06,WW,Small Scenery,Kremlin Small Tower Mid-Section,4,13630
+RKREML07,WW,Small Scenery,Kremlin Small Tower Base,4,14787
+RKREML11,WW,Small Scenery,Kremlin Small Tower Minaret Base,4,13448
+RLOG01,WW,Small Scenery,Log Cabin Roof Piece,4,9465
+RLOG02,WW,Small Scenery,Log Cabin Roof Piece,4,9490
+RLOG03,WW,Small Scenery,Log Cabin Wall Piece,4,8677
+RLOG04,WW,Small Scenery,Log Cabin Wall Piece,4,8551
+RLOG05,WW,Small Scenery,Log Cabin Roof Piece,4,7382
+RMARBLE1,WW,Small Scenery,Marble Roof,4,6988
+RMARBLE2,WW,Small Scenery,Marble Roof,4,12068
+RMARBLE3,WW,Small Scenery,Marble Roof,4,5876
+RMARBLE4,WW,Small Scenery,Marble Roof,4,8236
+RMUD01,WW,Small Scenery,Curved Mud Wall Piece,4,6807
+RMUD02,WW,Small Scenery,Curved Mud Wall Piece,4,7102
+RMUD03,WW,Small Scenery,Curved Mud Wall Piece,4,7093
+RMUD05,WW,Small Scenery,Mud Roof Piece,4,8412
+ROOFIG01,WW,Small Scenery,Igloo Wall,4,7395
+ROOFIG02,WW,Small Scenery,Igloo Wall,4,7948
+ROOFIG03,WW,Small Scenery,Igloo Wall,4,9558
+ROOFIG04,WW,Small Scenery,Igloo Wall,4,5049
+ROOFIG06,WW,Small Scenery,Igloo Wall,4,6901
+RSHOGI1,WW,Small Scenery,Shogi Roof,4,6949
+RSHOGI2,WW,Small Scenery,Shogi Roof,4,6704
+RSHOGI3,WW,Small Scenery,Shogi Roof,4,5099
+SMALLGEO,WW,Small Scenery,Small Geosphere,4,5716
+VERTPIPE,WW,Small Scenery,Ice Pipe Section,4,12381
+ICEBARL1,WW,Small Scenery,Iced Barrels,4,7732
+ICEBARL2,WW,Small Scenery,Iced Barrels,4,6401
+ICEBARL3,WW,Small Scenery,Iced Barrels,4,7063
+PIPEVENT,WW,Small Scenery,Ice Pipe Vent,4,11174
+PIPEBASE,WW,Small Scenery,Ice Pipe Base,4,21836
+RTUDOR01,WW,Small Scenery,Tudor Roof Piece 1,4,10877
+RTUDOR02,WW,Small Scenery,Tudor Roof Piece 1 Extender Piece,4,5864
+RTUDOR03,WW,Small Scenery,Tudor Roof Piece 2,4,10164
+RWDAUB01,WW,Small Scenery,Wattle & Daub Roof,4,11793
+RWDAUB02,WW,Small Scenery,Wattle & Daub Roof,4,9235
+RWDAUB03,WW,Small Scenery,Wattle & Daub Roof,4,4882
+SB1HSPB1,WW,Small Scenery,Suspension Bridge Base Piece,4,17333
+SB1HSPB2,WW,Small Scenery,Suspension Bridge Base Spacer Piece,4,10214
+SB1HSPB3,WW,Small Scenery,Suspension Bridge Mid Section Piece,4,6130
+SB2PALM1,WW,Small Scenery,Cabana Porch,4,15008
+SB2SKY01,WW,Small Scenery,Stone Skyscraper Stairway Base,4,13614
+SBALLOON,WW,Small Scenery,Animated Balloons,68,157784
+SBH1TEPE,WW,Small Scenery,Tee Pee,4,7529
+SBH1WGWH,WW,Small Scenery,Wagon Wheel,4,5253
+SBH2SHLT,WW,Small Scenery,Search Light,4,11115
+SBH3CAC1,WW,Small Scenery,Cactus,4,10018
+SBH3CAC2,WW,Small Scenery,Cactus,4,6950
+SBH3CAC3,WW,Small Scenery,Cactus,4,11443
+SBH3CSKL,WW,Small Scenery,Cattle Skull,4,3557
+SBH3OSCR,WW,Small Scenery,Rollercoaster Award Statue,4,14357
+SBH3PLM1,WW,Small Scenery,Palm Tree,4,9045
+SBH3PLM2,WW,Small Scenery,Palm Tree,4,10477
+SBH3PLM3,WW,Small Scenery,Palm Tree,4,9429
+SBH3RT66,WW,Small Scenery,Route 66 Sign,4,7223
+SBH4TOTM,WW,Small Scenery,Large Totem Pole,4,20585
+SBSKYS01,WW,Small Scenery,Stone Skyscaper Wall Piece,4,7753
+SBSKYS02,WW,Small Scenery,Stone Skyscaper Wall Piece,4,8161
+SBSKYS03,WW,Small Scenery,Skyscraper Lift Piece,4,5847
+SBSKYS04,WW,Small Scenery,Skyscraper Lift Piece,4,6335
+SBSKYS05,WW,Small Scenery,Skyscaper Metal Set 1 Convex Piece,4,6955
+SBSKYS06,WW,Small Scenery,Skyscaper Metal Set 1 Concave Piece,4,6956
+SBSKYS07,WW,Small Scenery,Skyscaper Metal Set 2 Convex Piece,4,6869
+SBSKYS08,WW,Small Scenery,Skyscaper Metal Set 2 Concave Piece,4,7167
+SBSKYS09,WW,Small Scenery,Skyscaper Metal Set 2 Concave Piece,4,7170
+SBSKYS10,WW,Small Scenery,Skyscaper Concave Piece,4,6746
+SBSKYS11,WW,Small Scenery,Skyscraper Concave Roof,4,9467
+SBSKYS12,WW,Small Scenery,Skyscaper Convex Piece,4,6751
+SBSKYS13,WW,Small Scenery,Skyscaper Convex Roof,4,11304
+SBSKYS14,WW,Small Scenery,Sky Scraper Roof Piece,4,4914
+SBSKYS15,WW,Small Scenery,Sky Scraper Roof Piece,4,6332
+SBSKYS16,WW,Small Scenery,Sky Scraper Roof Piece,4,5719
+SBSKYS17,WW,Small Scenery,Sky Scraper Roof Piece,4,5511
+SBSKYS18,WW,Small Scenery,Sky Scraper Roof Piece,4,5936
+SBWIND01,WW,Small Scenery,Wind Sculpted Concave Wall Corner,4,8210
+SBWIND02,WW,Small Scenery,Wind Sculpted Concave Roof Corner,4,9642
+SBWIND03,WW,Small Scenery,Wind Sculpted Concave Wall Corner,4,7544
+SBWIND04,WW,Small Scenery,Wind Sculpted Convex Wall Corner,4,7958
+SBWIND05,WW,Small Scenery,Wind Sculpted Convex Roof Corner,4,12442
+SBWIND06,WW,Small Scenery,Wind Sculpted Convex Wall Corner,4,7052
+SBWIND07,WW,Small Scenery,Wind Sculpted Rock Formation Base,4,7828
+SBWIND08,WW,Small Scenery,Wind Sculpted Rock Formation Base,4,8211
+SBWIND09,WW,Small Scenery,Wind Sculpted Rock Formation Mid Section,4,6736
+SBWIND10,WW,Small Scenery,Wind Sculpted Rock Formation Mid Section,4,6977
+SBWIND11,WW,Small Scenery,Wind Sculpted Rock Formation Mid Section,4,7521
+SBWIND12,WW,Small Scenery,Wind Sculpted Rock Formation Mid Section,4,8332
+SBWIND13,WW,Small Scenery,Wind Sculpted Rock Formation Top,4,8063
+SBWIND14,WW,Small Scenery,Wind Sculpted Rock Formation Top,4,7715
+SBWIND15,WW,Small Scenery,Wind Sculpted Roof Flat Roof Piece,4,4993
+SBWIND16,WW,Small Scenery,Wind Sculpted Roof Flat Roof Piece,4,5024
+SBWIND17,WW,Small Scenery,Wind Sculpted Roof Flat Roof Piece,4,4993
+SBWIND18,WW,Small Scenery,Wind Sculpted Floor Piece,4,5203
+SBWIND19,WW,Small Scenery,Wind Sculpted Floor Piece,4,5197
+SBWIND20,WW,Small Scenery,Wind Sculpted Wall Base,4,5839
+SBWIND21,WW,Small Scenery,Wind Sculpted Wall Base,4,5859
+SBWPLM01,WW,Small Scenery,Cabana Top,4,4594
+SBWPLM02,WW,Small Scenery,Cabana Porch,4,8227
+SBWPLM03,WW,Small Scenery,Cabana Roof Piece,4,7119
+SBWPLM04,WW,Small Scenery,Cabana Roof Piece,4,10222
+SBWPLM05,WW,Small Scenery,Cabana Roof Piece,4,5370
+SBWPLM06,WW,Small Scenery,Cabana Wall Piece,4,6600
+SBWPLM07,WW,Small Scenery,Cabana Wall Piece,4,7208
+SBWPLM08,WW,Small Scenery,Cabana Wall Piece,4,7088
+TALLLAN1,WW,Small Scenery,Tall Lantern,4,7561
+TALLLAN2,WW,Small Scenery,Tall Lantern,4,13673
+TERRARMY,WW,Small Scenery,Terracotta Army,4,10071
+TJBLOCK1,WW,Small Scenery,Maharaja Palace Piece,4,13653
+TJBLOCK2,WW,Small Scenery,Maharaja Palace Piece,4,13247
+TJBLOCK3,WW,Small Scenery,Maharaja Palace Piece,4,8852
+TNT1,WW,Small Scenery,TNT Stack,4,10191
+TNT2,WW,Small Scenery,TNT Barrels,4,6728
+TNT3,WW,Small Scenery,TNT Detonator,4,2709
+TNT4,WW,Small Scenery,TNT Crates,4,7959
+TRCKPRT1,WW,Small Scenery,Diamond Cart,4,5499
+TRCKPRT2,WW,Small Scenery,Empty Cart,4,5479
+TRCKPRT3,WW,Small Scenery,Diamond Shaft,4,5885
+TRCKPRT4,WW,Small Scenery,Cart Shaft,4,5872
+TRCKPRT5,WW,Small Scenery,Track Bend,4,1963
+TRCKPRT6,WW,Small Scenery,Track Broke,4,2893
+TRCKPRT7,WW,Small Scenery,Track End,4,2971
+TRCKPRT8,WW,Small Scenery,Track Split,4,3183
+TRCKPRT9,WW,Small Scenery,Track Straight,4,2502
+UKPHONE,WW,Small Scenery,British Telephone Box,4,21954
+WABORG01,WW,Small Scenery,Aboriginal Art Set Piece,4,7033
+WABORG02,WW,Small Scenery,Aboriginal Art Set Piece,4,7033
+WABORG03,WW,Small Scenery,Aboriginal Art Set Piece,4,7033
+WABORG04,WW,Small Scenery,Aboriginal Art Set Piece,4,7033
+WABORG05,WW,Small Scenery,Aboriginal Art Set Piece,4,7033
+WABORG06,WW,Small Scenery,Aboriginal Art Set Piece,4,7033
+WABORG07,WW,Small Scenery,Aboriginal Art Set Piece,4,7033
+WABORG08,WW,Small Scenery,Aboriginal Art Set Piece,4,7033
+WAZTEC01,WW,Small Scenery,Temple Roof Piece,4,7179
+WAZTEC02,WW,Small Scenery,Temple Roof Piece,4,7210
+WAZTEC03,WW,Small Scenery,Temple Wall Piece,4,5164
+WAZTEC04,WW,Small Scenery,Temple Wall Piece,4,4976
+WAZTEC05,WW,Small Scenery,Temple Wall Piece,4,6449
+WAZTEC06,WW,Small Scenery,Temple Wall Piece,4,6302
+WAZTEC07,WW,Small Scenery,Temple Wall Piece,4,6254
+WAZTEC08,WW,Small Scenery,Temple Wall Piece,4,6294
+WAZTEC09,WW,Small Scenery,Temple Wall Piece,4,6029
+WAZTEC10,WW,Small Scenery,Temple Wall Piece,4,6380
+WAZTEC11,WW,Small Scenery,Temple Wall Corner Piece,4,9007
+WAZTEC12,WW,Small Scenery,Temple Wall Corner Piece,4,8940
+WAZTEC13,WW,Small Scenery,Temple Wall Piece,4,13817
+WAZTEC14,WW,Small Scenery,Temple Wall Piece,4,13641
+WAZTEC15,WW,Small Scenery,Temple Roof Piece,4,8741
+WAZTEC16,WW,Small Scenery,Temple Roof Piece,4,8705
+WAZTEC17,WW,Small Scenery,Temple Roof Piece,4,8287
+WAZTEC18,WW,Small Scenery,Temple Roof Piece,4,10060
+WAZTEC19,WW,Small Scenery,Temple Roof Piece,4,9763
+WAZTEC20,WW,Small Scenery,Temple Stairway Piece,4,10124
+WAZTEC21,WW,Small Scenery,Temple Stairway Piece,4,9900
+WAZTEC22,WW,Small Scenery,Temple Wall Piece,4,11984
+WAZTEC23,WW,Small Scenery,Temple Wall Piece,4,11875
+WAZTEC24,WW,Small Scenery,Temple Wall Piece,4,11986
+WAZTEC25,WW,Small Scenery,Temple Wall Piece,4,11823
+WAZTEC26,WW,Small Scenery,Temple Wall Corner Piece,4,10173
+WAZTEC27,WW,Small Scenery,Temple Wall Corner Piece,4,10563
+WCUZCO01,WW,Small Scenery,Monumental Wall Piece,4,6446
+WCUZCO02,WW,Small Scenery,Monumental Broken Wall Piece,4,5856
+WCUZCO03,WW,Small Scenery,Monumental Wall Piece,4,6439
+WCUZCO04,WW,Small Scenery,Monumental Broken Wall Piece,4,5558
+WCUZCO05,WW,Small Scenery,Monumental Wall Piece,4,6447
+WCUZCO06,WW,Small Scenery,Monumental Broken Wall Piece,4,5708
+WCUZCO07,WW,Small Scenery,Monumental Wall Piece,4,6430
+WCUZCO08,WW,Small Scenery,Monumental Broken Wall Piece,4,5913
+WCUZCO09,WW,Small Scenery,Monumental Wall Piece,4,6427
+WCUZCO10,WW,Small Scenery,Monumental Broken Wall Piece,4,5830
+WCUZCO11,WW,Small Scenery,Monumental Wall Piece,4,6303
+WCUZCO12,WW,Small Scenery,Monumental Broken Wall Piece,4,5693
+WCUZCO13,WW,Small Scenery,Monumental Broken Wall Piece,4,4348
+WCUZCO14,WW,Small Scenery,Monumental Broken Wall Piece,4,4707
+WCUZCO15,WW,Small Scenery,Monumental Broken Wall Piece,4,4213
+WCUZCO16,WW,Small Scenery,Monumental Broken Wall Piece,4,3862
+WCUZCO17,WW,Small Scenery,Monumental Wall Piece,4,5814
+WCUZCO18,WW,Small Scenery,Monumental Broken Wall Piece,4,5859
+WCUZCO19,WW,Small Scenery,Monumental Stairway Piece,4,3489
+WCUZCO20,WW,Small Scenery,Monumental Stairway Piece,4,3270
+WCUZCO21,WW,Small Scenery,Monumental Wall Corner Piece,4,4932
+WCUZCO22,WW,Small Scenery,Monumental Wall Corner Piece,4,4032
+WCUZCO23,WW,Small Scenery,Monumental Wall Corner Piece,4,8778
+WCUZCO24,WW,Small Scenery,Monumental Wall Corner Piece,4,7690
+WCUZCO25,WW,Small Scenery,Monumental Stairway Piece,4,11404
+WCUZCO26,WW,Small Scenery,Monumental Stairway Piece,4,10775
+WCUZCO27,WW,Small Scenery,Monumental Wall Piece,4,3425
+WCUZCO28,WW,Small Scenery,Monumental Broken Wall Piece,4,2750
+WCUZFOUN,WW,Small Scenery,Monumental Fountain,68,156524
+WDRAB09,WW,Small Scenery,Drab Step-up Piece 1,4,5124
+WDRAB10,WW,Small Scenery,Drab Wall Piece 9,4,4995
+WDRAB11,WW,Small Scenery,Drab Wall Piece 10,4,5351
+WDRAB12,WW,Small Scenery,Drab Wall Piece 11,4,5545
+WDRAB13,WW,Small Scenery,Drab Step-up Piece 2,4,5756
+WGEORG07,WW,Small Scenery,Georgian Ground Floor Wall Piece 4,4,13145
+WGEORG08,WW,Small Scenery,Georgian Ground Floor Wall Piece 5,4,12992
+WGEORG09,WW,Small Scenery,Georgian Ground Floor Wall Piece 6,4,12930
+WGEORG10,WW,Small Scenery,Georgian Wall Piece 4,4,8845
+WGEORG11,WW,Small Scenery,Georgian Wall Piece 5,4,7495
+WGEORG12,WW,Small Scenery,Georgian Wall Piece 6,4,6644
+WKREML01,WW,Small Scenery,Kremlin Step-up Wall Piece 1,4,6419
+WKREML02,WW,Small Scenery,Kremlin Step-up Wall Piece 2,4,6424
+WKREML03,WW,Small Scenery,Kremlin Wall Piece 1,4,6057
+WKREML04,WW,Small Scenery,Kremlin Wall Piece 2,4,6064
+WKREML05,WW,Small Scenery,Kremlin Wall Piece 3,4,6051
+WKREML06,WW,Small Scenery,Kremlin Wall Piece 4,4,6056
+WMAYAN01,WW,Small Scenery,Lost City Wall Piece,4,6328
+WMAYAN02,WW,Small Scenery,Lost City Flat Roof Piece,4,7305
+WMAYAN03,WW,Small Scenery,Lost City Wall Piece,4,6614
+WMAYAN04,WW,Small Scenery,Lost City Wall Piece,4,6763
+WMAYAN05,WW,Small Scenery,Lost City Wall Piece,4,6616
+WMAYAN06,WW,Small Scenery,Lost City Wall Piece,4,6457
+WMAYAN07,WW,Small Scenery,Lost City Wall Piece,4,4336
+WMAYAN08,WW,Small Scenery,Lost City Wall Piece,4,5054
+WMAYAN09,WW,Small Scenery,Lost City Wall Piece,4,3448
+WMAYAN10,WW,Small Scenery,Lost City Wall Piece,4,3782
+WMAYAN11,WW,Small Scenery,Lost City Wall Piece,4,13822
+WMAYAN12,WW,Small Scenery,Lost City Stairway Piece,4,10611
+WMAYAN13,WW,Small Scenery,Lost City Stairway Piece,4,10639
+WMAYAN14,WW,Small Scenery,Lost City Stairway Piece,4,10533
+WMAYAN15,WW,Small Scenery,Lost City Stairway Piece,4,10790
+WMAYAN16,WW,Small Scenery,Lost City Stairway Piece,4,10779
+WMAYAN17,WW,Small Scenery,Lost City Column Piece,4,6291
+WMAYAN18,WW,Small Scenery,Lost City Column Piece,4,6144
+WMAYAN20,WW,Small Scenery,Lost City Wall Piece,4,6434
+WMAYAN21,WW,Small Scenery,Lost City Flat Roof Piece,4,9160
+WMAYAN22,WW,Small Scenery,Lost City Flat Roof Piece,4,9089
+WMAYAN23,WW,Small Scenery,Lost City Wall Corner Piece,4,9755
+WMAYAN24,WW,Small Scenery,Lost City Wall Corner Piece,4,9389
+WMAYAN25,WW,Small Scenery,Lost City Wall Corner Piece,4,9087
+WMAYAN26,WW,Small Scenery,Lost City Wall Corner Piece,4,5049
+WNAUTI01,WW,Small Scenery,Nautical Roof Piece,4,5446
+WNAUTI02,WW,Small Scenery,Nautical Roof Piece,4,6347
+WNAUTI03,WW,Small Scenery,Nautical Roof Piece,4,7942
+WNAUTI04,WW,Small Scenery,Nautical Roof Piece,4,5959
+WNAUTI05,WW,Small Scenery,Nautical Roof Piece,4,6407
+WROPECOR,WW,Small Scenery,Nautical Corner Roof Railing,68,137980
+WROPESWA,WW,Small Scenery,Nautical Roof Railing,68,123780
+WTUDOR12,WW,Small Scenery,Tudor Wall Piece 4,4,5942
+WTUDOR13,WW,Small Scenery,Tudor Ground Bay Wall Piece,4,5978
+WTUDOR14,WW,Small Scenery,Tudor Ground Floor Wall Piece 1,4,8191
+WTUDOR15,WW,Small Scenery,Tudor Ground Floor Wall Piece 2,4,6011
+WTUDOR16,WW,Small Scenery,Tudor Ground Floor Wall Piece 3,4,8159
+WTUDOR17,WW,Small Scenery,Tudor Ground Floor Wall Piece 4,4,8102
+WTUDOR18,WW,Small Scenery,Tudor Ground Floor Wall Piece 5,4,8105
+TMARCH1,WW,Walls,Maharaja Palace Arch 1,6,5491
+TMARCH2,WW,Walls,Maharaja Palace Arch 2,6,5490
+W2CORR01,WW,Walls,Corrugated Wall Piece,6,4736
+W2CORR02,WW,Walls,Corrugated Wall Piece,6,4736
+W2CORR03,WW,Walls,Corrugated Wall Piece,6,4736
+W2CORR04,WW,Walls,Corrugated Wall Piece,6,4736
+W2CORR05,WW,Walls,Corrugated Wall Piece,6,4736
+W2CORR06,WW,Walls,Corrugated Wall Piece,6,4736
+W2CORR07,WW,Walls,Corrugated Wall Piece,6,4736
+W2CORR08,WW,Walls,Corrugated Wall Piece,6,4736
+W3CORR01,WW,Walls,Corrugated Wall Piece,6,2672
+W3CORR02,WW,Walls,Corrugated Wall Piece,6,2672
+W3CORR03,WW,Walls,Corrugated Wall Piece,6,2672
+W3CORR04,WW,Walls,Corrugated Wall Piece,6,2672
+W3CORR05,WW,Walls,Corrugated Wall Piece,6,2672
+W3CORR06,WW,Walls,Corrugated Wall Piece,6,2672
+W3CORR07,WW,Walls,Corrugated Wall Piece,6,2672
+W3CORR08,WW,Walls,Corrugated Wall Piece,6,2672
+WALLNA01,WW,Walls,Nautical Wall Piece,6,8212
+WALLNA02,WW,Walls,Nautical Wall Piece,6,8234
+WALLNA03,WW,Walls,Nautical Wall Piece,6,8235
+WALLNA04,WW,Walls,Nautical Wall Piece,6,8212
+WALLNA05,WW,Walls,Nautical Wall Piece,6,8261
+WALLNA06,WW,Walls,Nautical Wall Piece,6,8308
+WALLNA07,WW,Walls,Nautical Wall Piece,6,8212
+WALLNA08,WW,Walls,Nautical Wall Piece,6,8319
+WALLNA09,WW,Walls,Nautical Wall Piece,6,8212
+WALLNA10,WW,Walls,Nautical Wall Piece,6,8212
+WALLNA11,WW,Walls,Nautical Wall Piece,6,8212
+WALLNA12,WW,Walls,Nautical Wall Piece,6,8212
+WALLNA13,WW,Walls,Nautical Wall Piece,6,8212
+WALLNA14,WW,Walls,Nautical Wall Piece,6,8212
+WWDAUB01,WW,Walls,Wattle & Daub Wall,6,8304
+WWDAUB02,WW,Walls,Wattle & Daub Wall,6,8309
+WWDAUB03,WW,Walls,Wattle & Daub Wall,6,8308
+WWDAUB04,WW,Walls,Wattle & Daub Wall,6,8291
+WWDAUB05,WW,Walls,Wattle & Daub Wall,6,8297
+WWDAUB06,WW,Walls,Wattle & Daub Wall,6,4731
+WWDAUB07,WW,Walls,Wattle & Daub Wall,6,2667
+WBambo01,WW,Walls,Bamboo Wall,6,8365
+WBambo02,WW,Walls,Bamboo Wall,6,7519
+WBambo03,WW,Walls,Bamboo Wall,6,8186
+WBAMBO04,WW,Walls,Bamboo Wall,6,7672
+WBambo05,WW,Walls,Bamboo Wall,6,8236
+WBambo11,WW,Walls,Bamboo Wall,6,8316
+WBambo12,WW,Walls,Bamboo Wall,6,8300
+WBambo13,WW,Walls,Bamboo Wall,6,6123
+WBambo14,WW,Walls,Bamboo Wall,6,4428
+WBambo15,WW,Walls,Bamboo Wall,6,2589
+WBambo21,WW,Walls,Bamboo Wall,6,5727
+WBamboPC,WW,Walls,Bamboo Wall,36,24436
+WBRICK01,WW,Walls,Red Brick Wall Piece 1,6,8272
+WBRICK02,WW,Walls,Red Brick Wall Piece 2,6,8404
+WBRICK03,WW,Walls,Red Brick Wall Piece 3,6,8234
+WBRICK04,WW,Walls,Red Brick Wall Piece 4,6,8026
+WBRICK05,WW,Walls,Red Brick Wall Piece 5,6,8507
+WBRICK08,WW,Walls,Red Brick Wall Piece 8,6,8740
+WBRICK11,WW,Walls,Red Brick Wall Piece 11,6,8305
+WBRICK12,WW,Walls,Red Brick Wall Piece 12,6,4604
+WBRICK13,WW,Walls,Red Brick Wall Piece 13,6,2540
+WCORR01,WW,Walls,Corrugated Wall Piece,6,8302
+WCORR02,WW,Walls,Corrugated Wall Piece,6,8302
+WCORR03,WW,Walls,Corrugated Wall Piece,6,8301
+WCORR04,WW,Walls,Corrugated Wall Piece,6,8302
+WCORR05,WW,Walls,Corrugated Wall Piece,6,8302
+WCORR06,WW,Walls,Corrugated Wall Piece,6,8302
+WCORR07,WW,Walls,Corrugated Wall Piece,6,8302
+WCORR08,WW,Walls,Corrugated Wall Piece,6,8302
+WCORR09,WW,Walls,Corrugated Wall Piece,6,8301
+WCORR10,WW,Walls,Corrugated Wall Piece,6,8303
+WCORR11,WW,Walls,Corrugated Wall Piece,6,7472
+WCORR12,WW,Walls,Corrugated Wall Piece,6,7488
+WCORR13,WW,Walls,Corrugated Wall Piece,6,6615
+WCORR14,WW,Walls,Corrugated Wall Piece,6,6639
+WCORR15,WW,Walls,Corrugated Wall Piece,6,8301
+WCORR16,WW,Walls,Corrugated Wall Piece,6,8302
+WDRAB01,WW,Walls,Drab Wall Piece 1,6,8153
+WDRAB02,WW,Walls,Drab Wall Piece 2,6,8226
+WDRAB03,WW,Walls,Drab Wall Piece 3,6,8142
+WDRAB04,WW,Walls,Drab Wall Piece 4,6,2849
+WDRAB05,WW,Walls,Drab Wall Piece 5,6,6310
+WDRAB06,WW,Walls,Drab Wall Piece 6,6,6266
+WDRAB07,WW,Walls,Drab Wall Piece 7,6,6843
+WDRAB08,WW,Walls,Drab Wall Piece 8,6,5613
+WGEORG01,WW,Walls,Georgian Wall Piece 1,6,8243
+WGEORG02,WW,Walls,Georgian Ground Floor Wall Piece 1,6,8340
+WGEORG03,WW,Walls,Georgian Wall Piece 2,6,8243
+WGEORG04,WW,Walls,Georgian Ground Floor Wall Piece 2,6,8404
+WGEORG05,WW,Walls,Georgian Wall Piece 3,6,8208
+WGEORG06,WW,Walls,Georgian Ground Floor Wall Piece 3,6,4680
+WGWOC1,WW,Walls,Great Wall Of China Front Wall Section,6,26496
+WGWOC2,WW,Walls,Great Wall Of China Rear Wall Section,6,24703
+WGWOC3,WW,Walls,Great Wall Of China Step up Wall Section,6,21881
+WALLICE1,WW,Walls,Ice Wall,6,8669
+WALLICE2,WW,Walls,Ice Wall,6,8499
+WALLICE3,WW,Walls,Ice Wall,6,8695
+WALLICE4,WW,Walls,Ice Wall,6,8822
+WALLICE5,WW,Walls,Ice Wall,6,8796
+WALLICE6,WW,Walls,Ice Wall,6,8913
+WALLICE7,WW,Walls,Ice Wall,6,7215
+WALLICE8,WW,Walls,Ice Wall,6,6263
+WALLICE9,WW,Walls,Ice Wall,6,4536
+WALLIC10,WW,Walls,Ice Wall,6,2823
+WIGLOO1,WW,Walls,Igloo Wall,6,8723
+WIGLOO2,WW,Walls,Igloo Wall,6,8971
+WKREML07,WW,Walls,Kremlin Wall Piece 5,6,8502
+WKREML08,WW,Walls,Kremlin Wall Piece 6,6,8571
+WKREML09,WW,Walls,Kremlin Wall Piece 7,6,8544
+WKREML10,WW,Walls,Kremlin Wall Piece 8,6,6217
+WLOG01,WW,Walls,Log Cabin Wall Piece,6,8339
+WLOG02,WW,Walls,Log Cabin Wall Piece,6,8340
+WLOG03,WW,Walls,Log Cabin Wall Piece,6,7483
+WLOG04,WW,Walls,Log Cabin Wall Piece,6,7926
+WLOG05,WW,Walls,Log Cabin Wall Piece,6,4775
+WLOG06,WW,Walls,Log Cabin Wall Piece,6,2711
+WMARBLE1,WW,Walls,Ornate Marble Wall,6,8338
+WMARBLE2,WW,Walls,Ornate Marble Wall,6,8470
+WMARBLE3,WW,Walls,Ornate Marble Wall,6,8301
+WMARBLE4,WW,Walls,Ornate Marble Wall,6,6273
+WMARBLE5,WW,Walls,Ornate Marble Wall,6,4623
+WMARBLE6,WW,Walls,Ornate Marble Wall,6,2861
+WMARBPL1,WW,Walls,Plain Marble Wall,6,8016
+WMARBPL2,WW,Walls,Plain Marble Wall,6,8433
+WMARBPL3,WW,Walls,Plain Marble Wall,6,8326
+WMARBPL4,WW,Walls,Plain Marble Wall,6,7050
+WMARBPL5,WW,Walls,Plain Marble Wall,6,8326
+WMARBPL6,WW,Walls,Plain Marble Wall,6,4450
+WMARBPL7,WW,Walls,Plain Marble Wall,6,2785
+WMUD01,WW,Walls,Mud Wall Piece,6,8158
+WMUD02,WW,Walls,Mud Wall Piece,6,8158
+WMUD03,WW,Walls,Mud Wall Piece,6,8158
+WMUD04,WW,Walls,Mud Wall Piece,6,8097
+WMUD05,WW,Walls,Mud Wall Piece,6,7829
+WMUD06,WW,Walls,Mud Wall Piece,6,8128
+WMUD07,WW,Walls,Mud Wall Piece,6,4498
+WMUD08,WW,Walls,Mud Wall Piece,6,2434
+WPALM01,WW,Walls,Cabana Wall Piece,6,8122
+WPALM02,WW,Walls,Cabana Wall Piece,6,7982
+WPALM03,WW,Walls,Cabana Wall Piece,6,7159
+WPALM04,WW,Walls,Cabana Wall Piece,6,4207
+WPALM05,WW,Walls,Cabana Wall Piece,6,2587
+WSHOGI01,WW,Walls,Shogi Wall,6,8255
+WSHOGI02,WW,Walls,Shogi Wall,6,8188
+WSHOGI03,WW,Walls,Shogi Wall,6,8231
+WSHOGI04,WW,Walls,Shogi Wall,6,4618
+WSHOGI05,WW,Walls,Shogi Wall,6,4575
+WSHOGI06,WW,Walls,Shogi Wall,6,4609
+WSHOGI07,WW,Walls,Shogi Wall,6,8256
+WSHOGI08,WW,Walls,Shogi Wall,6,8235
+WSHOGI09,WW,Walls,Shogi Wall,6,8256
+WSHOGI10,WW,Walls,Shogi Wall,6,8259
+WSHOGI11,WW,Walls,Shogi Wall,6,8256
+WSHOGI12,WW,Walls,Shogi Wall,6,8225
+WSHOGI13,WW,Walls,Shogi Wall,6,8274
+WSHOGI14,WW,Walls,Shogi Wall,6,4598
+WSHOGI15,WW,Walls,Shogi Wall,6,2193
+WSHOGI16,WW,Walls,Shogi Wall,6,2519
+WSHOGI17,WW,Walls,Shogi Wall,6,3345
+WSKYSC01,WW,Walls,Skyscaper Metal Set 2 Wall Piece,6,8321
+WSKYSC02,WW,Walls,Skyscaper Metal Set 2 Wall Piece,6,8316
+WSKYSC03,WW,Walls,Skyscaper Metal Set 1 Wall Piece,6,8316
+WSKYSC04,WW,Walls,Skyscaper Lift Section Piece,6,8133
+WSKYSC05,WW,Walls,Skyscaper Lift Section Piece,6,8154
+WSKYSC06,WW,Walls,Sky Scraper Wall Piece,6,8207
+WSKYSC07,WW,Walls,Skyscaper Lift Section Piece,6,8278
+WSKYSC08,WW,Walls,Sky Scraper Wall Piece,6,4513
+WSKYSC09,WW,Walls,Sky Scraper Wall Piece,6,2731
+WSKYSC10,WW,Walls,Stone Skyscaper Wall Piece,6,8166
+WSKYSC11,WW,Walls,Stone Skyscaper Wall Piece,6,8024
+WSKYSC12,WW,Walls,Stone Skyscaper Wall Piece,6,8103
+WTUDOR01,WW,Walls,Tudor Ground Floor Wall Piece 1,6,8572
+WTUDOR02,WW,Walls,Tudor Ground Floor Wall Piece 2,6,8585
+WTUDOR03,WW,Walls,Tudor Ground Floor Wall Piece 3,6,8608
+WTUDOR04,WW,Walls,Tudor Ground Floor Wall Piece 4,6,8596
+WTUDOR05,WW,Walls,Tudor Ground Floor Wall Piece 5,6,8588
+WTUDOR06,WW,Walls,Tudor Ground Floor Wall Piece 6,6,8586
+WTUDOR07,WW,Walls,Tudor Ground Floor Wall Piece 7,6,8816
+WTUDOR08,WW,Walls,Tudor Ground Floor Wall Piece 8,6,8601
+WTUDOR09,WW,Walls,Tudor Wall Piece 1,6,8350
+WTUDOR10,WW,Walls,Tudor Wall Piece 2,6,8328
+WTUDOR11,WW,Walls,Tudor Wall Piece 3,6,8434
+WWIND03,WW,Walls,Wind Sculpted Wall Piece,6,8376
+WWIND04,WW,Walls,Wind Sculpted Wall Piece,6,8367
+WWIND05,WW,Walls,Wind Sculpted Wall Piece,6,8390
+WWIND06,WW,Walls,Wind Sculpted Wall Piece,6,8376

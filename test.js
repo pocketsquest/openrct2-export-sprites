@@ -1,30 +1,16 @@
-const fs = require('fs');
-const { execSync } = require('child_process');
-const process = require('process');
+// Helper function to parse JSON from stdout
+function extractOffsets(stdout) {
+  const regex = /\{[^{}]*\},/g; // Updated with 'g' flag for global search
+  let matches = [];
+  let match;
 
-// Read CSV file
-const datNames = fs.readFileSync('datNames.csv', 'utf-8').split('\r\n');
+  while ((match = regex.exec(stdout)) !== null) {
+    matches.push(match[0]);
+  }
 
-const section = ['TEN'];
+  return matches.length > 0 ? matches.join('') : null;
+}
 
-// Set the current working directory to the game's bin directory
-process.chdir('..');
-
-const jsonArray = [];
-
-// Iterate over file names
-section.forEach(datName => {
-    // Execute command in the command prompt
-    const command = `openrct2 sprite exportalldat ${datName} .\\openrct2-export-sprites\\sprites\\${datName}`;
-    const jsonOutput = execSync(command, { encoding: 'utf-8' });
-
-    // Remove trailing comma and append JSON output to the array
-    try {
-
-      const cleanedJsonOutput = jsonOutput.trim().replace(/,\s*$/, '');
-      jsonArray.push(...JSON.parse(`[${cleanedJsonOutput}]`));
-      
-    } catch (error) {
-        console.error(`Error parsing JSON for file: ${datName}`);
-    }
-});
+const inputString = '{"prop1":"val1","prop2":"val2"},\r\n{"prop1":"val3","prop2":"val4"},\r\nMore text here.';
+const result = extractOffsets(inputString);
+console.log(result);

@@ -1,28 +1,83 @@
 const fs = require('fs');
 const { execSync } = require('child_process');
 
+const skipErrors = true;
+let count = 0;
+let logNumber = 20; // console.log the datName for every '20' files.
+
 // Read CSV file
 const datNames = fs.readFileSync('datNames.csv', 'utf-8').split('\r\n');
+
+const datErrorFiles =  [
+  'ARRSW2',     'ARRX',     'BLACKCAB', 'CRNVBFLY',
+  'CRNVFROG',   'CRNVLZRD', 'CSTBOAT',  'CTCAR',
+  'FLYGBOAT',   'GOLTR',    'GTC',      'HELICAR',
+  'HMCAR',      'HOVERCAR', 'HUSKIE',   'JSTAR1',
+  'LONDONBS',   'MANTARAY', 'MFT',      'MONO2',
+  'PEGASUSX',   'PTCT2',    'PTCT2R',
+  'RCKC',       'RCR',      'SANFTRAM', 'SCHOOLBS',
+  'SMC1',       'SMC2',     'SPBOAT',   'SPCAR',
+  'SURFBRDC',   'TRAM1',    'TRILOBTE', 'TRUCK1',
+  'VCR',        'VEKVAMP',  'WHICGRUB', 'WMMINE',
+  'WMOUSE',     'WTRCYAN',  'WTRGREEN', 'WTRGRN',
+  'WTRORNG',    'ZLDB',     'ZLOG', 'ARRX'
+]
 
 // Read current offsets data
 const jsonData = fs.readFileSync('offsets.json', 'utf-8');
 const jsonArray = JSON.parse(jsonData);
+
+// Helper function to parse JSON from stdout
+function extractOffsets(stdout) {
+  const regex = /\{[^{}]*\},/g; 
+  let matches = [];
+  let match;
+
+  while ((match = regex.exec(stdout)) !== null) {
+    matches.push(match[0]);
+  }
+
+  return matches.length > 0 ? '['+matches.join('').replace(/,\s*$/, '')+']' : null;
+}
 
 // Set the current working directory to the game's bin directory
 process.chdir('..');
 
 // Iterate over file names
 datNames.forEach(datName => {
-  try {
-      // Execute command in the command prompt
-      const command = `openrct2 sprite exportalldat ${datName} .\\openrct2-export-sprites\\sprites\\${datName}`;
-      const jsonOutput = execSync(command, { encoding: 'utf-8' });
+  if ((skipErrors && !datErrorFiles.includes(datName)) || datName !== 'ARRX'){
+    try {
+        // Execute command in the command prompt
+        const command = `openrct2 sprite exportalldat ${datName} .\\openrct2-export-sprites\\sprites\\${datName}`;
+        const jsonOutput = execSync(command, { encoding: 'utf-8' });
 
-      // Remove trailing comma and append JSON output to the array
-      const cleanedJsonOutput = jsonOutput.trim().replace(/,\s*$/, '');
-      jsonArray.push(...JSON.parse(`[${cleanedJsonOutput}]`));
-  } catch (error) {
-      console.error(`Error executing command for file: ${datName}\nMessage: ${error?.message}`);
+        // Remove trailing comma and append JSON output to the array
+        const cleanedJsonOutput = jsonOutput.trim().replace(/,\s*$/, '');
+        jsonArray.push(...JSON.parse(`[${cleanedJsonOutput}]`));
+    } catch (error) {
+        const stringifiedOffsets = extractOffsets(error.stdout);
+        if (stringifiedOffsets) {
+          try {
+            const recoveredOffsets = JSON.parse(extractOffsets(error.stdout));
+            if (recoveredOffsets.length) {
+              jsonArray.push(...recoveredOffsets);
+              
+              console.error(`Error executing command for file: ${datName}; Recovered ${recoveredOffsets?.length} offsets \n Error: ${error.message}`);
+            }
+          } catch {
+            console.error(`Error executing command for file: ${datName}; Could not parse extracted offsets, output character length: ${stringifiedOffsets.length} \n Error: ${error.message}`);
+          }
+        } else {
+          console.error(`Error executing command for file: ${datName}; Recovered 0 offsets \n Error: ${error.message}`);
+        }
+        
+    }
+  } else {
+    console.log(`Skip ${datName}`)
+  }
+  count++;
+  if (!(count % logNumber)) {
+    console.log(datName);
   }
 });
 

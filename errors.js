@@ -334,3 +334,18 @@ while ((match = regex.exec(consoleOutput)) !== null) {
 
 // Log the error messages array
 console.log('Error Messages:', errorMessages.sort());
+
+const datErrorFiles =  [
+  'ARRSW2',     'ARRX',     'BLACKCAB', 'CRNVBFLY',
+  'CRNVFROG',   'CRNVLZRD', 'CSTBOAT',  'CTCAR',
+  'FLYGBOAT',   'GOLTR',    'GTC',      'HELICAR',
+  'HMCAR',      'HOVERCAR', 'HUSKIE',   'JSTAR1',
+  'LONDONBS',   'MANTARAY', 'MFT',      'MONO2',
+  'PEGASUSX',   'PTCT2',    'PTCT2R',
+  'RCKC',       'RCR',      'SANFTRAM', 'SCHOOLBS',
+  'SMC1',       'SMC2',     'SPBOAT',   'SPCAR',
+  'SURFBRDC',   'TRAM1',    'TRILOBTE', 'TRUCK1',
+  'VCR',        'VEKVAMP',  'WHICGRUB', 'WMMINE',
+  'WMOUSE',     'WTRCYAN',  'WTRGREEN', 'WTRGRN',
+  'WTRORNG',    'ZLDB',     'ZLOG'
+]
