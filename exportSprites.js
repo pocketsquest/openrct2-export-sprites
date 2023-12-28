@@ -6,7 +6,7 @@ let count = 0;
 let logNumber = 20; // console.log the datName for every '20' files.
 
 // Read CSV file
-const datNames = fs.readFileSync('datNames.csv', 'utf-8').split('\r\n');
+const objectData = JSON.parse(fs.readFileSync('objectData.csv', 'utf-8'));
 
 const datErrorFiles =  [
   'ARRSW2',     'ARRX',     'BLACKCAB', 'CRNVBFLY',
@@ -23,9 +23,9 @@ const datErrorFiles =  [
   'WTRORNG',    'ZLDB',     'ZLOG', 'ARRX'
 ]
 
-// Read current offsets data
-const jsonData = fs.readFileSync('offsets.json', 'utf-8');
-const jsonArray = JSON.parse(jsonData);
+// // Read current offsets data
+// const jsonData = fs.readFileSync('offsetsOrignal.json', 'utf-8');
+const jsonArray = [];
 
 // Helper function to parse JSON from stdout
 function extractOffsets(stdout) {
@@ -44,7 +44,9 @@ function extractOffsets(stdout) {
 process.chdir('..');
 
 // Iterate over file names
-datNames.forEach(datName => {
+objectData.forEach(obj => {
+  const datName = obj.ObjectName;
+  // Make sure to exclude multidimensioncoaster, or if skipping errors, any of the ones listed in the errors array
   if ((skipErrors && !datErrorFiles.includes(datName)) || datName !== 'ARRX'){
     try {
         // Execute command in the command prompt
@@ -55,6 +57,7 @@ datNames.forEach(datName => {
         const cleanedJsonOutput = jsonOutput.trim().replace(/,\s*$/, '');
         jsonArray.push(...JSON.parse(`[${cleanedJsonOutput}]`));
     } catch (error) {
+      // Recover the good output the console logged before it logged warning and error messages
         const stringifiedOffsets = extractOffsets(error.stdout);
         if (stringifiedOffsets) {
           try {
@@ -62,13 +65,13 @@ datNames.forEach(datName => {
             if (recoveredOffsets.length) {
               jsonArray.push(...recoveredOffsets);
               
-              console.error(`Error executing command for file: ${datName}; Recovered ${recoveredOffsets?.length} offsets \n Error: ${error.message}`);
+              console.error(`Error executing command for file: ${datName}: ${obj.String}, Type: ${obj.Type}; Recovered ${recoveredOffsets?.length} offsets of ${obj.ImageCount} \n Error: ${error.message}`);
             }
           } catch {
-            console.error(`Error executing command for file: ${datName}; Could not parse extracted offsets, output character length: ${stringifiedOffsets.length} \n Error: ${error.message}`);
+            console.error(`Error executing command for file: ${datName}: ${obj.String}, Type: ${obj.Type}; Could not parse extracted offsets, output character length: ${stringifiedOffsets.length} \n Error: ${error.message}`);
           }
         } else {
-          console.error(`Error executing command for file: ${datName}; Recovered 0 offsets \n Error: ${error.message}`);
+          console.error(`Error executing command for file: ${datName}: ${obj.String}, Type: ${obj.Type}; Recovered 0 offsets of ${obj.ImageCount} \n Error: ${error.message}`);
         }
         
     }
