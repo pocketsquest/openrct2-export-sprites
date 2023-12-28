@@ -6,6 +6,8 @@ process.chdir('..');
 
 // Specify the problematic file name
 const problematicFile = 'ARRX';
+// Output file name
+const fileName = 'multidimensioncoaster.json';
 
 try {
     // Execute command in the command prompt with maxBuffer option
@@ -14,7 +16,7 @@ try {
 
     // Remove trailing comma and append JSON output to a separate file
     const cleanedJsonOutput = jsonOutput.trim().replace(/,\s*$/, '');
-    fs.writeFileSync('problematic_file_output.json', `[${cleanedJsonOutput}]`);
+    fs.writeFileSync(fileName, `[${cleanedJsonOutput}]`);
 
     console.log('Script completed successfully for the problematic file.');
 } catch (error) {
