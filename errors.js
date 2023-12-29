@@ -354,6 +354,8 @@ const datErrorFiles =  [
   'WTRORNG',    'ZLDB',     'ZLOG'
 ];
 
+
+
 function compareByObjectName(a,b)  {
   const nameA = a.ObjectName.toUpperCase(); // Convert to uppercase for case-insensitive sorting
   const nameB = b.ObjectName.toUpperCase();
@@ -396,4 +398,23 @@ function saveMultidimensioncoasterData() {
   })
 }
 
-saveMultidimensioncoasterData();
+// saveMultidimensioncoasterData();
+// Check the error files and compare the saved images with the given image count
+function countImages() {
+  const errorFiles =  {"4X4":{},"ARRSW2":{},"BLACKCAB":{},"CRNVBFLY":{},"CRNVFROG":{},"CRNVLZRD":{},"CSTBOAT":{},"CTCAR":{},"FLYGBOAT":{},"GOLTR":{},"GTC":{},"HELICAR":{},"HMCAR":{},"HOVERCAR":{},"HUSKIE":{},"JSTAR1":{},"LONDONBS":{},"MANTARAY":{},"MFT":{},"MONO2":{},"PEGASUSX":{},"PTCT2":{},"PTCT2R":{},"RCKC":{},"RCR":{},"SANFTRAM":{},"SCHOOLBS":{},"SMC1":{},"SMC2":{},"SPBOAT":{},"SPCAR":{},"SURFBRDC":{},"TRAM1":{},"TRILOBTE":{},"TRUCK1":{},"VCR":{},"VEKVAMP":{},"WHICGRUB":{},"WMMINE":{},"WMOUSE":{},"WTRCYAN":{},"WTRGREEN":{},"WTRGRN":{},"WTRORNG":{},"ZLDB":{},"ZLOG":{}}
+
+  const dataFileName = 'errorObjectDataWithOffsets.json'
+  const objectData = JSON.parse(fs.readFileSync(dataFileName, 'utf-8'));
+
+  objectData.forEach(obj => {
+    const {ObjectName, ImageCount, offsets} = obj;
+    
+    errorFiles[ObjectName] = {ObjectName, ImageCount, SavedImageCount: offsets.length, Difference: ImageCount-offsets.length};
+    
+  })
+
+  console.log(errorFiles);
+
+}
+
+countImages();

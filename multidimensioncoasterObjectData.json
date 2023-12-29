@@ -5,7 +5,7 @@
     "Type": "Ride/Shop",
     "String": "Multi-Dimension Coaster Train",
     "ImageCount": 28227,
-    "Size": "5606405",
+    "Size": 5606405,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/ARRX/00000.png",

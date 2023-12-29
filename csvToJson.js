@@ -1,7 +1,7 @@
 const fs = require('fs');
 const csvtojson = require('csvtojson');  // npm install csvtojson
 
-const replacer = (key, value) => (key === "ImageCount") ? Number(value) : value;
+const replacer = (key, value) => (key === "ImageCount" || key === "Size") ? Number(value) : value;
 
 function csvToJson(inputCsvPath, outputJsonPath) {
   // Read the CSV file
