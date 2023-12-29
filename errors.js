@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 const consoleOutput = `libpng error: Invalid IHDR data
 Unable to write png: PNG ERRORCould not export
 Error executing command for file: ARRSW2
@@ -320,23 +322,25 @@ Message: Command failed: openrct2 sprite exportalldat WHICGRUB .\openrct2-export
 libpng error: Invalid IHDR data
 Unable to write png: PNG ERRORCould not export`;
 
-// Initialize an array to store error messages
-const errorMessages = [];
+function findErrors() {
+  // Initialize an array to store error messages
+  const errorMessages = [];
 
-// Use a regular expression to match the error messages
-const regex = /Error executing command for file: (.+?)(\r|\n|$)/g;
-let match;
+  // Use a regular expression to match the error messages
+  const regex = /Error executing command for file: (.+?)(\r|\n|$)/g;
+  let match;
 
-while ((match = regex.exec(consoleOutput)) !== null) {
-    // match[1] contains the captured substring after "Error executing command for file:"
-    errorMessages.push(match[1]);
+  while ((match = regex.exec(consoleOutput)) !== null) {
+      // match[1] contains the captured substring after "Error executing command for file:"
+      errorMessages.push(match[1]);
+  }
+
+  // Log the error messages array
+  console.log('Error Messages:', errorMessages.sort());
 }
 
-// Log the error messages array
-console.log('Error Messages:', errorMessages.sort());
-
 const datErrorFiles =  [
-  'ARRSW2',     'ARRX',     'BLACKCAB', 'CRNVBFLY',
+  '4X4', 'ARRSW2',     'ARRX',     'BLACKCAB', 'CRNVBFLY',
   'CRNVFROG',   'CRNVLZRD', 'CSTBOAT',  'CTCAR',
   'FLYGBOAT',   'GOLTR',    'GTC',      'HELICAR',
   'HMCAR',      'HOVERCAR', 'HUSKIE',   'JSTAR1',
@@ -348,4 +352,48 @@ const datErrorFiles =  [
   'VCR',        'VEKVAMP',  'WHICGRUB', 'WMMINE',
   'WMOUSE',     'WTRCYAN',  'WTRGREEN', 'WTRGRN',
   'WTRORNG',    'ZLDB',     'ZLOG'
-]
+];
+
+function compareByObjectName(a,b)  {
+  const nameA = a.ObjectName.toUpperCase(); // Convert to uppercase for case-insensitive sorting
+  const nameB = b.ObjectName.toUpperCase();
+
+  if (nameA < nameB) {
+    return -1;
+  }
+  if (nameA > nameB) {
+    return 1;
+  }
+  return 0; // names must be equal
+}
+
+
+function saveErrorData() {
+  // Read data file
+  const objectData = JSON.parse(fs.readFileSync('objectData.json', 'utf-8'));
+  const errorData = [];
+  objectData.forEach(obj => {
+    if (datErrorFiles.includes(obj.ObjectName)) {
+      errorData.push(obj);
+    }
+  })
+
+  errorData.sort(compareByObjectName);
+
+  // Save as json file
+  fs.writeFileSync('errorObjectData.json', JSON.stringify(errorData, null, 2));
+}
+
+function saveMultidimensioncoasterData() {
+  // Read data file
+  const objectData = JSON.parse(fs.readFileSync('objectData.json', 'utf-8'));
+  const arrxOffsetsData = JSON.parse(fs.readFileSync('multidimensioncoaster.json', 'utf-8'));
+  objectData.forEach(obj => {
+    if (obj.ObjectName === 'ARRX') {
+
+      fs.writeFileSync('multidimensioncoasterObjectData.json', JSON.stringify([{...obj, offsets: arrxOffsetsData}], null, 2));
+    }
+  })
+}
+
+saveMultidimensioncoasterData();

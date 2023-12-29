@@ -1,18 +1,27 @@
 const fs = require('fs');
 const { execSync } = require('child_process');
 
-const skipErrors = true;
+const skipErrors = false;
 
 // console.log regularly for images saved, assuming the given image count is correct
 let prevCount = 0;
-let newCount;
-let logNumber = 80;
+let newCount = 0;
+const logNumber = 400; // How often per number of images to log progress to console and to save progress (Presuming that the given ImageCount is correct)
 
-// Read CSV file
-const objectData = JSON.parse(fs.readFileSync('objectData.json', 'utf-8'));
+// Read data file
+const objectData = JSON.parse(fs.readFileSync('errorObjectData.json', 'utf-8'));
+
+// Where to save generated data, with respect to the directory one level up
+const outputFile = '.\\openrct2-export-sprites\\spriteOffsets.json';
+const objectDataWithOffsetsFile = '.\\openrct2-export-sprites\\objectDataWithOffsets.json';
+
+// // Read current offsets data
+// const jsonData = fs.readFileSync('offsetsOrignal.json', 'utf-8');
+const jsonArray = [];
+const objectDataWithOffsets = [];
 
 const datErrorFiles =  [
-  '4x4',
+  '4X4',
   'ARRSW2',     'ARRX',     'BLACKCAB', 'CRNVBFLY',
   'CRNVFROG',   'CRNVLZRD', 'CSTBOAT',  'CTCAR',
   'FLYGBOAT',   'GOLTR',    'GTC',      'HELICAR',
@@ -24,12 +33,13 @@ const datErrorFiles =  [
   'SURFBRDC',   'TRAM1',    'TRILOBTE', 'TRUCK1',
   'VCR',        'VEKVAMP',  'WHICGRUB', 'WMMINE',
   'WMOUSE',     'WTRCYAN',  'WTRGREEN', 'WTRGRN',
-  'WTRORNG',    'ZLDB',     'ZLOG', 'ARRX'
+  'WTRORNG',    'ZLDB',     'ZLOG'
 ]
 
-// // Read current offsets data
-// const jsonData = fs.readFileSync('offsetsOrignal.json', 'utf-8');
-const jsonArray = [];
+// How to console.log object data
+function objToString(obj) {
+  return `${obj.ObjectName}: ${obj.String} (${obj.Type})`
+}
 
 // Helper function to parse JSON from stdout
 function extractOffsets(stdout) {
@@ -51,7 +61,7 @@ process.chdir('..');
 objectData.forEach(obj => {
   const datName = obj.ObjectName;
   // Make sure to exclude multidimensioncoaster, or if skipping errors, any of the ones listed in the errors array
-  if ((skipErrors && !datErrorFiles.includes(datName)) || datName !== 'ARRX'){
+  if ((skipErrors && !datErrorFiles.includes(datName)) || (!skipErrors && datName !== 'ARRX')){
     try {
         // Execute command in the command prompt
         const command = `openrct2 sprite exportalldat ${datName} .\\openrct2-export-sprites\\sprites\\${datName}`;
@@ -59,7 +69,9 @@ objectData.forEach(obj => {
 
         // Remove trailing comma and append JSON output to the array
         const cleanedJsonOutput = jsonOutput.trim().replace(/,\s*$/, '');
-        jsonArray.push(...JSON.parse(`[${cleanedJsonOutput}]`));
+        const offsets = JSON.parse(`[${cleanedJsonOutput}]`);
+        jsonArray.push(...offsets);
+        objectDataWithOffsets.push({...obj, offsets});
     } catch (error) {
       // Recover the good output the console logged before it logged warning and error messages
         const stringifiedOffsets = extractOffsets(error.stdout);
@@ -68,31 +80,36 @@ objectData.forEach(obj => {
             const recoveredOffsets = JSON.parse(extractOffsets(error.stdout));
             if (recoveredOffsets.length) {
               jsonArray.push(...recoveredOffsets);
+              objectDataWithOffsets.push({...obj, offsets: recoveredOffsets});
               
-              console.error(`Error executing command for file: ${datName}: ${obj.String}, Type: ${obj.Type}; Recovered ${recoveredOffsets?.length} offsets of ${obj.ImageCount} \n Error: ${error.message}`);
+              console.error(`Error executing command for file: ${objToString(obj)}; Recovered ${recoveredOffsets?.length ?? "0"} offsets of ${obj.ImageCount} \n Error: ${error.message}`);
             }
           } catch {
-            console.error(`Error executing command for file: ${datName}: ${obj.String}, Type: ${obj.Type}; Could not parse extracted offsets, output character length: ${stringifiedOffsets.length} \n Error: ${error.message}`);
+            console.error(`Error executing command for file: ${objToString(obj)}; Could not parse extracted offsets, output character length: ${stringifiedOffsets.length} \n Error: ${error.message}`);
           }
         } else {
-          console.error(`Error executing command for file: ${datName}: ${obj.String}, Type: ${obj.Type}; Recovered 0 offsets of ${obj.ImageCount} \n Error: ${error.message}`);
+          console.error(`Error executing command for file: ${objToString(obj)}; Recovered 0 offsets of ${obj.ImageCount} \n Error: ${error.message}`);
         }
         
     }
-    newCount += obj.ImageCount;
-    if ((newCount % logNumber === 0)) {
-      console.log(`${datName}: ${obj.String}, Type: ${obj.Type}`);
-    } else if ((newCount-prevCount) > logNumber){
-      console.log(`${datName}: ${obj.String}, Type: ${obj.Type}`);
-    }
+    newCount += Number(obj.ImageCount);
+    if (Math.floor(prevCount / logNumber) < Math.floor(newCount / logNumber)) {
+      console.log(objToString(obj));
+      // Save current progress
+      // Save the offsets array as a JSON file
+      fs.writeFileSync(outputFile, JSON.stringify(jsonArray, null, 2));
+      // Save the object data array as a JSON file
+      fs.writeFileSync(objectDataWithOffsetsFile, JSON.stringify(objectDataWithOffsets, null, 2));
+    } 
     prevCount = newCount;
   } else {
     console.log(`Skip ${datName}`)
   }
 });
 
-// Save the array as a JSON file
-const outputFile = '.\\openrct2-export-sprites\\spriteOffsets.json';
+// Save the offsets array as a JSON file
 fs.writeFileSync(outputFile, JSON.stringify(jsonArray, null, 2));
+// Save the object data array as a JSON file
+fs.writeFileSync(objectDataWithOffsetsFile, JSON.stringify(objectDataWithOffsets, null, 2));
 
 console.log('Script completed successfully.');

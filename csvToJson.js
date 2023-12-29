@@ -1,6 +1,8 @@
 const fs = require('fs');
 const csvtojson = require('csvtojson');  // npm install csvtojson
 
+const replacer = (key, value) => (key === "ImageCount") ? Number(value) : value;
+
 function csvToJson(inputCsvPath, outputJsonPath) {
   // Read the CSV file
   const csvString = fs.readFileSync(inputCsvPath, 'utf8');
@@ -10,7 +12,7 @@ function csvToJson(inputCsvPath, outputJsonPath) {
     .fromString(csvString)
     .then((jsonArray) => {
       // Write the JSON array to a file
-      fs.writeFileSync(outputJsonPath, JSON.stringify(jsonArray, null, 2));
+      fs.writeFileSync(outputJsonPath, JSON.stringify(jsonArray, replacer, 2));
       console.log('Conversion completed successfully.');
     })
     .catch((error) => {

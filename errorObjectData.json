@@ -1,0 +1,346 @@
+[
+  {
+    "ObjectName": "4X4",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Monster Trucks",
+    "ImageCount": 427,
+    "Size": "225061"
+  },
+  {
+    "ObjectName": "ARRSW2",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Suspended Swinging Aeroplane Cars",
+    "ImageCount": 4623,
+    "Size": "2197439"
+  },
+  {
+    "ObjectName": "ARRX",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Multi-Dimension Coaster Train",
+    "ImageCount": 28227,
+    "Size": "5606405"
+  },
+  {
+    "ObjectName": "BLACKCAB",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "London Taxi Black Cab Ride",
+    "ImageCount": 243,
+    "Size": "95764"
+  },
+  {
+    "ObjectName": "CRNVBFLY",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "Carnival Float Ride - Butterfly Cars",
+    "ImageCount": 243,
+    "Size": "110595"
+  },
+  {
+    "ObjectName": "CRNVFROG",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "Carnival Float Ride - Frog Cars",
+    "ImageCount": 243,
+    "Size": "91842"
+  },
+  {
+    "ObjectName": "CRNVLZRD",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "Carnival Float Ride - Lizard Cars",
+    "ImageCount": 243,
+    "Size": "94345"
+  },
+  {
+    "ObjectName": "CSTBOAT",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Coaster Boats",
+    "ImageCount": 1763,
+    "Size": "573215"
+  },
+  {
+    "ObjectName": "CTCAR",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Cheshire Cats",
+    "ImageCount": 243,
+    "Size": "79715"
+  },
+  {
+    "ObjectName": "FLYGBOAT",
+    "Source": "TT",
+    "Type": "Ride/Shop",
+    "String": "Flying Boat Ride",
+    "ImageCount": 1763,
+    "Size": "579799"
+  },
+  {
+    "ObjectName": "GOLTR",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Hyper-Twister Trains",
+    "ImageCount": 3591,
+    "Size": "1278199"
+  },
+  {
+    "ObjectName": "GTC",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Ghost Train",
+    "ImageCount": 243,
+    "Size": "88103"
+  },
+  {
+    "ObjectName": "HELICAR",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Mini Helicopters",
+    "ImageCount": 867,
+    "Size": "314821"
+  },
+  {
+    "ObjectName": "HMCAR",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Haunted Mansion Ride",
+    "ImageCount": 243,
+    "Size": "71567"
+  },
+  {
+    "ObjectName": "HOVERCAR",
+    "Source": "TT",
+    "Type": "Ride/Shop",
+    "String": "Hover Car Ride",
+    "ImageCount": 267,
+    "Size": "104197"
+  },
+  {
+    "ObjectName": "HUSKIE",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "Huskie Car",
+    "ImageCount": 867,
+    "Size": "374679"
+  },
+  {
+    "ObjectName": "JSTAR1",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Toboggan Cars",
+    "ImageCount": 1779,
+    "Size": "737203"
+  },
+  {
+    "ObjectName": "LONDONBS",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "London Bus Tram",
+    "ImageCount": 803,
+    "Size": "314034"
+  },
+  {
+    "ObjectName": "MANTARAY",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "Manta Ray Ride",
+    "ImageCount": 1763,
+    "Size": "739688"
+  },
+  {
+    "ObjectName": "MFT",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Articulated Roller Coaster Trains",
+    "ImageCount": 2883,
+    "Size": "1073727"
+  },
+  {
+    "ObjectName": "MONO2",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Small Monorail Cars",
+    "ImageCount": 423,
+    "Size": "176902"
+  },
+  {
+    "ObjectName": "PEGASUSX",
+    "Source": "TT",
+    "Type": "Ride/Shop",
+    "String": "Pegasus Ride",
+    "ImageCount": 867,
+    "Size": "302953"
+  },
+  {
+    "ObjectName": "PTCT2",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Wooden Roller Coaster Trains (6 seater)",
+    "ImageCount": 2883,
+    "Size": "1028109"
+  },
+  {
+    "ObjectName": "PTCT2R",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Wooden Roller Coaster Trains (6 seater, Reversed)",
+    "ImageCount": 2883,
+    "Size": "1028702"
+  },
+  {
+    "ObjectName": "RCKC",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Rocket Cars",
+    "ImageCount": 1779,
+    "Size": "723887"
+  },
+  {
+    "ObjectName": "RCR",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Racing Cars",
+    "ImageCount": 243,
+    "Size": "65273"
+  },
+  {
+    "ObjectName": "SANFTRAM",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "San Francisco Tram",
+    "ImageCount": 803,
+    "Size": "245392"
+  },
+  {
+    "ObjectName": "SCHOOLBS",
+    "Source": "TT",
+    "Type": "Ride/Shop",
+    "String": "School Bus Ride",
+    "ImageCount": 803,
+    "Size": "250427"
+  },
+  {
+    "ObjectName": "SMC1",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Mouse Cars",
+    "ImageCount": 623,
+    "Size": "204792"
+  },
+  {
+    "ObjectName": "SMC2",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Mine Cars",
+    "ImageCount": 587,
+    "Size": "225541"
+  },
+  {
+    "ObjectName": "SPBOAT",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Splash Boats",
+    "ImageCount": 1691,
+    "Size": "455772"
+  },
+  {
+    "ObjectName": "SPCAR",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Sportscars",
+    "ImageCount": 243,
+    "Size": "81565"
+  },
+  {
+    "ObjectName": "SURFBRDC",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "Surfing Coaster",
+    "ImageCount": 3351,
+    "Size": "1043098"
+  },
+  {
+    "ObjectName": "TRAM1",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Trams",
+    "ImageCount": 803,
+    "Size": "302072"
+  },
+  {
+    "ObjectName": "TRILOBTE",
+    "Source": "TT",
+    "Type": "Ride/Shop",
+    "String": "Trilobite Boats",
+    "ImageCount": 1763,
+    "Size": "679443"
+  },
+  {
+    "ObjectName": "TRUCK1",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Pickup Trucks",
+    "ImageCount": 267,
+    "Size": "84842"
+  },
+  {
+    "ObjectName": "VCR",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Vintage Cars",
+    "ImageCount": 243,
+    "Size": "93144"
+  },
+  {
+    "ObjectName": "VEKVAMP",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Swinging Floorless Cars",
+    "ImageCount": 3083,
+    "Size": "997647"
+  },
+  {
+    "ObjectName": "WHICGRUB",
+    "Source": "WW",
+    "Type": "Ride/Shop",
+    "String": "Witchity Grub Ride",
+    "ImageCount": 1491,
+    "Size": "483137"
+  },
+  {
+    "ObjectName": "WMMINE",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Wooden Wild Mine Ride",
+    "ImageCount": 1139,
+    "Size": "402495"
+  },
+  {
+    "ObjectName": "WMOUSE",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Wooden Wild Mouse",
+    "ImageCount": 1139,
+    "Size": "340314"
+  },
+  {
+    "ObjectName": "ZLDB",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Ladybird Trains",
+    "ImageCount": 1491,
+    "Size": "496392"
+  },
+  {
+    "ObjectName": "ZLOG",
+    "Source": "RCT2",
+    "Type": "Ride/Shop",
+    "String": "Log Trains",
+    "ImageCount": 1491,
+    "Size": "490341"
+  }
+]

@@ -1,10 +1,10 @@
 const fs = require('fs');
 
-const offsetsFile1 = 'spriteOffsets.json';
+const offsetsFile1 = 'objectDataWithOffsetsCombinedCurrent.json';
 
-const offsetsFile2 = 'problematic_file_output.json';
+const offsetsFile2 = 'multidimensioncoasterObjectData.json';
 
-const combinedOffsetsFile = 'spriteOffsets.json'
+const combinedOffsetsFile = 'objectDataWithOffsetsCombinedCurrent.json'
 
 const offsets1 = fs.readFileSync(offsetsFile1, 'utf-8');
 
