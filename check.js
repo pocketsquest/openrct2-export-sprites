@@ -456,7 +456,7 @@ const errorImageDifferenceList = [
     Given: { ImageCount: 3351, Size: 1043098 },
     Actual: { ImageCount: 2523, Size: 3008376 },
     Difference: { ImageCount: 828, SizeRatio: 0.34673125965637275 },
-    complete: false
+    complete: true
   },
   {
     ObjectName: 'WHICGRUB',
@@ -529,3 +529,17 @@ const errorImageDifferenceList = [
     complete: false
   }
 ]
+
+// Checked with datchecker.exe  All the images after the 0x0 image are blank as well.
+const completeErrors = [
+  '4X4',      'BLACKCAB', 'CRNVBFLY',
+  'CRNVFROG', 'CRNVLZRD', 'CSTBOAT',
+  'CTCAR',    'FLYGBOAT', 'GTC',
+  'HELICAR',  'HMCAR',    'HUSKIE',
+  'LONDONBS', 'MANTARAY', 'PEGASUSX',
+  'RCR',      'SANFTRAM', 'SCHOOLBS',
+  'SMC1',     'SPBOAT',   'SPCAR',
+  'TRAM1',    'TRILOBTE', 'VCR',
+  'WMMINE',   'WMOUSE',   'ZLDB',
+  'SURFBRDC'
+];
