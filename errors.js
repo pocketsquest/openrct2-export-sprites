@@ -213,8 +213,8 @@ libpng error: Invalid IHDR data
 Unable to write png: PNG ERRORCould not export
 
 Could not find the object.
-Error executing command for file: ObjectName
-Message: Command failed: openrct2 sprite exportalldat ObjectName .\openrct2-export-sprites\sprites\ObjectName
+Error executing command for file: objectName
+Message: Command failed: openrct2 sprite exportalldat objectName .\openrct2-export-sprites\sprites\objectName
 Could not find the object.
 
 libpng error: Invalid IHDR data
@@ -357,8 +357,8 @@ const datErrorFiles =  [
 
 
 function compareByObjectName(a,b)  {
-  const nameA = a.ObjectName.toUpperCase(); // Convert to uppercase for case-insensitive sorting
-  const nameB = b.ObjectName.toUpperCase();
+  const nameA = a.objectName.toUpperCase(); // Convert to uppercase for case-insensitive sorting
+  const nameB = b.objectName.toUpperCase();
 
   if (nameA < nameB) {
     return -1;
@@ -375,7 +375,7 @@ function saveErrorData() {
   const objectData = JSON.parse(fs.readFileSync('objectData.json', 'utf-8'));
   const errorData = [];
   objectData.forEach(obj => {
-    if (datErrorFiles.includes(obj.ObjectName)) {
+    if (datErrorFiles.includes(obj.objectName)) {
       errorData.push(obj);
     }
   })
@@ -391,7 +391,7 @@ function saveMultidimensioncoasterData() {
   const objectData = JSON.parse(fs.readFileSync('objectData.json', 'utf-8'));
   const arrxOffsetsData = JSON.parse(fs.readFileSync('multidimensioncoaster.json', 'utf-8'));
   objectData.forEach(obj => {
-    if (obj.ObjectName === 'ARRX') {
+    if (obj.objectName === 'ARRX') {
 
       fs.writeFileSync('multidimensioncoasterObjectData.json', JSON.stringify([{...obj, offsets: arrxOffsetsData}], null, 2));
     }
@@ -407,9 +407,9 @@ function countImages() {
   const objectData = JSON.parse(fs.readFileSync(dataFileName, 'utf-8'));
 
   objectData.forEach(obj => {
-    const {ObjectName, ImageCount, offsets} = obj;
+    const {objectName, imageCount, offsets} = obj;
     
-    errorFiles[ObjectName] = {ObjectName, ImageCount, SavedImageCount: offsets.length, Difference: ImageCount-offsets.length};
+    errorFiles[objectName] = {objectName, imageCount, SavedimageCount: offsets.length, Difference: imageCount-offsets.length};
     
   })
 

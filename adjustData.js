@@ -3,7 +3,7 @@ const path = require('path');
 const sizeOf = require('image-size'); // npm install image-size
 
 
-// Compare function to sort by a number of properties.  Example `objectData.sort(sortBy('Type','Source','ObjectName'));`
+// Compare function to sort by a number of properties.  Example `objectData.sort(sortBy('type','source','objectName'));`
 function sortBy(...props) {
   return (a, b) => {
     for (let i = 0; i < props.length; i++) {
@@ -23,14 +23,14 @@ function sortBy(...props) {
   };
 }
 
-// Example `sortData('objectData.json','sortedData.json','Type','Source','ObjectName');`
+// Example `sortData('objectData.json','sortedData.json','type','source','objectName');`
 function sortData(objectDataFile,sortedDataFile,...props) {
   const objectData = JSON.parse(fs.readFileSync(objectDataFile, 'utf-8'));
   objectData.sort(sortBy(...props));
   fs.writeFileSync(sortedDataFile, JSON.stringify(objectData, null, 2));
 }
 
-// sortData('objectDataWithOffsetsCombinedCurrent.json','objectDataTotalSorted.json','ObjectName')
+// sortData('objectDataWithOffsetsCombinedCurrent.json','objectDataTotalSorted.json','objectName')
 
 
 // example: renameFilePaths('objectData.json','..','./openrct2-export-sprites')

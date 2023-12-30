@@ -91,25 +91,25 @@ function compareImageCount(inputFilePath,outputFilePath) {
         const jsonData = JSON.parse(data);
 
         jsonData.forEach(obj => {
-          const {ObjectName, ImageCount, offsets} = obj;
+          const {objectName, imageCount, offsets} = obj;
           try {
             const directoryPath = path.dirname(offsets[0].path);
             const dirStats = getDirectoryStats(directoryPath);
             const {numFiles, numPngs, emptyPngFiles, numEmptyPngs, numNonEmptyPngs} = dirStats;
             if (numFiles !== numPngs) {
-              fileTypeErrors.push({ObjectName, ImageCount, numFiles, numPngs});
+              fileTypeErrors.push({objectName, imageCount, numFiles, numPngs});
             }
             if (numEmptyPngs) {
-              emptyPngErrors.push({ObjectName,ImageCount,numPngs, numEmptyPngs, emptyPngFiles});
-              if (!datErrorFiles.includes(ObjectName)) {
-                console.log(ObjectName);
+              emptyPngErrors.push({objectName,imageCount,numPngs, numEmptyPngs, emptyPngFiles});
+              if (!datErrorFiles.includes(objectName)) {
+                console.log(objectName);
               }
-            } else if ((ImageCount !== numNonEmptyPngs) || (ImageCount !== offsets.length) || (offsets.length !== numNonEmptyPngs)) {
-              imageCountErrors.push({ObjectName,ImageCount,numNonEmptyPngs, imageList: {length: offsets.length}})
+            } else if ((imageCount !== numNonEmptyPngs) || (imageCount !== offsets.length) || (offsets.length !== numNonEmptyPngs)) {
+              imageCountErrors.push({objectName,imageCount,numNonEmptyPngs, imageList: {length: offsets.length}})
             }
 
           } catch {
-            const newError = {ObjectName, message: 'Error reading directory stats', ImageCount};
+            const newError = {objectName, message: 'Error reading directory stats', imageCount};
             if (offsets.length) {
               newError.imageList = {length: offsets.length, entry: offsets[0]}
             } else {
@@ -201,8 +201,8 @@ function getErrorImageDifferenceList() {
   const newErrorData = [];
 
   errorObjectData.forEach( obj => {
-    const {ObjectName, ImageCount, Size} = obj;
-    const directoryPath = './sprites/'+ObjectName;
+    const {objectName, imageCount, size} = obj;
+    const directoryPath = './sprites/'+objectName;
     const images = fs.readdirSync(directoryPath);
     let dirSize = 0;
     images.forEach(image => {
@@ -210,21 +210,21 @@ function getErrorImageDifferenceList() {
       dirSize+= imageStats.size;
     })
     newErrorData.push({
-      ObjectName,
+      objectName,
       Given: {
-        ImageCount,
-        Size
+        imageCount,
+        size
       },
       Actual: {
-        ImageCount: images.length-1,
-        Size: dirSize
+        imageCount: images.length-1,
+        size: dirSize
       }
     })
   })
 
   newErrorData.sort((a, b) => {
-    const diffA = a.Given.ImageCount - a.Actual.ImageCount;
-    const diffB = b.Given.ImageCount - b.Actual.ImageCount;
+    const diffA = a.Given.imageCount - a.Actual.imageCount;
+    const diffB = b.Given.imageCount - b.Actual.imageCount;
     return diffA - diffB;
   });
 
@@ -235,297 +235,297 @@ function getErrorImageDifferenceList() {
 
 const errorImageDifferenceList = [
   {
-    ObjectName: '4X4',
-    Given: { ImageCount: 427, Size: 225061 },
-    Actual: { ImageCount: 395, Size: 487197 },
-    Difference: { ImageCount: 32, SizeRatio: 0.46195070987711334 },
+    objectName: '4X4',
+    Given: { imageCount: 427, size: 225061 },
+    Actual: { imageCount: 395, size: 487197 },
+    Difference: { imageCount: 32, sizeRatio: 0.46195070987711334 },
     complete: true
   },
   {
-    ObjectName: 'BLACKCAB',
-    Given: { ImageCount: 243, Size: 95764 },
-    Actual: { ImageCount: 211, Size: 245320 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3903636067177564 },
+    objectName: 'BLACKCAB',
+    Given: { imageCount: 243, size: 95764 },
+    Actual: { imageCount: 211, size: 245320 },
+    Difference: { imageCount: 32, sizeRatio: 0.3903636067177564 },
     complete: true
   },
   {
-    ObjectName: 'CRNVBFLY',
-    Given: { ImageCount: 243, Size: 110595 },
-    Actual: { ImageCount: 211, Size: 256539 },
-    Difference: { ImageCount: 32, SizeRatio: 0.4311040426601803 },
+    objectName: 'CRNVBFLY',
+    Given: { imageCount: 243, size: 110595 },
+    Actual: { imageCount: 211, size: 256539 },
+    Difference: { imageCount: 32, sizeRatio: 0.4311040426601803 },
     complete: true
   },
   {
-    ObjectName: 'CRNVFROG',
-    Given: { ImageCount: 243, Size: 91842 },
-    Actual: { ImageCount: 211, Size: 253045 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3629473018633049 },
+    objectName: 'CRNVFROG',
+    Given: { imageCount: 243, size: 91842 },
+    Actual: { imageCount: 211, size: 253045 },
+    Difference: { imageCount: 32, sizeRatio: 0.3629473018633049 },
     complete: true
   },
   {
-    ObjectName: 'CRNVLZRD',
-    Given: { ImageCount: 243, Size: 94345 },
-    Actual: { ImageCount: 211, Size: 257751 },
-    Difference: { ImageCount: 32, SizeRatio: 0.36603155758852535 },
+    objectName: 'CRNVLZRD',
+    Given: { imageCount: 243, size: 94345 },
+    Actual: { imageCount: 211, size: 257751 },
+    Difference: { imageCount: 32, sizeRatio: 0.36603155758852535 },
     complete: true
   },
   {
-    ObjectName: 'CSTBOAT',
-    Given: { ImageCount: 1763, Size: 573215 },
-    Actual: { ImageCount: 1731, Size: 1909678 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3001631688693068 },
+    objectName: 'CSTBOAT',
+    Given: { imageCount: 1763, size: 573215 },
+    Actual: { imageCount: 1731, size: 1909678 },
+    Difference: { imageCount: 32, sizeRatio: 0.3001631688693068 },
     complete: true
   },
   {
-    ObjectName: 'CTCAR',
-    Given: { ImageCount: 243, Size: 79715 },
-    Actual: { ImageCount: 211, Size: 239773 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3324602853532299 },
+    objectName: 'CTCAR',
+    Given: { imageCount: 243, size: 79715 },
+    Actual: { imageCount: 211, size: 239773 },
+    Difference: { imageCount: 32, sizeRatio: 0.3324602853532299 },
     complete: true
   },
   {
-    ObjectName: 'FLYGBOAT',
-    Given: { ImageCount: 1763, Size: 579799 },
-    Actual: { ImageCount: 1731, Size: 1969538 },
-    Difference: { ImageCount: 32, SizeRatio: 0.2943832513005588 },
+    objectName: 'FLYGBOAT',
+    Given: { imageCount: 1763, size: 579799 },
+    Actual: { imageCount: 1731, size: 1969538 },
+    Difference: { imageCount: 32, sizeRatio: 0.2943832513005588 },
     complete: true
   },
   {
-    ObjectName: 'GTC',
-    Given: { ImageCount: 243, Size: 88103 },
-    Actual: { ImageCount: 211, Size: 243284 },
-    Difference: { ImageCount: 32, SizeRatio: 0.36214054356225645 },
+    objectName: 'GTC',
+    Given: { imageCount: 243, size: 88103 },
+    Actual: { imageCount: 211, size: 243284 },
+    Difference: { imageCount: 32, sizeRatio: 0.36214054356225645 },
     complete: true
   },
   {
-    ObjectName: 'HELICAR',
-    Given: { ImageCount: 867, Size: 314821 },
-    Actual: { ImageCount: 835, Size: 937216 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3359108252526632 },
+    objectName: 'HELICAR',
+    Given: { imageCount: 867, size: 314821 },
+    Actual: { imageCount: 835, size: 937216 },
+    Difference: { imageCount: 32, sizeRatio: 0.3359108252526632 },
     complete: true
   },
   {
-    ObjectName: 'HMCAR',
-    Given: { ImageCount: 243, Size: 71567 },
-    Actual: { ImageCount: 211, Size: 231210 },
-    Difference: { ImageCount: 32, SizeRatio: 0.30953245966869947 },
+    objectName: 'HMCAR',
+    Given: { imageCount: 243, size: 71567 },
+    Actual: { imageCount: 211, size: 231210 },
+    Difference: { imageCount: 32, sizeRatio: 0.30953245966869947 },
     complete: true
   },
   {
-    ObjectName: 'HUSKIE',
-    Given: { ImageCount: 867, Size: 374679 },
-    Actual: { ImageCount: 835, Size: 1007762 },
-    Difference: { ImageCount: 32, SizeRatio: 0.371793141634632 },
+    objectName: 'HUSKIE',
+    Given: { imageCount: 867, size: 374679 },
+    Actual: { imageCount: 835, size: 1007762 },
+    Difference: { imageCount: 32, sizeRatio: 0.371793141634632 },
     complete: true
   },
   {
-    ObjectName: 'LONDONBS',
-    Given: { ImageCount: 803, Size: 314034 },
-    Actual: { ImageCount: 771, Size: 878264 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3575621908674385 },
+    objectName: 'LONDONBS',
+    Given: { imageCount: 803, size: 314034 },
+    Actual: { imageCount: 771, size: 878264 },
+    Difference: { imageCount: 32, sizeRatio: 0.3575621908674385 },
     complete: true
   },
   {
-    ObjectName: 'MANTARAY',
-    Given: { ImageCount: 1763, Size: 739688 },
-    Actual: { ImageCount: 1731, Size: 1999816 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3698780287786476 },
+    objectName: 'MANTARAY',
+    Given: { imageCount: 1763, size: 739688 },
+    Actual: { imageCount: 1731, size: 1999816 },
+    Difference: { imageCount: 32, sizeRatio: 0.3698780287786476 },
     complete: true
   },
   {
-    ObjectName: 'PEGASUSX',
-    Given: { ImageCount: 867, Size: 302953 },
-    Actual: { ImageCount: 835, Size: 980648 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3089314412510911 },
+    objectName: 'PEGASUSX',
+    Given: { imageCount: 867, size: 302953 },
+    Actual: { imageCount: 835, size: 980648 },
+    Difference: { imageCount: 32, sizeRatio: 0.3089314412510911 },
     complete: true
   },
   {
-    ObjectName: 'RCR',
-    Given: { ImageCount: 243, Size: 65273 },
-    Actual: { ImageCount: 211, Size: 229757 },
-    Difference: { ImageCount: 32, SizeRatio: 0.28409580556849195 },
+    objectName: 'RCR',
+    Given: { imageCount: 243, size: 65273 },
+    Actual: { imageCount: 211, size: 229757 },
+    Difference: { imageCount: 32, sizeRatio: 0.28409580556849195 },
     complete: true
   },
   {
-    ObjectName: 'SANFTRAM',
-    Given: { ImageCount: 803, Size: 245392 },
-    Actual: { ImageCount: 771, Size: 831684 },
-    Difference: { ImageCount: 32, SizeRatio: 0.29505437161229503 },
+    objectName: 'SANFTRAM',
+    Given: { imageCount: 803, size: 245392 },
+    Actual: { imageCount: 771, size: 831684 },
+    Difference: { imageCount: 32, sizeRatio: 0.29505437161229503 },
     complete: true
   },
   {
-    ObjectName: 'SCHOOLBS',
-    Given: { ImageCount: 803, Size: 250427 },
-    Actual: { ImageCount: 771, Size: 841152 },
-    Difference: { ImageCount: 32, SizeRatio: 0.297719080499125 },
+    objectName: 'SCHOOLBS',
+    Given: { imageCount: 803, size: 250427 },
+    Actual: { imageCount: 771, size: 841152 },
+    Difference: { imageCount: 32, sizeRatio: 0.297719080499125 },
     complete: true
   },
   {
-    ObjectName: 'SMC1',
-    Given: { ImageCount: 623, Size: 204792 },
-    Actual: { ImageCount: 591, Size: 654915 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3127001213897987 },
+    objectName: 'SMC1',
+    Given: { imageCount: 623, size: 204792 },
+    Actual: { imageCount: 591, size: 654915 },
+    Difference: { imageCount: 32, sizeRatio: 0.3127001213897987 },
     complete: true
   },
   {
-    ObjectName: 'SPBOAT',
-    Given: { ImageCount: 1691, Size: 455772 },
-    Actual: { ImageCount: 1659, Size: 1768803 },
-    Difference: { ImageCount: 32, SizeRatio: 0.25767256161370145 },
+    objectName: 'SPBOAT',
+    Given: { imageCount: 1691, size: 455772 },
+    Actual: { imageCount: 1659, size: 1768803 },
+    Difference: { imageCount: 32, sizeRatio: 0.25767256161370145 },
     complete: true
   },
   {
-    ObjectName: 'SPCAR',
-    Given: { ImageCount: 243, Size: 81565 },
-    Actual: { ImageCount: 211, Size: 236601 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3447364973098169 },
+    objectName: 'SPCAR',
+    Given: { imageCount: 243, size: 81565 },
+    Actual: { imageCount: 211, size: 236601 },
+    Difference: { imageCount: 32, sizeRatio: 0.3447364973098169 },
     complete: true
   },
   {
-    ObjectName: 'TRAM1',
-    Given: { ImageCount: 803, Size: 302072 },
-    Actual: { ImageCount: 771, Size: 852021 },
-    Difference: { ImageCount: 32, SizeRatio: 0.35453586237897894 },
+    objectName: 'TRAM1',
+    Given: { imageCount: 803, size: 302072 },
+    Actual: { imageCount: 771, size: 852021 },
+    Difference: { imageCount: 32, sizeRatio: 0.35453586237897894 },
     complete: true
   },
   {
-    ObjectName: 'TRILOBTE',
-    Given: { ImageCount: 1763, Size: 679443 },
-    Actual: { ImageCount: 1731, Size: 2061238 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3296286018402533 },
+    objectName: 'TRILOBTE',
+    Given: { imageCount: 1763, size: 679443 },
+    Actual: { imageCount: 1731, size: 2061238 },
+    Difference: { imageCount: 32, sizeRatio: 0.3296286018402533 },
     complete: true
   },
   {
-    ObjectName: 'VCR',
-    Given: { ImageCount: 243, Size: 93144 },
-    Actual: { ImageCount: 211, Size: 246900 },
-    Difference: { ImageCount: 32, SizeRatio: 0.3772539489671932 },
+    objectName: 'VCR',
+    Given: { imageCount: 243, size: 93144 },
+    Actual: { imageCount: 211, size: 246900 },
+    Difference: { imageCount: 32, sizeRatio: 0.3772539489671932 },
     complete: true
   },
   {
-    ObjectName: 'WMMINE',
-    Given: { ImageCount: 1139, Size: 402495 },
-    Actual: { ImageCount: 1107, Size: 1224310 },
-    Difference: { ImageCount: 32, SizeRatio: 0.32875252182862186 },
+    objectName: 'WMMINE',
+    Given: { imageCount: 1139, size: 402495 },
+    Actual: { imageCount: 1107, size: 1224310 },
+    Difference: { imageCount: 32, sizeRatio: 0.32875252182862186 },
     complete: true
   },
   {
-    ObjectName: 'WMOUSE',
-    Given: { ImageCount: 1139, Size: 340314 },
-    Actual: { ImageCount: 1107, Size: 1211618 },
-    Difference: { ImageCount: 32, SizeRatio: 0.2808756555283926 },
+    objectName: 'WMOUSE',
+    Given: { imageCount: 1139, size: 340314 },
+    Actual: { imageCount: 1107, size: 1211618 },
+    Difference: { imageCount: 32, sizeRatio: 0.2808756555283926 },
     complete: true
   },
   {
-    ObjectName: 'ZLDB',
-    Given: { ImageCount: 1491, Size: 496392 },
-    Actual: { ImageCount: 1459, Size: 1638879 },
-    Difference: { ImageCount: 32, SizeRatio: 0.30288508181506996 },
+    objectName: 'ZLDB',
+    Given: { imageCount: 1491, size: 496392 },
+    Actual: { imageCount: 1459, size: 1638879 },
+    Difference: { imageCount: 32, sizeRatio: 0.30288508181506996 },
     complete: true
   },
   {
-    ObjectName: 'HOVERCAR',
-    Given: { ImageCount: 267, Size: 104197 },
-    Actual: { ImageCount: 1, Size: 7192 },
-    Difference: { ImageCount: 266, SizeRatio: 14.487903225806452 },
+    objectName: 'HOVERCAR',
+    Given: { imageCount: 267, size: 104197 },
+    Actual: { imageCount: 1, size: 7192 },
+    Difference: { imageCount: 266, sizeRatio: 14.487903225806452 },
     complete: false
   },
   {
-    ObjectName: 'TRUCK1',
-    Given: { ImageCount: 267, Size: 84842 },
-    Actual: { ImageCount: 1, Size: 5777 },
-    Difference: { ImageCount: 266, SizeRatio: 14.686169292020079 },
+    objectName: 'TRUCK1',
+    Given: { imageCount: 267, size: 84842 },
+    Actual: { imageCount: 1, size: 5777 },
+    Difference: { imageCount: 266, sizeRatio: 14.686169292020079 },
     complete: false
   },
   {
-    ObjectName: 'MONO2',
-    Given: { ImageCount: 423, Size: 176902 },
-    Actual: { ImageCount: 1, Size: 5349 },
-    Difference: { ImageCount: 422, SizeRatio: 33.071976070293516 },
+    objectName: 'MONO2',
+    Given: { imageCount: 423, size: 176902 },
+    Actual: { imageCount: 1, size: 5349 },
+    Difference: { imageCount: 422, sizeRatio: 33.071976070293516 },
     complete: false
   },
   {
-    ObjectName: 'SMC2',
-    Given: { ImageCount: 587, Size: 225541 },
-    Actual: { ImageCount: 1, Size: 6588 },
-    Difference: { ImageCount: 586, SizeRatio: 34.23512446873102 },
+    objectName: 'SMC2',
+    Given: { imageCount: 587, size: 225541 },
+    Actual: { imageCount: 1, size: 6588 },
+    Difference: { imageCount: 586, sizeRatio: 34.23512446873102 },
     complete: false
   },
   {
-    ObjectName: 'SURFBRDC',
-    Given: { ImageCount: 3351, Size: 1043098 },
-    Actual: { ImageCount: 2523, Size: 3008376 },
-    Difference: { ImageCount: 828, SizeRatio: 0.34673125965637275 },
+    objectName: 'SURFBRDC',
+    Given: { imageCount: 3351, size: 1043098 },
+    Actual: { imageCount: 2523, size: 3008376 },
+    Difference: { imageCount: 828, sizeRatio: 0.34673125965637275 },
     complete: true
   },
   {
-    ObjectName: 'WHICGRUB',
-    Given: { ImageCount: 1491, Size: 483137 },
-    Actual: { ImageCount: 1, Size: 7741 },
-    Difference: { ImageCount: 1490, SizeRatio: 62.4127373724325 },
+    objectName: 'WHICGRUB',
+    Given: { imageCount: 1491, size: 483137 },
+    Actual: { imageCount: 1, size: 7741 },
+    Difference: { imageCount: 1490, sizeRatio: 62.4127373724325 },
     complete: false
   },
   {
-    ObjectName: 'ZLOG',
-    Given: { ImageCount: 1491, Size: 490341 },
-    Actual: { ImageCount: 1, Size: 7192 },
-    Difference: { ImageCount: 1490, SizeRatio: 68.17867074527253 },
+    objectName: 'ZLOG',
+    Given: { imageCount: 1491, size: 490341 },
+    Actual: { imageCount: 1, size: 7192 },
+    Difference: { imageCount: 1490, sizeRatio: 68.17867074527253 },
     complete: false
   },
   {
-    ObjectName: 'JSTAR1',
-    Given: { ImageCount: 1779, Size: 737203 },
-    Actual: { ImageCount: 1, Size: 6854 },
-    Difference: { ImageCount: 1778, SizeRatio: 107.55806828129559 },
+    objectName: 'JSTAR1',
+    Given: { imageCount: 1779, size: 737203 },
+    Actual: { imageCount: 1, size: 6854 },
+    Difference: { imageCount: 1778, sizeRatio: 107.55806828129559 },
     complete: false
   },
   {
-    ObjectName: 'RCKC',
-    Given: { ImageCount: 1779, Size: 723887 },
-    Actual: { ImageCount: 1, Size: 5797 },
-    Difference: { ImageCount: 1778, SizeRatio: 124.87269277212351 },
+    objectName: 'RCKC',
+    Given: { imageCount: 1779, size: 723887 },
+    Actual: { imageCount: 1, size: 5797 },
+    Difference: { imageCount: 1778, sizeRatio: 124.87269277212351 },
     complete: false
   },
   {
-    ObjectName: 'MFT',
-    Given: { ImageCount: 2883, Size: 1073727 },
-    Actual: { ImageCount: 1, Size: 6753 },
-    Difference: { ImageCount: 2882, SizeRatio: 159 },
+    objectName: 'MFT',
+    Given: { imageCount: 2883, size: 1073727 },
+    Actual: { imageCount: 1, size: 6753 },
+    Difference: { imageCount: 2882, sizeRatio: 159 },
     complete: false
   },
   {
-    ObjectName: 'PTCT2',
-    Given: { ImageCount: 2883, Size: 1028109 },
-    Actual: { ImageCount: 1, Size: 6578 },
-    Difference: { ImageCount: 2882, SizeRatio: 156.29507449072668 },
+    objectName: 'PTCT2',
+    Given: { imageCount: 2883, size: 1028109 },
+    Actual: { imageCount: 1, size: 6578 },
+    Difference: { imageCount: 2882, sizeRatio: 156.29507449072668 },
     complete: false
   },
   {
-    ObjectName: 'PTCT2R',
-    Given: { ImageCount: 2883, Size: 1028702 },
-    Actual: { ImageCount: 1, Size: 5852 },
-    Difference: { ImageCount: 2882, SizeRatio: 175.7863978127136 },
+    objectName: 'PTCT2R',
+    Given: { imageCount: 2883, size: 1028702 },
+    Actual: { imageCount: 1, size: 5852 },
+    Difference: { imageCount: 2882, sizeRatio: 175.7863978127136 },
     complete: false
   },
   {
-    ObjectName: 'VEKVAMP',
-    Given: { ImageCount: 3083, Size: 997647 },
-    Actual: { ImageCount: 1, Size: 6803 },
-    Difference: { ImageCount: 3082, SizeRatio: 146.64809642804644 },
+    objectName: 'VEKVAMP',
+    Given: { imageCount: 3083, size: 997647 },
+    Actual: { imageCount: 1, size: 6803 },
+    Difference: { imageCount: 3082, sizeRatio: 146.64809642804644 },
     complete: false
   },
   {
-    ObjectName: 'GOLTR',
-    Given: { ImageCount: 3591, Size: 1278199 },
-    Actual: { ImageCount: 1, Size: 7126 },
-    Difference: { ImageCount: 3590, SizeRatio: 179.37117597530172 },
+    objectName: 'GOLTR',
+    Given: { imageCount: 3591, size: 1278199 },
+    Actual: { imageCount: 1, size: 7126 },
+    Difference: { imageCount: 3590, sizeRatio: 179.37117597530172 },
     complete: false
   },
   {
-    ObjectName: 'ARRSW2',
-    Given: { ImageCount: 4623, Size: 2197439 },
-    Actual: { ImageCount: 1, Size: 6483 },
-    Difference: { ImageCount: 4622, SizeRatio: 338.9540336264075 },
+    objectName: 'ARRSW2',
+    Given: { imageCount: 4623, size: 2197439 },
+    Actual: { imageCount: 1, size: 6483 },
+    Difference: { imageCount: 4622, sizeRatio: 338.9540336264075 },
     complete: false
   }
 ]

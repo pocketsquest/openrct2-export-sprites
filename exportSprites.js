@@ -6,7 +6,7 @@ const skipErrors = false;
 // console.log regularly for images saved, assuming the given image count is correct
 let prevCount = 0;
 let newCount = 0;
-const logNumber = 400; // How often per number of images to log progress to console and to save progress (Presuming that the given ImageCount is correct)
+const logNumber = 400; // How often per number of images to log progress to console and to save progress (Presuming that the given imageCount is correct)
 
 // Read data file
 const objectData = JSON.parse(fs.readFileSync('errorObjectData.json', 'utf-8'));
@@ -38,7 +38,7 @@ const datErrorFiles =  [
 
 // How to console.log object data
 function objToString(obj) {
-  return `${obj.ObjectName}: ${obj.String} (${obj.Type})`
+  return `${obj.objectName}: ${obj.string} (${obj.type})`
 }
 
 // Helper function to parse JSON from stdout
@@ -59,7 +59,7 @@ process.chdir('..');
 
 // Iterate over file names
 objectData.forEach(obj => {
-  const datName = obj.ObjectName;
+  const datName = obj.objectName;
   // Make sure to exclude multidimensioncoaster, or if skipping errors, any of the ones listed in the errors array
   if ((skipErrors && !datErrorFiles.includes(datName)) || (!skipErrors && datName !== 'ARRX')){
     try {
@@ -82,17 +82,17 @@ objectData.forEach(obj => {
               jsonArray.push(...recoveredOffsets);
               objectDataWithOffsets.push({...obj, offsets: recoveredOffsets});
               
-              console.error(`Error executing command for file: ${objToString(obj)}; Recovered ${recoveredOffsets?.length ?? "0"} offsets of ${obj.ImageCount} \n Error: ${error.message}`);
+              console.error(`Error executing command for file: ${objToString(obj)}; Recovered ${recoveredOffsets?.length ?? "0"} offsets of ${obj.imageCount} \n Error: ${error.message}`);
             }
           } catch {
             console.error(`Error executing command for file: ${objToString(obj)}; Could not parse extracted offsets, output character length: ${stringifiedOffsets.length} \n Error: ${error.message}`);
           }
         } else {
-          console.error(`Error executing command for file: ${objToString(obj)}; Recovered 0 offsets of ${obj.ImageCount} \n Error: ${error.message}`);
+          console.error(`Error executing command for file: ${objToString(obj)}; Recovered 0 offsets of ${obj.imageCount} \n Error: ${error.message}`);
         }
         
     }
-    newCount += Number(obj.ImageCount);
+    newCount += Number(obj.imageCount);
     if (Math.floor(prevCount / logNumber) < Math.floor(newCount / logNumber)) {
       console.log(objToString(obj));
       // Save current progress

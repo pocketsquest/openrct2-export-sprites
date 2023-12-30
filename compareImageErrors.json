@@ -3,8 +3,8 @@
   "fileTypeErrors": [],
   "emptyPngErrors": [
     {
-      "ObjectName": "4X4",
-      "ImageCount": 427,
+      "objectName": "4X4",
+      "imageCount": 427,
       "numPngs": 396,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -12,8 +12,8 @@
       ]
     },
     {
-      "ObjectName": "ARRSW2",
-      "ImageCount": 4623,
+      "objectName": "ARRSW2",
+      "imageCount": 4623,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -21,8 +21,8 @@
       ]
     },
     {
-      "ObjectName": "BLACKCAB",
-      "ImageCount": 243,
+      "objectName": "BLACKCAB",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -30,8 +30,8 @@
       ]
     },
     {
-      "ObjectName": "CRNVBFLY",
-      "ImageCount": 243,
+      "objectName": "CRNVBFLY",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -39,8 +39,8 @@
       ]
     },
     {
-      "ObjectName": "CRNVFROG",
-      "ImageCount": 243,
+      "objectName": "CRNVFROG",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -48,8 +48,8 @@
       ]
     },
     {
-      "ObjectName": "CRNVLZRD",
-      "ImageCount": 243,
+      "objectName": "CRNVLZRD",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -57,8 +57,8 @@
       ]
     },
     {
-      "ObjectName": "CSTBOAT",
-      "ImageCount": 1763,
+      "objectName": "CSTBOAT",
+      "imageCount": 1763,
       "numPngs": 1732,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -66,8 +66,8 @@
       ]
     },
     {
-      "ObjectName": "CTCAR",
-      "ImageCount": 243,
+      "objectName": "CTCAR",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -75,8 +75,8 @@
       ]
     },
     {
-      "ObjectName": "FLYGBOAT",
-      "ImageCount": 1763,
+      "objectName": "FLYGBOAT",
+      "imageCount": 1763,
       "numPngs": 1732,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "ObjectName": "GOLTR",
-      "ImageCount": 3591,
+      "objectName": "GOLTR",
+      "imageCount": 3591,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -93,8 +93,8 @@
       ]
     },
     {
-      "ObjectName": "GTC",
-      "ImageCount": 243,
+      "objectName": "GTC",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -102,8 +102,8 @@
       ]
     },
     {
-      "ObjectName": "HELICAR",
-      "ImageCount": 867,
+      "objectName": "HELICAR",
+      "imageCount": 867,
       "numPngs": 836,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -111,8 +111,8 @@
       ]
     },
     {
-      "ObjectName": "HMCAR",
-      "ImageCount": 243,
+      "objectName": "HMCAR",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -120,8 +120,8 @@
       ]
     },
     {
-      "ObjectName": "HOVERCAR",
-      "ImageCount": 267,
+      "objectName": "HOVERCAR",
+      "imageCount": 267,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -129,8 +129,8 @@
       ]
     },
     {
-      "ObjectName": "HUSKIE",
-      "ImageCount": 867,
+      "objectName": "HUSKIE",
+      "imageCount": 867,
       "numPngs": 836,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -138,8 +138,8 @@
       ]
     },
     {
-      "ObjectName": "JSTAR1",
-      "ImageCount": 1779,
+      "objectName": "JSTAR1",
+      "imageCount": 1779,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -147,8 +147,8 @@
       ]
     },
     {
-      "ObjectName": "LONDONBS",
-      "ImageCount": 803,
+      "objectName": "LONDONBS",
+      "imageCount": 803,
       "numPngs": 772,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -156,8 +156,8 @@
       ]
     },
     {
-      "ObjectName": "MANTARAY",
-      "ImageCount": 1763,
+      "objectName": "MANTARAY",
+      "imageCount": 1763,
       "numPngs": 1732,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -165,8 +165,8 @@
       ]
     },
     {
-      "ObjectName": "MFT",
-      "ImageCount": 2883,
+      "objectName": "MFT",
+      "imageCount": 2883,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -174,8 +174,8 @@
       ]
     },
     {
-      "ObjectName": "MONO2",
-      "ImageCount": 423,
+      "objectName": "MONO2",
+      "imageCount": 423,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -183,8 +183,8 @@
       ]
     },
     {
-      "ObjectName": "PEGASUSX",
-      "ImageCount": 867,
+      "objectName": "PEGASUSX",
+      "imageCount": 867,
       "numPngs": 836,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -192,8 +192,8 @@
       ]
     },
     {
-      "ObjectName": "PTCT2",
-      "ImageCount": 2883,
+      "objectName": "PTCT2",
+      "imageCount": 2883,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -201,8 +201,8 @@
       ]
     },
     {
-      "ObjectName": "PTCT2R",
-      "ImageCount": 2883,
+      "objectName": "PTCT2R",
+      "imageCount": 2883,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -210,8 +210,8 @@
       ]
     },
     {
-      "ObjectName": "RCKC",
-      "ImageCount": 1779,
+      "objectName": "RCKC",
+      "imageCount": 1779,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -219,8 +219,8 @@
       ]
     },
     {
-      "ObjectName": "RCR",
-      "ImageCount": 243,
+      "objectName": "RCR",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -228,8 +228,8 @@
       ]
     },
     {
-      "ObjectName": "SANFTRAM",
-      "ImageCount": 803,
+      "objectName": "SANFTRAM",
+      "imageCount": 803,
       "numPngs": 772,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -237,8 +237,8 @@
       ]
     },
     {
-      "ObjectName": "SCHOOLBS",
-      "ImageCount": 803,
+      "objectName": "SCHOOLBS",
+      "imageCount": 803,
       "numPngs": 772,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -246,8 +246,8 @@
       ]
     },
     {
-      "ObjectName": "SMC1",
-      "ImageCount": 623,
+      "objectName": "SMC1",
+      "imageCount": 623,
       "numPngs": 592,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -255,8 +255,8 @@
       ]
     },
     {
-      "ObjectName": "SMC2",
-      "ImageCount": 587,
+      "objectName": "SMC2",
+      "imageCount": 587,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -264,8 +264,8 @@
       ]
     },
     {
-      "ObjectName": "SPBOAT",
-      "ImageCount": 1691,
+      "objectName": "SPBOAT",
+      "imageCount": 1691,
       "numPngs": 1660,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -273,8 +273,8 @@
       ]
     },
     {
-      "ObjectName": "SPCAR",
-      "ImageCount": 243,
+      "objectName": "SPCAR",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -282,8 +282,8 @@
       ]
     },
     {
-      "ObjectName": "SURFBRDC",
-      "ImageCount": 3351,
+      "objectName": "SURFBRDC",
+      "imageCount": 3351,
       "numPngs": 2524,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -291,8 +291,8 @@
       ]
     },
     {
-      "ObjectName": "TRAM1",
-      "ImageCount": 803,
+      "objectName": "TRAM1",
+      "imageCount": 803,
       "numPngs": 772,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -300,8 +300,8 @@
       ]
     },
     {
-      "ObjectName": "TRILOBTE",
-      "ImageCount": 1763,
+      "objectName": "TRILOBTE",
+      "imageCount": 1763,
       "numPngs": 1732,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -309,8 +309,8 @@
       ]
     },
     {
-      "ObjectName": "TRUCK1",
-      "ImageCount": 267,
+      "objectName": "TRUCK1",
+      "imageCount": 267,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -318,8 +318,8 @@
       ]
     },
     {
-      "ObjectName": "VCR",
-      "ImageCount": 243,
+      "objectName": "VCR",
+      "imageCount": 243,
       "numPngs": 212,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -327,8 +327,8 @@
       ]
     },
     {
-      "ObjectName": "VEKVAMP",
-      "ImageCount": 3083,
+      "objectName": "VEKVAMP",
+      "imageCount": 3083,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -336,8 +336,8 @@
       ]
     },
     {
-      "ObjectName": "WHICGRUB",
-      "ImageCount": 1491,
+      "objectName": "WHICGRUB",
+      "imageCount": 1491,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -345,8 +345,8 @@
       ]
     },
     {
-      "ObjectName": "WMMINE",
-      "ImageCount": 1139,
+      "objectName": "WMMINE",
+      "imageCount": 1139,
       "numPngs": 1108,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -354,8 +354,8 @@
       ]
     },
     {
-      "ObjectName": "WMOUSE",
-      "ImageCount": 1139,
+      "objectName": "WMOUSE",
+      "imageCount": 1139,
       "numPngs": 1108,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -363,8 +363,8 @@
       ]
     },
     {
-      "ObjectName": "ZLDB",
-      "ImageCount": 1491,
+      "objectName": "ZLDB",
+      "imageCount": 1491,
       "numPngs": 1460,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -372,8 +372,8 @@
       ]
     },
     {
-      "ObjectName": "ZLOG",
-      "ImageCount": 1491,
+      "objectName": "ZLOG",
+      "imageCount": 1491,
       "numPngs": 2,
       "numEmptyPngs": 1,
       "emptyPngFiles": [
@@ -383,80 +383,80 @@
   ],
   "imageCountErrors": [
     {
-      "ObjectName": "HSKELT",
-      "ImageCount": 3,
+      "objectName": "HSKELT",
+      "imageCount": 3,
       "numNonEmptyPngs": 207,
       "imageList": {
         "length": 207
       }
     },
     {
-      "ObjectName": "TCK",
-      "ImageCount": 0,
+      "objectName": "TCK",
+      "imageCount": 0,
       "numNonEmptyPngs": 116,
       "imageList": {
         "length": 116
       }
     },
     {
-      "ObjectName": "TMARCH1",
-      "ImageCount": 6,
+      "objectName": "TMARCH1",
+      "imageCount": 6,
       "numNonEmptyPngs": 12,
       "imageList": {
         "length": 12
       }
     },
     {
-      "ObjectName": "TMARCH2",
-      "ImageCount": 6,
+      "objectName": "TMARCH2",
+      "imageCount": 6,
       "numNonEmptyPngs": 12,
       "imageList": {
         "length": 12
       }
     },
     {
-      "ObjectName": "TQF",
-      "ImageCount": 0,
+      "objectName": "TQF",
+      "imageCount": 0,
       "numNonEmptyPngs": 40,
       "imageList": {
         "length": 40
       }
     },
     {
-      "ObjectName": "TSG",
-      "ImageCount": 0,
+      "objectName": "TSG",
+      "imageCount": 0,
       "numNonEmptyPngs": 16,
       "imageList": {
         "length": 16
       }
     },
     {
-      "ObjectName": "TTF",
-      "ImageCount": 0,
+      "objectName": "TTF",
+      "imageCount": 0,
       "numNonEmptyPngs": 20,
       "imageList": {
         "length": 20
       }
     },
     {
-      "ObjectName": "TWF",
-      "ImageCount": 0,
+      "objectName": "TWF",
+      "imageCount": 0,
       "numNonEmptyPngs": 20,
       "imageList": {
         "length": 20
       }
     },
     {
-      "ObjectName": "WTUDOR03",
-      "ImageCount": 6,
+      "objectName": "WTUDOR03",
+      "imageCount": 6,
       "numNonEmptyPngs": 12,
       "imageList": {
         "length": 12
       }
     },
     {
-      "ObjectName": "WTUDOR04",
-      "ImageCount": 6,
+      "objectName": "WTUDOR04",
+      "imageCount": 6,
       "numNonEmptyPngs": 12,
       "imageList": {
         "length": 12
