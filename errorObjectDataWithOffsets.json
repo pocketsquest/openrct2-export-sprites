@@ -6,7 +6,7 @@
     "string": "Monster Trucks",
     "imageCount": 427,
     "size": 225061,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/4X4/000.png",
         "x": 0,
@@ -1991,7 +1991,7 @@
     "string": "Suspended Swinging Aeroplane Cars",
     "imageCount": 4623,
     "size": 2197439,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/ARRSW2/0000.png",
         "x": 0,
@@ -2006,7 +2006,7 @@
     "string": "London Taxi Black Cab Ride",
     "imageCount": 243,
     "size": 95764,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/BLACKCAB/000.png",
         "x": 0,
@@ -3071,7 +3071,7 @@
     "string": "Carnival Float Ride - Butterfly Cars",
     "imageCount": 243,
     "size": 110595,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/CRNVBFLY/000.png",
         "x": 0,
@@ -4136,7 +4136,7 @@
     "string": "Carnival Float Ride - Frog Cars",
     "imageCount": 243,
     "size": 91842,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/CRNVFROG/000.png",
         "x": 0,
@@ -5201,7 +5201,7 @@
     "string": "Carnival Float Ride - Lizard Cars",
     "imageCount": 243,
     "size": 94345,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/CRNVLZRD/000.png",
         "x": 0,
@@ -6266,7 +6266,7 @@
     "string": "Coaster Boats",
     "imageCount": 1763,
     "size": 573215,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/CSTBOAT/0000.png",
         "x": 0,
@@ -14931,7 +14931,7 @@
     "string": "Cheshire Cats",
     "imageCount": 243,
     "size": 79715,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/CTCAR/000.png",
         "x": 0,
@@ -15996,7 +15996,7 @@
     "string": "Flying Boat Ride",
     "imageCount": 1763,
     "size": 579799,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/FLYGBOAT/0000.png",
         "x": 0,
@@ -24661,7 +24661,7 @@
     "string": "Hyper-Twister Trains",
     "imageCount": 3591,
     "size": 1278199,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/GOLTR/0000.png",
         "x": 0,
@@ -24676,7 +24676,7 @@
     "string": "Ghost Train",
     "imageCount": 243,
     "size": 88103,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/GTC/000.png",
         "x": 0,
@@ -25741,7 +25741,7 @@
     "string": "Mini Helicopters",
     "imageCount": 867,
     "size": 314821,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/HELICAR/000.png",
         "x": 0,
@@ -29926,7 +29926,7 @@
     "string": "Haunted Mansion Ride",
     "imageCount": 243,
     "size": 71567,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/HMCAR/000.png",
         "x": 0,
@@ -30991,7 +30991,7 @@
     "string": "Hover Car Ride",
     "imageCount": 267,
     "size": 104197,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/HOVERCAR/000.png",
         "x": 0,
@@ -31006,7 +31006,7 @@
     "string": "Huskie Car",
     "imageCount": 867,
     "size": 374679,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/HUSKIE/000.png",
         "x": 0,
@@ -35191,7 +35191,7 @@
     "string": "Toboggan Cars",
     "imageCount": 1779,
     "size": 737203,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/JSTAR1/0000.png",
         "x": 0,
@@ -35206,7 +35206,7 @@
     "string": "London Bus Tram",
     "imageCount": 803,
     "size": 314034,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/LONDONBS/000.png",
         "x": 0,
@@ -39071,7 +39071,7 @@
     "string": "Manta Ray Ride",
     "imageCount": 1763,
     "size": 739688,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/MANTARAY/0000.png",
         "x": 0,
@@ -47736,7 +47736,7 @@
     "string": "Articulated Roller Coaster Trains",
     "imageCount": 2883,
     "size": 1073727,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/MFT/0000.png",
         "x": 0,
@@ -47751,7 +47751,7 @@
     "string": "Small Monorail Cars",
     "imageCount": 423,
     "size": 176902,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/MONO2/000.png",
         "x": 0,
@@ -47766,7 +47766,7 @@
     "string": "Pegasus Ride",
     "imageCount": 867,
     "size": 302953,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/PEGASUSX/000.png",
         "x": 0,
@@ -51951,7 +51951,7 @@
     "string": "Wooden Roller Coaster Trains (6 seater)",
     "imageCount": 2883,
     "size": 1028109,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/PTCT2/0000.png",
         "x": 0,
@@ -51966,7 +51966,7 @@
     "string": "Wooden Roller Coaster Trains (6 seater, Reversed)",
     "imageCount": 2883,
     "size": 1028702,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/PTCT2R/0000.png",
         "x": 0,
@@ -51981,7 +51981,7 @@
     "string": "Rocket Cars",
     "imageCount": 1779,
     "size": 723887,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/RCKC/0000.png",
         "x": 0,
@@ -51996,7 +51996,7 @@
     "string": "Racing Cars",
     "imageCount": 243,
     "size": 65273,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/RCR/000.png",
         "x": 0,
@@ -53061,7 +53061,7 @@
     "string": "San Francisco Tram",
     "imageCount": 803,
     "size": 245392,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/SANFTRAM/000.png",
         "x": 0,
@@ -56926,7 +56926,7 @@
     "string": "School Bus Ride",
     "imageCount": 803,
     "size": 250427,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/SCHOOLBS/000.png",
         "x": 0,
@@ -60791,7 +60791,7 @@
     "string": "Mouse Cars",
     "imageCount": 623,
     "size": 204792,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/SMC1/000.png",
         "x": 0,
@@ -63756,7 +63756,7 @@
     "string": "Mine Cars",
     "imageCount": 587,
     "size": 225541,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/SMC2/000.png",
         "x": 0,
@@ -63771,7 +63771,7 @@
     "string": "Splash Boats",
     "imageCount": 1691,
     "size": 455772,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/SPBOAT/0000.png",
         "x": 0,
@@ -72076,7 +72076,7 @@
     "string": "Sportscars",
     "imageCount": 243,
     "size": 81565,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/SPCAR/000.png",
         "x": 0,
@@ -73141,7 +73141,7 @@
     "string": "Surfing Coaster",
     "imageCount": 3351,
     "size": 1043098,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/SURFBRDC/0000.png",
         "x": 0,
@@ -85766,7 +85766,7 @@
     "string": "Trams",
     "imageCount": 803,
     "size": 302072,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/TRAM1/000.png",
         "x": 0,
@@ -89631,7 +89631,7 @@
     "string": "Trilobite Boats",
     "imageCount": 1763,
     "size": 679443,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/TRILOBTE/0000.png",
         "x": 0,
@@ -98296,7 +98296,7 @@
     "string": "Pickup Trucks",
     "imageCount": 267,
     "size": 84842,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/TRUCK1/000.png",
         "x": 0,
@@ -98311,7 +98311,7 @@
     "string": "Vintage Cars",
     "imageCount": 243,
     "size": 93144,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/VCR/000.png",
         "x": 0,
@@ -99376,7 +99376,7 @@
     "string": "Swinging Floorless Cars",
     "imageCount": 3083,
     "size": 997647,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/VEKVAMP/0000.png",
         "x": 0,
@@ -99391,7 +99391,7 @@
     "string": "Witchity Grub Ride",
     "imageCount": 1491,
     "size": 483137,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/WHICGRUB/0000.png",
         "x": 0,
@@ -99406,7 +99406,7 @@
     "string": "Wooden Wild Mine Ride",
     "imageCount": 1139,
     "size": 402495,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/WMMINE/0000.png",
         "x": 0,
@@ -104951,7 +104951,7 @@
     "string": "Wooden Wild Mouse",
     "imageCount": 1139,
     "size": 340314,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/WMOUSE/0000.png",
         "x": 0,
@@ -110496,7 +110496,7 @@
     "string": "Ladybird Trains",
     "imageCount": 1491,
     "size": 496392,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/ZLDB/0000.png",
         "x": 0,
@@ -117801,7 +117801,7 @@
     "string": "Log Trains",
     "imageCount": 1491,
     "size": 490341,
-    "offsets": [
+    "images": [
       {
         "path": "./openrct2-export-sprites/sprites/ZLOG/0000.png",
         "x": 0,

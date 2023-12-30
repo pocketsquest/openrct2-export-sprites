@@ -136,10 +136,10 @@ function saveImageStats(inputDataFile,outputDataFile) {
               image.size = 0;
             }
           });
-        } else if (jsonData[0].offsets) {
+        } else if (jsonData[0].images) {
           // Go through each image file
           jsonData.forEach(obj => {
-            obj.offsets.forEach( image => {
+            obj.images.forEach( image => {
               // Get Dimensions
               try {
                 const {width, height} = sizeOf(image.path);

@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const filePath = 'offsets.json';
+const filePath = 'images.json';
 
 // Read the JSON file
 fs.readFile(filePath, 'utf8', (err, data) => {

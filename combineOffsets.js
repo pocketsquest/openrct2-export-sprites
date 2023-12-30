@@ -1,16 +1,16 @@
 const fs = require('fs');
 
-const offsetsFile1 = 'objectDataWithOffsetsCombinedCurrent.json';
+const imagesFile1 = 'objectDataWithOffsetsCombinedCurrent.json';
 
-const offsetsFile2 = 'multidimensioncoasterObjectData.json';
+const imagesFile2 = 'multidimensioncoasterObjectData.json';
 
 const combinedOffsetsFile = 'objectDataWithOffsetsCombinedCurrent.json'
 
-const offsets1 = fs.readFileSync(offsetsFile1, 'utf-8');
+const images1 = fs.readFileSync(imagesFile1, 'utf-8');
 
-const offsets2 = fs.readFileSync(offsetsFile2, 'utf-8');
+const images2 = fs.readFileSync(imagesFile2, 'utf-8');
 
-const combinedOffsets = offsets1.slice(0, -1) + ',' + offsets2.slice(1);
+const combinedOffsets = images1.slice(0, -1) + ',' + images2.slice(1);
 
 
 fs.writeFileSync(combinedOffsetsFile, combinedOffsets);

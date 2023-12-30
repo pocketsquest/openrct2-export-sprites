@@ -393,7 +393,7 @@ function saveMultidimensioncoasterData() {
   objectData.forEach(obj => {
     if (obj.objectName === 'ARRX') {
 
-      fs.writeFileSync('multidimensioncoasterObjectData.json', JSON.stringify([{...obj, offsets: arrxOffsetsData}], null, 2));
+      fs.writeFileSync('multidimensioncoasterObjectData.json', JSON.stringify([{...obj, images: arrxOffsetsData}], null, 2));
     }
   })
 }
@@ -407,9 +407,9 @@ function countImages() {
   const objectData = JSON.parse(fs.readFileSync(dataFileName, 'utf-8'));
 
   objectData.forEach(obj => {
-    const {objectName, imageCount, offsets} = obj;
+    const {objectName, imageCount, images} = obj;
     
-    errorFiles[objectName] = {objectName, imageCount, SavedimageCount: offsets.length, Difference: imageCount-offsets.length};
+    errorFiles[objectName] = {objectName, imageCount, savedImageCount: images.length, difference: imageCount-images.length};
     
   })
 

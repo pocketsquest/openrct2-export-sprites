@@ -15,8 +15,8 @@ const objectData = JSON.parse(fs.readFileSync('errorObjectData.json', 'utf-8'));
 const outputFile = '.\\openrct2-export-sprites\\spriteOffsets.json';
 const objectDataWithOffsetsFile = '.\\openrct2-export-sprites\\objectDataWithOffsets.json';
 
-// // Read current offsets data
-// const jsonData = fs.readFileSync('offsetsOrignal.json', 'utf-8');
+// // Read current images data
+// const jsonData = fs.readFileSync('imagesOrignal.json', 'utf-8');
 const jsonArray = [];
 const objectDataWithOffsets = [];
 
@@ -69,9 +69,9 @@ objectData.forEach(obj => {
 
         // Remove trailing comma and append JSON output to the array
         const cleanedJsonOutput = jsonOutput.trim().replace(/,\s*$/, '');
-        const offsets = JSON.parse(`[${cleanedJsonOutput}]`);
-        jsonArray.push(...offsets);
-        objectDataWithOffsets.push({...obj, offsets});
+        const images = JSON.parse(`[${cleanedJsonOutput}]`);
+        jsonArray.push(...images);
+        objectDataWithOffsets.push({...obj, images});
     } catch (error) {
       // Recover the good output the console logged before it logged warning and error messages
         const stringifiedOffsets = extractOffsets(error.stdout);
@@ -80,15 +80,15 @@ objectData.forEach(obj => {
             const recoveredOffsets = JSON.parse(extractOffsets(error.stdout));
             if (recoveredOffsets.length) {
               jsonArray.push(...recoveredOffsets);
-              objectDataWithOffsets.push({...obj, offsets: recoveredOffsets});
+              objectDataWithOffsets.push({...obj, images: recoveredOffsets});
               
-              console.error(`Error executing command for file: ${objToString(obj)}; Recovered ${recoveredOffsets?.length ?? "0"} offsets of ${obj.imageCount} \n Error: ${error.message}`);
+              console.error(`Error executing command for file: ${objToString(obj)}; Recovered ${recoveredOffsets?.length ?? "0"} images of ${obj.imageCount} \n Error: ${error.message}`);
             }
           } catch {
-            console.error(`Error executing command for file: ${objToString(obj)}; Could not parse extracted offsets, output character length: ${stringifiedOffsets.length} \n Error: ${error.message}`);
+            console.error(`Error executing command for file: ${objToString(obj)}; Could not parse extracted images, output character length: ${stringifiedOffsets.length} \n Error: ${error.message}`);
           }
         } else {
-          console.error(`Error executing command for file: ${objToString(obj)}; Recovered 0 offsets of ${obj.imageCount} \n Error: ${error.message}`);
+          console.error(`Error executing command for file: ${objToString(obj)}; Recovered 0 images of ${obj.imageCount} \n Error: ${error.message}`);
         }
         
     }
@@ -96,7 +96,7 @@ objectData.forEach(obj => {
     if (Math.floor(prevCount / logNumber) < Math.floor(newCount / logNumber)) {
       console.log(objToString(obj));
       // Save current progress
-      // Save the offsets array as a JSON file
+      // Save the images array as a JSON file
       fs.writeFileSync(outputFile, JSON.stringify(jsonArray, null, 2));
       // Save the object data array as a JSON file
       fs.writeFileSync(objectDataWithOffsetsFile, JSON.stringify(objectDataWithOffsets, null, 2));
@@ -107,7 +107,7 @@ objectData.forEach(obj => {
   }
 });
 
-// Save the offsets array as a JSON file
+// Save the images array as a JSON file
 fs.writeFileSync(outputFile, JSON.stringify(jsonArray, null, 2));
 // Save the object data array as a JSON file
 fs.writeFileSync(objectDataWithOffsetsFile, JSON.stringify(objectDataWithOffsets, null, 2));
