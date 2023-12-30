@@ -591,7 +591,7 @@ function checkDirectory({objectName, imageCount, images}) {
 
 function checkAllDirectoryContents() {
 
-  const dataFileName = 'errorObjectDataWithImages.json'
+  const dataFileName = 'objectDataTotalSorted.json'
   const objectData = JSON.parse(fs.readFileSync(dataFileName, 'utf-8'));
 
   let numErrors = 0;
@@ -615,4 +615,4 @@ function checkAllDirectoryContents() {
   }
 }
 
-checkAllDirectoryContents()
+// checkAllDirectoryContents();  No errors it seems
