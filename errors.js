@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 const consoleOutput = `libpng error: Invalid IHDR data
 Unable to write png: PNG ERRORCould not export
@@ -417,4 +418,68 @@ function countImages() {
 
 }
 
-countImages();
+// countImages();
+
+
+// Given an image object (presumably one with errors), remove the last empty png if it exists.
+function removeEmptyPng(obj) {
+  const {objectName, imageCount, images} = obj;
+  const numImagesListed = images.length;
+  // Get containing directory for the image files, relative to this repo.
+  const directoryPath = path.dirname(path.relative('./openrct2-export-sprites',images[0].path));
+  if (path.normalize(directoryPath) !== path.normalize("./sprites/"+ objectName)) {
+    throw new Error(`Error for ${objectName}: Directory paths do not match`,{
+      cause: {
+        code: 'directory path error',
+        objectName,
+        testImage: images[0],
+        pathFromImageData: path.normalize(directoryPath),
+        pathFromObjectName: path.normalize("./sprites/"+ objectName)
+      }
+    })
+  }
+
+  const emptyPngFilePath = path.join(directoryPath,  images.length.toString().padStart(imageCount.toString().length,'0') + '.png');
+
+  try {
+    const imageStats = fs.statSync(emptyPngFilePath);
+    if (imageStats.size !== 0) {
+      throw new Error('This file is not empty',{cause: {emptyPngFilePath, images}})
+    } else {
+      // Remove File
+      fs.rmSync(emptyPngFilePath);
+      // Check that at least the numbers line up.
+      const directoryContents = fs.readdirSync(directoryPath);
+      return (directoryContents.length === numImagesListed)
+    }
+  } catch (err) {
+    if (err.code === "ENOENT") {
+      // This file does not exist
+      // Check that at least the numbers line up.
+      const directoryContents = fs.readdirSync(directoryPath);
+      return (directoryContents.length === numImagesListed)
+    } else {
+      throw err
+    }
+  }
+}
+
+
+function removeEmptyPngsForArray() {
+  const dataFileName = 'errorObjectDataWithImages.json'
+  const objectData = JSON.parse(fs.readFileSync(dataFileName, 'utf-8'));
+  objectData.forEach(obj => {
+    try {
+      if (removeEmptyPng(obj)) {
+        return
+      } else {
+        throw new Error('file count error',{cause: {code: 'file count error', objectName: obj.objectName}})
+      }
+    } catch (err) {
+      console.error("Error:", err)
+    }
+  })
+  console.log('success')
+}
+
+removeEmptyPngsForArray()
