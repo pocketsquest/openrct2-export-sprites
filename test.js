@@ -1,15 +1,16 @@
 const fs = require('fs');
 const path = require('path');
 
-const objData = JSON.parse(fs.readFileSync('objectData.json', 'utf-8'));
+const filePath = 'errorObjectData'+ '.json';
 
-const datNames = [];
+const jsonString = fs.readFileSync(filePath, 'utf-8');
 
-objData.forEach(obj => {
-  datNames.push(obj.ObjectName);
-});
+const properties = ["Type", "ImageCount", "Size","Source","ObjectName","String"];
 
-datNames.sort();
+const regex = new RegExp(`"(${properties.join("|")})"`, 'g');
 
-fs.writeFileSync('datNamesList.json', JSON.stringify(datNames,null,2), 'utf8');
-console.log(datNames.length)
+const replacer =  (match) => `"${match[1].toLowerCase()}${match.slice(2)}`
+
+const newString = jsonString.replace(regex,replacer);
+
+fs.writeFileSync(filePath, newString, 'utf8');

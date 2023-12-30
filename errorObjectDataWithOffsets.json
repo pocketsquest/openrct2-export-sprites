@@ -1,11 +1,11 @@
 [
   {
-    "ObjectName": "4X4",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Monster Trucks",
-    "ImageCount": 427,
-    "Size": 225061,
+    "objectName": "4X4",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Monster Trucks",
+    "imageCount": 427,
+    "size": 225061,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/4X4/000.png",
@@ -1985,12 +1985,12 @@
     ]
   },
   {
-    "ObjectName": "ARRSW2",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Suspended Swinging Aeroplane Cars",
-    "ImageCount": 4623,
-    "Size": 2197439,
+    "objectName": "ARRSW2",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Suspended Swinging Aeroplane Cars",
+    "imageCount": 4623,
+    "size": 2197439,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/ARRSW2/0000.png",
@@ -2000,12 +2000,12 @@
     ]
   },
   {
-    "ObjectName": "BLACKCAB",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "London Taxi Black Cab Ride",
-    "ImageCount": 243,
-    "Size": 95764,
+    "objectName": "BLACKCAB",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "London Taxi Black Cab Ride",
+    "imageCount": 243,
+    "size": 95764,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/BLACKCAB/000.png",
@@ -3065,12 +3065,12 @@
     ]
   },
   {
-    "ObjectName": "CRNVBFLY",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "Carnival Float Ride - Butterfly Cars",
-    "ImageCount": 243,
-    "Size": 110595,
+    "objectName": "CRNVBFLY",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "Carnival Float Ride - Butterfly Cars",
+    "imageCount": 243,
+    "size": 110595,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/CRNVBFLY/000.png",
@@ -4130,12 +4130,12 @@
     ]
   },
   {
-    "ObjectName": "CRNVFROG",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "Carnival Float Ride - Frog Cars",
-    "ImageCount": 243,
-    "Size": 91842,
+    "objectName": "CRNVFROG",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "Carnival Float Ride - Frog Cars",
+    "imageCount": 243,
+    "size": 91842,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/CRNVFROG/000.png",
@@ -5195,12 +5195,12 @@
     ]
   },
   {
-    "ObjectName": "CRNVLZRD",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "Carnival Float Ride - Lizard Cars",
-    "ImageCount": 243,
-    "Size": 94345,
+    "objectName": "CRNVLZRD",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "Carnival Float Ride - Lizard Cars",
+    "imageCount": 243,
+    "size": 94345,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/CRNVLZRD/000.png",
@@ -6260,12 +6260,12 @@
     ]
   },
   {
-    "ObjectName": "CSTBOAT",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Coaster Boats",
-    "ImageCount": 1763,
-    "Size": 573215,
+    "objectName": "CSTBOAT",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Coaster Boats",
+    "imageCount": 1763,
+    "size": 573215,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/CSTBOAT/0000.png",
@@ -14925,12 +14925,12 @@
     ]
   },
   {
-    "ObjectName": "CTCAR",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Cheshire Cats",
-    "ImageCount": 243,
-    "Size": 79715,
+    "objectName": "CTCAR",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Cheshire Cats",
+    "imageCount": 243,
+    "size": 79715,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/CTCAR/000.png",
@@ -15990,12 +15990,12 @@
     ]
   },
   {
-    "ObjectName": "FLYGBOAT",
-    "Source": "TT",
-    "Type": "Ride/Shop",
-    "String": "Flying Boat Ride",
-    "ImageCount": 1763,
-    "Size": 579799,
+    "objectName": "FLYGBOAT",
+    "source": "TT",
+    "type": "Ride/Shop",
+    "string": "Flying Boat Ride",
+    "imageCount": 1763,
+    "size": 579799,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/FLYGBOAT/0000.png",
@@ -24655,12 +24655,12 @@
     ]
   },
   {
-    "ObjectName": "GOLTR",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Hyper-Twister Trains",
-    "ImageCount": 3591,
-    "Size": 1278199,
+    "objectName": "GOLTR",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Hyper-Twister Trains",
+    "imageCount": 3591,
+    "size": 1278199,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/GOLTR/0000.png",
@@ -24670,12 +24670,12 @@
     ]
   },
   {
-    "ObjectName": "GTC",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Ghost Train",
-    "ImageCount": 243,
-    "Size": 88103,
+    "objectName": "GTC",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Ghost Train",
+    "imageCount": 243,
+    "size": 88103,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/GTC/000.png",
@@ -25735,12 +25735,12 @@
     ]
   },
   {
-    "ObjectName": "HELICAR",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Mini Helicopters",
-    "ImageCount": 867,
-    "Size": 314821,
+    "objectName": "HELICAR",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Mini Helicopters",
+    "imageCount": 867,
+    "size": 314821,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/HELICAR/000.png",
@@ -29920,12 +29920,12 @@
     ]
   },
   {
-    "ObjectName": "HMCAR",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Haunted Mansion Ride",
-    "ImageCount": 243,
-    "Size": 71567,
+    "objectName": "HMCAR",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Haunted Mansion Ride",
+    "imageCount": 243,
+    "size": 71567,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/HMCAR/000.png",
@@ -30985,12 +30985,12 @@
     ]
   },
   {
-    "ObjectName": "HOVERCAR",
-    "Source": "TT",
-    "Type": "Ride/Shop",
-    "String": "Hover Car Ride",
-    "ImageCount": 267,
-    "Size": 104197,
+    "objectName": "HOVERCAR",
+    "source": "TT",
+    "type": "Ride/Shop",
+    "string": "Hover Car Ride",
+    "imageCount": 267,
+    "size": 104197,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/HOVERCAR/000.png",
@@ -31000,12 +31000,12 @@
     ]
   },
   {
-    "ObjectName": "HUSKIE",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "Huskie Car",
-    "ImageCount": 867,
-    "Size": 374679,
+    "objectName": "HUSKIE",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "Huskie Car",
+    "imageCount": 867,
+    "size": 374679,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/HUSKIE/000.png",
@@ -35185,12 +35185,12 @@
     ]
   },
   {
-    "ObjectName": "JSTAR1",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Toboggan Cars",
-    "ImageCount": 1779,
-    "Size": 737203,
+    "objectName": "JSTAR1",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Toboggan Cars",
+    "imageCount": 1779,
+    "size": 737203,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/JSTAR1/0000.png",
@@ -35200,12 +35200,12 @@
     ]
   },
   {
-    "ObjectName": "LONDONBS",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "London Bus Tram",
-    "ImageCount": 803,
-    "Size": 314034,
+    "objectName": "LONDONBS",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "London Bus Tram",
+    "imageCount": 803,
+    "size": 314034,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/LONDONBS/000.png",
@@ -39065,12 +39065,12 @@
     ]
   },
   {
-    "ObjectName": "MANTARAY",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "Manta Ray Ride",
-    "ImageCount": 1763,
-    "Size": 739688,
+    "objectName": "MANTARAY",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "Manta Ray Ride",
+    "imageCount": 1763,
+    "size": 739688,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/MANTARAY/0000.png",
@@ -47730,12 +47730,12 @@
     ]
   },
   {
-    "ObjectName": "MFT",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Articulated Roller Coaster Trains",
-    "ImageCount": 2883,
-    "Size": 1073727,
+    "objectName": "MFT",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Articulated Roller Coaster Trains",
+    "imageCount": 2883,
+    "size": 1073727,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/MFT/0000.png",
@@ -47745,12 +47745,12 @@
     ]
   },
   {
-    "ObjectName": "MONO2",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Small Monorail Cars",
-    "ImageCount": 423,
-    "Size": 176902,
+    "objectName": "MONO2",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Small Monorail Cars",
+    "imageCount": 423,
+    "size": 176902,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/MONO2/000.png",
@@ -47760,12 +47760,12 @@
     ]
   },
   {
-    "ObjectName": "PEGASUSX",
-    "Source": "TT",
-    "Type": "Ride/Shop",
-    "String": "Pegasus Ride",
-    "ImageCount": 867,
-    "Size": 302953,
+    "objectName": "PEGASUSX",
+    "source": "TT",
+    "type": "Ride/Shop",
+    "string": "Pegasus Ride",
+    "imageCount": 867,
+    "size": 302953,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/PEGASUSX/000.png",
@@ -51945,12 +51945,12 @@
     ]
   },
   {
-    "ObjectName": "PTCT2",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Wooden Roller Coaster Trains (6 seater)",
-    "ImageCount": 2883,
-    "Size": 1028109,
+    "objectName": "PTCT2",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Wooden Roller Coaster Trains (6 seater)",
+    "imageCount": 2883,
+    "size": 1028109,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/PTCT2/0000.png",
@@ -51960,12 +51960,12 @@
     ]
   },
   {
-    "ObjectName": "PTCT2R",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Wooden Roller Coaster Trains (6 seater, Reversed)",
-    "ImageCount": 2883,
-    "Size": 1028702,
+    "objectName": "PTCT2R",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Wooden Roller Coaster Trains (6 seater, Reversed)",
+    "imageCount": 2883,
+    "size": 1028702,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/PTCT2R/0000.png",
@@ -51975,12 +51975,12 @@
     ]
   },
   {
-    "ObjectName": "RCKC",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Rocket Cars",
-    "ImageCount": 1779,
-    "Size": 723887,
+    "objectName": "RCKC",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Rocket Cars",
+    "imageCount": 1779,
+    "size": 723887,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/RCKC/0000.png",
@@ -51990,12 +51990,12 @@
     ]
   },
   {
-    "ObjectName": "RCR",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Racing Cars",
-    "ImageCount": 243,
-    "Size": 65273,
+    "objectName": "RCR",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Racing Cars",
+    "imageCount": 243,
+    "size": 65273,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/RCR/000.png",
@@ -53055,12 +53055,12 @@
     ]
   },
   {
-    "ObjectName": "SANFTRAM",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "San Francisco Tram",
-    "ImageCount": 803,
-    "Size": 245392,
+    "objectName": "SANFTRAM",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "San Francisco Tram",
+    "imageCount": 803,
+    "size": 245392,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/SANFTRAM/000.png",
@@ -56920,12 +56920,12 @@
     ]
   },
   {
-    "ObjectName": "SCHOOLBS",
-    "Source": "TT",
-    "Type": "Ride/Shop",
-    "String": "School Bus Ride",
-    "ImageCount": 803,
-    "Size": 250427,
+    "objectName": "SCHOOLBS",
+    "source": "TT",
+    "type": "Ride/Shop",
+    "string": "School Bus Ride",
+    "imageCount": 803,
+    "size": 250427,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/SCHOOLBS/000.png",
@@ -60785,12 +60785,12 @@
     ]
   },
   {
-    "ObjectName": "SMC1",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Mouse Cars",
-    "ImageCount": 623,
-    "Size": 204792,
+    "objectName": "SMC1",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Mouse Cars",
+    "imageCount": 623,
+    "size": 204792,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/SMC1/000.png",
@@ -63750,12 +63750,12 @@
     ]
   },
   {
-    "ObjectName": "SMC2",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Mine Cars",
-    "ImageCount": 587,
-    "Size": 225541,
+    "objectName": "SMC2",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Mine Cars",
+    "imageCount": 587,
+    "size": 225541,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/SMC2/000.png",
@@ -63765,12 +63765,12 @@
     ]
   },
   {
-    "ObjectName": "SPBOAT",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Splash Boats",
-    "ImageCount": 1691,
-    "Size": 455772,
+    "objectName": "SPBOAT",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Splash Boats",
+    "imageCount": 1691,
+    "size": 455772,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/SPBOAT/0000.png",
@@ -72070,12 +72070,12 @@
     ]
   },
   {
-    "ObjectName": "SPCAR",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Sportscars",
-    "ImageCount": 243,
-    "Size": 81565,
+    "objectName": "SPCAR",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Sportscars",
+    "imageCount": 243,
+    "size": 81565,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/SPCAR/000.png",
@@ -73135,12 +73135,12 @@
     ]
   },
   {
-    "ObjectName": "SURFBRDC",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "Surfing Coaster",
-    "ImageCount": 3351,
-    "Size": 1043098,
+    "objectName": "SURFBRDC",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "Surfing Coaster",
+    "imageCount": 3351,
+    "size": 1043098,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/SURFBRDC/0000.png",
@@ -85760,12 +85760,12 @@
     ]
   },
   {
-    "ObjectName": "TRAM1",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Trams",
-    "ImageCount": 803,
-    "Size": 302072,
+    "objectName": "TRAM1",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Trams",
+    "imageCount": 803,
+    "size": 302072,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/TRAM1/000.png",
@@ -89625,12 +89625,12 @@
     ]
   },
   {
-    "ObjectName": "TRILOBTE",
-    "Source": "TT",
-    "Type": "Ride/Shop",
-    "String": "Trilobite Boats",
-    "ImageCount": 1763,
-    "Size": 679443,
+    "objectName": "TRILOBTE",
+    "source": "TT",
+    "type": "Ride/Shop",
+    "string": "Trilobite Boats",
+    "imageCount": 1763,
+    "size": 679443,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/TRILOBTE/0000.png",
@@ -98290,12 +98290,12 @@
     ]
   },
   {
-    "ObjectName": "TRUCK1",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Pickup Trucks",
-    "ImageCount": 267,
-    "Size": 84842,
+    "objectName": "TRUCK1",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Pickup Trucks",
+    "imageCount": 267,
+    "size": 84842,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/TRUCK1/000.png",
@@ -98305,12 +98305,12 @@
     ]
   },
   {
-    "ObjectName": "VCR",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Vintage Cars",
-    "ImageCount": 243,
-    "Size": 93144,
+    "objectName": "VCR",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Vintage Cars",
+    "imageCount": 243,
+    "size": 93144,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/VCR/000.png",
@@ -99370,12 +99370,12 @@
     ]
   },
   {
-    "ObjectName": "VEKVAMP",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Swinging Floorless Cars",
-    "ImageCount": 3083,
-    "Size": 997647,
+    "objectName": "VEKVAMP",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Swinging Floorless Cars",
+    "imageCount": 3083,
+    "size": 997647,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/VEKVAMP/0000.png",
@@ -99385,12 +99385,12 @@
     ]
   },
   {
-    "ObjectName": "WHICGRUB",
-    "Source": "WW",
-    "Type": "Ride/Shop",
-    "String": "Witchity Grub Ride",
-    "ImageCount": 1491,
-    "Size": 483137,
+    "objectName": "WHICGRUB",
+    "source": "WW",
+    "type": "Ride/Shop",
+    "string": "Witchity Grub Ride",
+    "imageCount": 1491,
+    "size": 483137,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/WHICGRUB/0000.png",
@@ -99400,12 +99400,12 @@
     ]
   },
   {
-    "ObjectName": "WMMINE",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Wooden Wild Mine Ride",
-    "ImageCount": 1139,
-    "Size": 402495,
+    "objectName": "WMMINE",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Wooden Wild Mine Ride",
+    "imageCount": 1139,
+    "size": 402495,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/WMMINE/0000.png",
@@ -104945,12 +104945,12 @@
     ]
   },
   {
-    "ObjectName": "WMOUSE",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Wooden Wild Mouse",
-    "ImageCount": 1139,
-    "Size": 340314,
+    "objectName": "WMOUSE",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Wooden Wild Mouse",
+    "imageCount": 1139,
+    "size": 340314,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/WMOUSE/0000.png",
@@ -110490,12 +110490,12 @@
     ]
   },
   {
-    "ObjectName": "ZLDB",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Ladybird Trains",
-    "ImageCount": 1491,
-    "Size": 496392,
+    "objectName": "ZLDB",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Ladybird Trains",
+    "imageCount": 1491,
+    "size": 496392,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/ZLDB/0000.png",
@@ -117795,12 +117795,12 @@
     ]
   },
   {
-    "ObjectName": "ZLOG",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Log Trains",
-    "ImageCount": 1491,
-    "Size": 490341,
+    "objectName": "ZLOG",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Log Trains",
+    "imageCount": 1491,
+    "size": 490341,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/ZLOG/0000.png",

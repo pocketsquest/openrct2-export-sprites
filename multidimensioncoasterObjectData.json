@@ -1,11 +1,11 @@
 [
   {
-    "ObjectName": "ARRX",
-    "Source": "RCT2",
-    "Type": "Ride/Shop",
-    "String": "Multi-Dimension Coaster Train",
-    "ImageCount": 28227,
-    "Size": 5606405,
+    "objectName": "ARRX",
+    "source": "RCT2",
+    "type": "Ride/Shop",
+    "string": "Multi-Dimension Coaster Train",
+    "imageCount": 28227,
+    "size": 5606405,
     "offsets": [
       {
         "path": "./openrct2-export-sprites/sprites/ARRX/00000.png",
