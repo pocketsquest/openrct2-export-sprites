@@ -565,12 +565,54 @@ function checkDirectory({objectName, imageCount, images}) {
   const difference = directoryContents.length - numImagesListed;
   if (difference === 0) {
     // check directory contents against listed paths
-    const imagePaths = images.map(image => path.basename(image.path))
-    return true
-  } else if (difference === 1) {
-    return false
+    const imagePaths = images.map(image => path.basename(image.path));
+    imagePaths.sort();
+    directoryContents.sort();
+
+    let mismatches = 0;
+    imagePaths.forEach((image, index) => {
+      if (image !== directoryContents[index]) {
+        mismatches ++;
+      }
+    });
+
+    if (mismatches) {
+      throw new Error ('mismatch error', {cause: {code: 'mismatch error', objectName, mismatches}})
+    } else {
+      return true
+    }
+
   } else {
-    throw new Error('File Count Error', {cause: {objectName, directoryContentsCount: directoryContents.length, numImagesListed,difference}})
+    throw new Error('File Count Error', {cause: {cause: 'file count error', objectName, directoryContentsCount: directoryContents.length, numImagesListed,difference}})
   }
   
 }
+
+
+function checkAllDirectoryContents() {
+
+  const dataFileName = 'errorObjectDataWithImages.json'
+  const objectData = JSON.parse(fs.readFileSync(dataFileName, 'utf-8'));
+
+  let numErrors = 0;
+
+  objectData.forEach(obj => {
+    try {
+      if (checkDirectory(obj)) {
+        return
+      } else {
+        throw new Error(`function error for ${objectName}. the function checkDirectory should only return true or throw an error`)
+      }
+    } catch (err) {
+      numErrors ++;
+      console.error("Error:", err)
+    }
+  })
+  if (numErrors) {
+    console.log(`${numErrors} errors`)
+  } else {
+    console.log('success')
+  }
+}
+
+checkAllDirectoryContents()
