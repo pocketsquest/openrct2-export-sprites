@@ -544,6 +544,16 @@ const completeErrors = [
   'SURFBRDC'
 ];
 
+const incompleteErrors = [
+  'HOVERCAR', 'TRUCK1',
+  'MONO2',    'SMC2',
+  'WHICGRUB', 'ZLOG',
+  'JSTAR1',   'RCKC',
+  'MFT',      'PTCT2',
+  'PTCT2R',   'VEKVAMP',
+  'GOLTR',    'ARRSW2'
+];
+
 function checkDirectory({objectName, imageCount, images}) {
   const numImagesListed = images.length;
   // Get containing directory for the image files, relative to this repo.
