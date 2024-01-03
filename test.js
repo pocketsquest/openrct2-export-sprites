@@ -9,8 +9,8 @@ process.chdir('..');
 
 
 //  fprintf(stdout, "usage: sprite details <spritefile> [idx]\n");
-const command = `openrct2 sprite details ${filePathRCT1}`;
-const command2 = `openrct2 sprite details ${filePathRCT1} 06000`;
+const command = `openrct2 sprite details ${filePathRCT2}`;
+const command2 = `openrct2 sprite details ${filePathRCT2} 06000`;
 const output = execSync(command, { encoding: 'utf-8' });
 const output2 = execSync(command2, { encoding: 'utf-8' });
 
