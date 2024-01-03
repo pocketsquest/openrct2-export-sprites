@@ -1,7 +1,8 @@
 {
   "name": "openrct2-export-sprites",
   "version": "1.0.0",
-  "description": "Use OpenRCT2's sprite exporting capability to get all sprite images from RCT1 and RCT2",
+  "description": "Use OpenRCT2's sprite compiler to get all sprite images from RCT1 and RCT2",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
