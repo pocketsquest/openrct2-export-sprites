@@ -1,6 +1,8 @@
 {
-  "filePathRCT2": "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon 2 Triple Thrill Pack",
-  "filePathRCT1": "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon Deluxe",
-  "filePathOpenRCT2": "C:/Users/storl/OneDrive/Documents/OpenRCT2",
-  "filePathDestinationDirectory": "/"
-}
+  "DIRBASE": {
+    "RCT1": "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon Deluxe",
+    "RCT2": "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon 2 Triple Thrill Pack",
+    "OPENRCT2": "C:/Program Files (x86)/OpenRCT2",
+    "EXPORTS": "./exports"
+  }
+} 

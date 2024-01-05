@@ -1,14 +1,33 @@
+import fs from 'fs';
+import path from 'path';
 import { readFileHeaderFromObjectName } from "./datReader.js";
-import { spriteDetails } from './exportG1.js'
+import exportG1 from './exportG1.js'
 
-process.chdir('..');
+main({execute: false});
 
-const rct2g1 = "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon 2 Triple Thrill Pack/Data/g1.dat";
-const outputFile = "C:/Users/storl/RCT-data/sprites/archive-data/rct2g1.csv"
+// exportG1();
 
-const totalSprites = spriteDetails(rct2g1, outputFile);
+function main({execute}) {
+  const config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
+  // If the destination path is defined relative to the repo location, make it an absolute path before changing the directory for commands
+  const dstDir = path.resolve(config.filePathDestinationDirectory);
+  // Path to game data files
+  const rct2g1 = path.join(config.filePathRCT2, 'data/g1.dat');
+  console.log(`openrct2 exportall \"${rct2g1}\" \"${path.join(dstDir,'rct2')}\"`)
+  // Details csv
+  const rct2details = path.join(dstDir,'data/rct2g1.csv');
 
-console.log(totalSprites)
+  if (execute) {
+    try {
+      process.chdir(config.filePathOpenRCT2);
+      const totalSprites = exportG1.spriteDetails(rct2g1, rct2details);
+      console.log("done");
+    } catch (err) {
+      console.error(err.message)
+    }
+  }
+}
+
 
 // const test1 = readFileHeaderFromObjectName('BN1');
 // const test2 = readFileHeaderFromObjectName('GENSTORE');

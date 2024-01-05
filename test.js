@@ -1,21 +1,36 @@
+import path from 'path';
 import fs from 'fs';
-const { execSync } = require('child_process');
+import {exec, execSync} from 'child_process';
 
-const filePathRCT1 = "C:\\Users\\storl\\RCT-data\\RCT1\\g2.dat";
-const filePathRCT2 = "C:\\Users\\storl\\RCT-data\\RCT2\\g1.dat";
-const testfile = "C:\Program Files (x86)\GOG Galaxy\Games\RollerCoaster Tycoon Deluxe"
+// printWorkingDirectory();
 
+// openrct2 export "C:\Program Files (x86)\GOG Galaxy\Games\RollerCoaster Tycoon 2 Triple Thrill Pack\data\g1.dat" 0 "C:\Users\storl\repos\openrct2-export-sprites\exports\data\test.png"
 
-// Set the current working directory to the game's bin directory
-process.chdir('..');
+const outputDirectory = path.resolve('./exports/data/');
+const rct2g1 = "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon 2 Triple Thrill Pack/data/g1.dat";
+const OpenRCT2dir = "C:/Program Files (x86)/OpenRCT2";
+const objectName = "GENSTORE"
 
+testExec(1);
 
-//  fprintf(stdout, "usage: sprite details <spritefile> [idx]\n");
-const command = `openrct2 sprite details ${filePathRCT1}`;
-const command2 = `openrct2 sprite details ${filePathRCT1} 06000`;
-const output = execSync(command, { encoding: 'utf-8' });
-const output2 = execSync(command2, { encoding: 'utf-8' });
+// "C:\Program Files (x86)\OpenRCT2\data\object\rct1\footpath_railings\rct1ll.footpath_railings.space.parkobj"
 
-console.log(output);
-console.log(output2);
+function testExec(command = 0) {
+  console.log(process.cwd());
+  const commandArray = [
+    `openrct2 sprite export \"${rct2g1}\" 0 \"${path.join(outputDirectory,'test.png')}\"`, 
+    `openrct2 sprite exportalldat ${objectName} \"${outputDirectory}\"`, 
+  ];
+  console.log(commandArray[command]);
+  exec(commandArray[command], { cwd: OpenRCT2dir, encoding: 'utf-8' }, (err, stdout, stderr) => {
+    console.log('stdout',stdout);
+    console.log('stderr',stderr);
+  });
+
+  console.log(process.cwd());
+}
+
+function printWorkingDirectory() {
+  console.log(process.cwd());
+}
 

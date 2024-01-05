@@ -1,5 +1,5 @@
-const fs = require('fs');
-const csvtojson = require('csvtojson');  // npm install csvtojson
+import fs from 'fs';
+import csvtojson from 'csvtojson';
 
 const replacer = (key, value) => (key === "imageCount" || key === "size") ? Number(value) : value;
 
