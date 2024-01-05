@@ -11,7 +11,10 @@ const rct2g1 = "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon 2 T
 const OpenRCT2dir = "C:/Program Files (x86)/OpenRCT2";
 const objectName = "GENSTORE"
 
-testExec(1);
+console.log(fs.existsSync())
+
+
+// testExec(1);
 
 // "C:\Program Files (x86)\OpenRCT2\data\object\rct1\footpath_railings\rct1ll.footpath_railings.space.parkobj"
 
