@@ -7,7 +7,7 @@ import fs from 'fs';
  * Namespace providing utility functions for working with file paths.
  * @namespace Path
  */
-const Path = {
+export default Path = {
   /**
    * Combines multiple path segments into a single path.
    * @param {...string} paths - Path segments to combine.
@@ -141,7 +141,7 @@ const Path = {
    */
   Equals: function(a, b) {
     const {dir: dirA, base: baseA} = p.parse(p.normalize(a.toUpperCase()));
-    const {dir: dirB, base: baseB} = p.parse(p.normalize(a.toUpperCase()));
+    const {dir: dirB, base: baseB} = p.parse(p.normalize(b.toUpperCase()));
     return (dirA === dirB) && (baseA === baseB)
   },
 

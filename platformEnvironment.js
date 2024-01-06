@@ -1,18 +1,25 @@
 import fs from 'fs';
-import path from 'path';
+import p from 'path';
+import Path from './core/Path.js'
 
+/**
+ * Enum for the base directories
+ * @readonly
+ * @enum {number}
+ */
 const DIRBASE = {
   RCT1: 0,
   RCT2: 1,
   OPENRCT2: 2,
   OPENRCT2DOCS: 3,
   EXPORTS: 4,
-  strings: ['RCT1', 'RCT2', 'OpenRCT2', 'OpenRCT2 User Directory', 'Exports'],
-  toString: function(base) {
-    return this.strings[base];
-  } 
 };
 
+/**
+ * Enum for directories used
+ * @readonly
+ * @enum {number}
+ */
 const DIRID = {
   DATA: 0,
   OBJECT: 1,
@@ -24,6 +31,11 @@ const DIRID = {
   SPRITES_OBJDATA: 7
 };
 
+/**
+ * Enum for file names
+ * @readonly
+ * @enum {number}
+ */
 const PATHID = {
   G1: 0,
   CSG1: 1,
@@ -34,6 +46,16 @@ const PATHID = {
   DETAILS_OBJDATA: 6
 };
 
+/**
+ * Human-interpretable names of base directories for printing to the console.
+ */
+const baseToString = [
+  'RCT1', 'RCT2', 'OpenRCT2', 'OpenRCT2 User Directory', 'Exports'
+]
+
+/**
+ * The folder names for directories.
+ */
 const defaultDirectoryNames = [
   "data",
   "object",
@@ -45,6 +67,9 @@ const defaultDirectoryNames = [
   "spritesObjData"
 ];
 
+/**
+ * The names of each file, including extensions
+ */
 const defaultPathNames = [
   'g1.DAT',
   'csg1.DAT',
@@ -55,6 +80,9 @@ const defaultPathNames = [
   'detailsObjData.json'
 ];
 
+/**
+ * For interacting with the user's custom inputs,
+ */
 class Config {
   #basepaths = [];
 
@@ -62,8 +90,8 @@ class Config {
     // Read config file, create if doesn't exist
   }
 
-  setBasePath(base, filePath) {
-    if (typeof base === String) {
+  setBasePath(base, path) {
+    if (typeof base === 'string') {
       base = DIRBASE[base];
     }
     switch (base) {
@@ -72,7 +100,7 @@ class Config {
       case DIRBASE.OPENRCT2:
       case DIRBASE.OPENRCT2DOCS:
       case DIRBASE.EXPORTS:
-        this.#basepaths[base] = path.resolve(filePath);
+        this.#basepaths[base] = Path.GetAbsolute(path);
 
     }
     
@@ -95,7 +123,7 @@ class PlatformEnvironment {
 
   }
 
-  setBasePath(base, filePath) {
+  setBasePath(base, path) {
 
   }
 
@@ -108,11 +136,11 @@ class PlatformEnvironment {
   }
 
   // returns path string if exists, undefined otherwise
-  findFile(base, did, fileName) {
+  findFile(base, did, path) {
 
   }
 
-  mkDir(did) {
+  makeDirectory(did) {
 
   }
 

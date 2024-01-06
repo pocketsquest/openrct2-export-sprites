@@ -11,7 +11,9 @@ const rct2g1 = "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon 2 T
 const OpenRCT2dir = "C:/Program Files (x86)/OpenRCT2";
 const objectName = "GENSTORE"
 
-console.log(fs.existsSync())
+const base = 'rct2';
+console.log(typeof base);
+console.log(typeof base === 'String');
 
 
 // testExec(1);

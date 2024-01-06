@@ -1,6 +1,8 @@
 // test command line arguments
+import {normalize} from 'path';
+
 const path = process.argv[2];
-const pathNormalized = require('path').normalize(path);
+//const pathNormalized = normalize(path);
 
 if (!path) {
   console.error('Usage: node myScript.js "file/path/with spaces"');
@@ -8,4 +10,4 @@ if (!path) {
 }
 
 // Now, 'pathNormalized' contains the correctly formatted and normalized file path
-console.log('File path:', pathNormalized);
+console.log('File path:', path);
