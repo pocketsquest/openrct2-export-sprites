@@ -41,7 +41,7 @@ class PlatformEnvironment {
   /**
    * 
    * @param {{[x in Base_id]: string}} basePaths - Given absolute filepaths to base directories
-   * @param {{[x in Base_id]: string}} filePaths - Given relative filepaths to directories and files
+   * @param {{[x in Path_id]: string}} filePaths - Given relative filepaths to directories and files
    */
   constructor(basePaths,filePaths) {
     // Loop for basePaths if it is given

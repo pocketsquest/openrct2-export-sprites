@@ -31,7 +31,7 @@ export const BASEID = {
   EXPORTS: 'EXPORTS',
 };
 
-/** @const {[string, string][]} */
+/** @const {[string, Base_id][]} */
 export const BASEID_ENTRIES = Object.entries(BASEID);
 
 /** 5 base paths 
@@ -99,7 +99,7 @@ export const PATHID = {
   SPRITES_OBJDATA: 'SPRITES_OBJDATA'
 };
 
-/** @const {[string,string][]} */
+/** @const {[string,Path_id][]} */
 export const PATHID_ENTRIES = Object.entries(PATHID);
 
 /** 12 file paths 
