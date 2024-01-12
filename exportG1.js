@@ -1,18 +1,20 @@
 import fs from 'fs';
 import path from 'path';
 import {exec, execSync} from 'child_process';
-// import config from './config.json' assert { type: 'json' };
+import {
+  configRead,
+} from './config'
 
 
 
 export default function main() {
-  const config = JSON.parse(fs.readFileSync('./config.json', 'utf-8'));
+  const config = configRead();
   // If the destination path is defined relative to the repo location, make it an absolute path before changing the directory for commands
-  const dstDir = path.resolve(config.DIRBASE.EXPORTS);
+  const dstDir = path.resolve(config.basePaths.EXPORTS);
   // Path to game data files
-  const rct2g1 = path.join(config.filePathRCT2, 'data/g1.dat');
-  const rct1csg1 =  path.join(config.filePathRCT1, 'data/csg1.dat');
-  const rct1csg1i =  path.join(config.filePathRCT1, 'data/csg1i.dat');
+  const rct2g1 = path.join(config.basePaths.RCT2, 'data/g1.dat');
+  const rct1csg1 =  path.join(config.basePaths.RCT1, 'data/csg1.dat');
+  const rct1csg1i =  path.join(config.basePaths.RCT1, 'data/csg1i.dat');
 
   // New g1.dat file to create
   const rct1g1 = path.join(dstDir, 'data/rct1g1.dat');

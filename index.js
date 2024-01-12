@@ -1,0 +1,1 @@
+import exportG1 from './exportG1';
