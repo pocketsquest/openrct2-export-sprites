@@ -11,9 +11,14 @@ const rct2g1 = "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon 2 T
 const OpenRCT2dir = "C:/Program Files (x86)/OpenRCT2";
 const objectName = "GENSTORE"
 
-const base = 'rct2';
-console.log(typeof base);
-console.log(typeof base === 'String');
+const arr1 = { 5: 'str'}
+
+const arr = {};
+arr[5] = arr1[5];
+arr['five'] = arr1['five'];
+
+console.log(arr);
+console.log(JSON.stringify(arr));
 
 
 // testExec(1);
