@@ -1,19 +1,21 @@
 import fs from 'fs';
 import p from 'path';
-import {
-  Base_id,
-  BASEID,
-  BASEID_ENTRIES,
-  BASEID_COUNT,
-  baseToString,
-  Path_id,
-  PATHID,
-  PATHID_ENTRIES,
-  PATHID_COUNT
-} from './configTypes'
+import ini from 'ini';
 
-/** Location of config.json file */
-const configPath = p.join(__dirname,'config\\config.json');
+import {
+  BASEID,
+  BASEID_LIST,
+  PATHID,
+  PATHID_LIST,
+  idToString
+} from './configTypes.js';
+import { configPath, configRead } from './readJson.js';
+
+/** @typedef {import('./configTypes.js').ConfigData} ConfigData */
+
+const env = createNewPlatformEnvironment();
+
+export default env;
 
 /**
  * Using the structure of the files and folders within the base directories, provides a more clear way to refer to filepaths
@@ -21,12 +23,12 @@ const configPath = p.join(__dirname,'config\\config.json');
 class PlatformEnvironment {
   /**
    * Absolute filepaths to base directories
-   * @type { {[x in Base_id]: string} }
+   * @type { {[x in BASEID]?: string} }
   */
   #basePaths = {};
   /**
    * Relative filepaths to directories and files
-   * @type { {[x in Path_id]: string} }
+   * @type { {[x in PATHID]?: string} }
   */
   #filePaths = {
     [PATHID.RCT1COMBINE]: 'details/gx.dat',
@@ -39,14 +41,16 @@ class PlatformEnvironment {
   };
 
   /**
-   * 
-   * @param {{[x in Base_id]: string}} basePaths - Given absolute filepaths to base directories
-   * @param {{[x in Path_id]: string}} filePaths - Given relative filepaths to directories and files
+   * Constructor function for PlatformEnvironment
+   * @constructor
+   * @param {Object} configData  - Given absolute and relative paths for directories
+   * @param {{[x in BASEID]?: string }} [configData.basePaths] - Object with base paths identified by baseid.
+   * @param {{[x in PATHID]?: string }} [configData.filePaths] - Object with file paths identified by pathid.
    */
-  constructor(basePaths,filePaths) {
+  constructor({basePaths,filePaths}) {
     // Loop for basePaths if it is given
     if (basePaths) {
-      BASEID_ENTRIES.forEach(([_,baseid]) => {
+      BASEID_LIST.forEach((baseid) => {
         if (basePaths[baseid]) {
           this.#basePaths[baseid] = basePaths[baseid];
         }
@@ -56,7 +60,7 @@ class PlatformEnvironment {
     // Loop for filePaths if it is given
     // Will overwrite any defaults from the initialzations of the private properties.
     if (filePaths) {
-      PATHID_ENTRIES.forEach(([_,pathid]) => {
+      PATHID_LIST.forEach((pathid) => {
         if (filePaths[pathid]) {
           this.#filePaths[pathid] = filePaths[pathid];
         }
@@ -66,46 +70,90 @@ class PlatformEnvironment {
 
   /**
    * 
-   * @param {Base_id} baseid 
+   * @param {BASEID} baseid 
    * @param {string} path 
    */
   setBasePath(baseid, path) {
-    if ( 0 <= baseid && baseid < BASEID_COUNT) {
-      path = p.resolve(path);
-      this.#basePaths[baseid] = path;
-      console.log('%s set to %s',baseToString[baseid],path)
-    } else {
+    if ( !BASEID_LIST.includes(baseid)) {
       throw new Error('Invalid base input')
     }
+    path = p.resolve(path);
+    this.#basePaths[baseid] = path;
+    console.log('%s set to %s',idToString.filePaths[baseid],path);
   }
 
   /**
    * 
-   * @param {Path_id} pathid 
+   * @param {PATHID} pathid 
    * @param {string} path 
    */
   setFilePath(pathid, path) {
-    if ( 0 <= pathid && pathid < PATHID_COUNT) {
-      path = p.resolve(path);
-      this.#filePaths[pathid] = path;
-      console.log('%s set to %s',PATHID_ENTRIES[pathid][0],path)
-    } else {
-      throw new Error('Invalid path input')
+    if ( !PATHID_LIST.includes(pathid)) {
+      throw new Error('Invalid path input');
+    }
+    path = p.resolve(path);
+    this.#filePaths[pathid] = path;
+    console.log('%s set to %s',idToString.filePaths[pathid],path);
+  }
+
+  /**
+   * Returns the current paths as a JSON string.
+   * @param {number | string} [space=2] - Adds indentation, white space, and line break characters to the return-value JSON text to make it easier to read.
+   * @returns {string}
+   */
+  toJson(space = 2) {
+    /** @type {{basePaths: {[x in BASEID]?: string }, filePaths: {[x in PATHID]?: string}}} */
+    const configData = { basePaths: {}, filePaths: {} };
+    // Loop for basePaths
+    BASEID_LIST.forEach((baseid) => {
+      configData.basePaths[baseid] = this.#basePaths[baseid];
+    })
+  
+    // Loop for filePaths
+    PATHID_LIST.forEach((pathid) => {
+      configData.filePaths[pathid] = this.#filePaths[pathid];
+    })
+
+    return JSON.stringify(configData, null, space);
+  }
+
+  /**
+   * Get string value representing the environment. Uses {@link toJson} so it's easy to read if printed to the console
+   * @returns {string}
+   */
+  valueOf() {
+    return this.toJson();
+  }
+
+  /**
+   * Save the currently used game directory paths to config.json
+   */
+  configSave() {
+    const configJson = this.toJson();
+    try {
+      fs.writeFileSync(configPath,configJson, {encoding:'utf-8'});
+      console.log('Saved config file.\n', configJson )
+    } catch (err) {
+      throw new Error('Error writing config.json file.')
     }
   }
 
   /**
-   * 
-   * @param {Path_id} pathid 
+   * Returns the full absolute filepath for the given pathid. Uses the given base directory, otherwise the default from {@link getDirectoryPath}
+   * @param {PATHID} pathid 
+   * @param {BASEID} [baseid]
    * @returns {string}
    */
-  getFilePath(pathid) {
+  getFilePath(pathid,baseid) {
+    if (baseid) {
+      return p.join(this.#basePaths[baseid] , this.#filePaths[pathid]);
+    }
     return p.join(this.getDirectoryPath(pathid) , this.#filePaths[pathid]);
   }
 
   /**
-   * 
-   * @param {Path_id} pathid 
+   * Returns the path for the default base directory containing pathid
+   * @param {PATHID} pathid 
    * @returns {string}
    */
   getDirectoryPath(pathid) {
@@ -132,16 +180,18 @@ class PlatformEnvironment {
   }
 
   /** 
+   * @todo
    * returns path string if exists, undefined otherwise
-   * @param {Base_id} base 
-   * @param {Path_id} pathid 
-   * @param {string | undefined} path 
+   * @param {BASEID} base 
+   * @param {PATHID} pathid 
+   * @param {string} [path] 
   */
   findFile(base, pathid, path) {
     return;
   }
 
   /** 
+   * @todo
    * Make sure that 'details', 'sprites', and the sprite subdirectories exist
   */
   makeExportSubDirectories() {
@@ -159,28 +209,57 @@ class PlatformEnvironment {
     fs.mkdirSync(p.join(exportsPath,this.#filePaths[PATHID.SPRITES_OBJDATA]), {recursive: true});
   }
 
-  /** 
-   * make a directory in the given path, and save it as the exports base path
-   * @param {string} path - Absolute file path
-   * @param {string} [dirname='exports'] - name of the exports directory
-   * @returns {string}
-   */
-  makeExportsBaseDirectory(path,dirname='exports') {
-    const dirStats = fs.statSync(path);
-    if (!dirStats.isDirectory) {
-      throw new Error('Given path is not a directory.')
-    }
-    fs.mkdirSync(p.join(path, dirname))
-  }
+
 
   /** @todo */
   validate() {
+    // base directories are absolute paths
     // RCT2 data exists
     // RCT1 data exists and data is usable
     // OpenRCT2/object exists in OpenRCT2 docs
     // OpenRCT2/data/g2.dat exists in in OpenRCT2 install
     // All the subdirectories exist in the exports location.
     return true;
+  }
+
+  /** @todo Check if just the files needed for exporting the RCT1 sprite file exist */
+  validateRCT1() {
+    return true;
+  }
+
+  /** @todo Check if just the files needed for exporting the RCT2 sprite file exist */
+  validateRCT2g1() {
+    return true;
+  }
+
+  /** @todo Check if just the files needed for exporting the RCT2 objects sprites exist */
+  validateRCT2objData() {
+    return true;
+  }
+}
+
+/** 
+ * Make a directory in the given path, and return the new path
+ * @param {string} path - Absolute file path
+ * @param {string} [exportsDirName='exports'] - name of the exports directory
+ * @returns {string}
+ */
+function makeExportsBaseDirectory(path,exportsDirName='exports') {
+  const dirStats = fs.statSync(path);
+  if (!dirStats.isDirectory()) {
+    throw new Error('Given path is not a directory.')
+  }
+  const exportsPath = p.join(path, exportsDirName);
+  try {
+    fs.mkdirSync(exportsPath, {recursive: false});
+  } catch (err) {
+    if (err.code === 'EEXIST') {
+      console.log('The folder %s already exists in the directory %s', path, exportsDirName)
+    } else {
+      throw err
+    }
+  } finally {
+    return exportsPath;
   }
 }
 
@@ -189,70 +268,51 @@ class PlatformEnvironment {
  * @returns {PlatformEnvironment}
  */
 function createNewPlatformEnvironment() {
-  const baseNames = {};
-  // Figure out basenames
-  const env = new PlatformEnvironment(baseNames);
+  const { basePaths, filePaths } = configRead();
+  // Figure out basePaths
+  if (!basePaths[BASEID.OPENRCT2]) {
+    basePaths[BASEID.OPENRCT2] = findOpenRCT2Path();
+  }
+  basePaths[BASEID.OPENRCT2DOCS] ||= findOpenRCT2DocsPath();
+  /** Read OpenRCT2 config.ini after getting the docs path. 
+  currently, {@link readIni} returns {} empty object if the openrct2docs path is not given or is invalid */
+  basePaths[BASEID.RCT1] ||= readIni(basePaths[BASEID.OPENRCT2DOCS])[BASEID.RCT1] || findRCT1Path();
+  basePaths[BASEID.RCT2] ||= readIni(basePaths[BASEID.OPENRCT2DOCS])[BASEID.RCT2] || findRCT2Path();
+  // Figure out filePaths
+  /**  Leave filePaths undefined here for the defaults defined the PlatformEnvironment constructor {@link #filePaths}*/
+  const env = new PlatformEnvironment( {basePaths, filePaths} );
   // Do any instance methods
   return env
 }
 
 /**
- * 
- * @returns {{basePaths: {[x in Base_id]: string}, filePaths: {[x in Path_id]: string}}}
+ * Reads OpenRCT2's config.ini and finds what it has for the RCT 1 and 2 install locations.
+ * @param {string} openRCT2DocsPath - Path to OpenRCT2's user directory, where config.ini is located.
+ * @param {number} rctVersion - Either 1 or 2
+ * @returns { string | undefined } 
+ * @throws {Error} if config.ini does not exist in the location, or if it can't be read
  */
-function configRead() {
+function readIni(openRCT2DocsPath,rctVersion) {
   try {
-    const configData = { basePaths: {}, filePaths: {} };
-    const configJson = fs.readFileSync(configPath, {encoding: 'utf-8'});
-    const { basePaths, filePaths } = JSON.parse(configJson);
-    // Get just the information needed
-    // path.normalize throws a type error if not a string
-    if (basePaths) {
-      BASEID_ENTRIES.forEach(([_,baseid]) => {
-        if (basePaths[baseid]) {
-          configData.basePaths[baseid] = p.normalize(basePaths[baseid]);
-        }
-      });
-    }
-    if (filePaths) {
-      PATHID_ENTRIES.forEach(([_,pathid]) => {
-        if (filePaths[pathid]) {
-          configData.filePaths[pathid] = p.normalize(filePaths[pathid]);
-        }
-      });
-    }
+    const openRCT2ConfigData = fs.readFileSync( p.join(openRCT2DocsPath, 'config.ini' ), 'utf-8');
+    // Parse the INI data
+    const config = ini.parse(openRCT2ConfigData);
 
-    return configData;
-
+    // Extract RCT 1 and 2's install locations.
+    switch (rctVersion){
+      case 1: return config.general.rct1_path
+      case 2: return config.general.game_path
+      default: return;
+    }
   } catch (err) {
-    throw new Error('Error reading or parsing config.json file', err)
+    if (err.code === 'ENOENT') {
+      throw new Error(`config.ini does not exist in ${idToString.basePaths[BASEID.OPENRCT2DOCS]}`)
+    } else {
+      throw err;
+    }
   }
 }
 
-/**
- * Save the currently used game directory paths to config.json
- * @param {PlatformEnvironment} env - Holds current base paths and file paths
- */
-function configSave(env) {
-  const configData = { basePaths: {}, filePaths: {} };
-  // Loop for basePaths
-  BASEID_ENTRIES.forEach(([_,baseid]) => {
-    configData.basePaths[baseid] = env.getDirectoryPath[baseid];
-  })
-
-  // Loop for filePaths
-  PATHID_ENTRIES.forEach(([_,pathid]) => {
-    configData.filePaths[pathid] = env.getFilePath[pathid];
-  })
-
-  const configJson = JSON.stringify(configData);
-  try {
-    fs.writeFileSync(configPath,configJson, {encoding:'utf-8'});
-    console.log('Saved config file.\n', configData )
-  } catch (err) {
-    throw new Error('Error writing config.json file.')
-  }
-}
 
 /** @todo Maybe rewrite to single functions with switch cases, i.e. findBasePath(base) and isBasePath(base, path) */
 
