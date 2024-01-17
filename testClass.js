@@ -3,6 +3,11 @@ class Test {
   #private1;
   #private2;
 
+  /**
+   * 
+   * @param {number} public1 
+   * @param {number} public2 
+   */
   constructor(public1,public2) {
     this.#private1 = public1;
     this.#private2 = public2;
