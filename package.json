@@ -17,6 +17,8 @@
     "fs": "^0.0.1-security",
     "image-size": "^1.1.1",
     "ini": "^4.1.1",
+    "inquirer": "^9.2.12",
+    "inquirer-directory": "^2.2.0",
     "path": "^0.12.7",
     "url": "^0.11.3"
   },

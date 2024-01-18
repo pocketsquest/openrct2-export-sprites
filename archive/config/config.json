@@ -1,0 +1,9 @@
+{
+  "basePaths": {
+    "RCT1": "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon Deluxe",
+    "RCT2": "C:/Program Files (x86)/GOG Galaxy/Games/RollerCoaster Tycoon 2 Triple Thrill Pack",
+    "OPENRCT2": "C:/Program Files (x86)/OpenRCT2",
+    "OPENRCT2DOCS": "C:/Users/storl/Documents/OpenRCT2",
+    "EXPORTS": "./exports"
+  }
+} 
