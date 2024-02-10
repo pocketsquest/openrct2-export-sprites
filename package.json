@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test-script": "node testScript.js"
+    "test-script": "set NODE_DEBUG=parse*&&node test/test.js"
   },
   "keywords": [],
   "author": "Your Name",
